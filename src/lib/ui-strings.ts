@@ -35,6 +35,7 @@ type UIStrings = {
   nutritionIncomplete: string;
   photoBy: string;
   onUnsplash: string;
+  newRecipes: string;
   shoppingList: string;
   addToShoppingList: string;
   removeFromShoppingList: string;
@@ -85,6 +86,7 @@ export const UI: Record<AppLocale, UIStrings> = {
     nutritionIncomplete: "Ungefärliga värden — vissa ingredienser saknar näringsdata.",
     photoBy: "Foto av",
     onUnsplash: "på Unsplash",
+    newRecipes: "Nya recept",
     shoppingList: "Inköpslista",
     addToShoppingList: "Lägg till i inköpslistan",
     removeFromShoppingList: "Ta bort från inköpslistan",
@@ -133,6 +135,7 @@ export const UI: Record<AppLocale, UIStrings> = {
     nutritionIncomplete: "Omtrentlige verdier — noen ingredienser mangler næringsdata.",
     photoBy: "Foto av",
     onUnsplash: "på Unsplash",
+    newRecipes: "Nye oppskrifter",
     shoppingList: "Handleliste",
     addToShoppingList: "Legg til i handlelisten",
     removeFromShoppingList: "Fjern fra handlelisten",
@@ -181,6 +184,7 @@ export const UI: Record<AppLocale, UIStrings> = {
     nutritionIncomplete: "Omtrentlige værdier — nogle ingredienser mangler næringsdata.",
     photoBy: "Foto af",
     onUnsplash: "på Unsplash",
+    newRecipes: "Nye opskrifter",
     shoppingList: "Indkøbsliste",
     addToShoppingList: "Føj til indkøbsliste",
     removeFromShoppingList: "Fjern fra indkøbsliste",
@@ -229,6 +233,7 @@ export const UI: Record<AppLocale, UIStrings> = {
     nutritionIncomplete: "Approximate values — some ingredients lack nutrition data.",
     photoBy: "Photo by",
     onUnsplash: "on Unsplash",
+    newRecipes: "New recipes",
     shoppingList: "Shopping list",
     addToShoppingList: "Add to shopping list",
     removeFromShoppingList: "Remove from shopping list",
