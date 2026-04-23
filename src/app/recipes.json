@@ -2560,6 +2560,1484 @@
       ],
       "verified_by": "author",
       "verified_at": "2026-04-23"
+    },
+    {
+      "id": "pesto_pasta_classic",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Classic pesto pasta",
+        "sv": "Pasta med pesto",
+        "no": "Pasta med pesto",
+        "da": "Pasta med pesto"
+      },
+      "description": {
+        "en": "A proper pesto alla genovese should be made with a mortar and pestle — but a food processor works well enough on a weeknight. Fresh basil, pine nuts, garlic, parmesan, and olive oil turn into a green, glossy sauce that clings to hot pasta. The secret is never to cook pesto: the heat of the pasta is enough. Brightness from lemon lifts everything.",
+        "sv": "En riktig pesto alla genovese ska göras i mortel — men en matberedare duger bra på en vardagskväll. Färsk basilika, pinjenötter, vitlök, parmesan och olivolja blir till en grön, glansig sås som klänger sig fast vid varm pasta. Hemligheten är att aldrig koka peston: värmen från pastan räcker. En citronsquirt lyfter allt.",
+        "no": "En ekte pesto alla genovese skal lages i morter — men en foodprosessor duger fint en hverdagskveld. Fersk basilikum, pinjekjerner, hvitløk, parmesan og olivenolje blir til en grønn, blank saus som klamrer seg til varm pasta. Hemmeligheten er å aldri koke peston: varmen fra pastaen er nok. En skvett sitron løfter alt.",
+        "da": "En ægte pesto alla genovese skal laves i morter — men en foodprocessor dur fint en hverdagsaften. Frisk basilikum, pinjekerner, hvidløg, parmesan og olivenolie bliver til en grøn, blank sauce der klæber sig til varm pasta. Hemmeligheden er aldrig at koge peston: varmen fra pastaen er nok. En sjat citron løfter det hele."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 12,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "italian",
+        "quick",
+        "classic"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "pasta_dry",
+          "amount": 400,
+          "unit": "g",
+          "group": "pasta"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "msk",
+          "group": "pasta",
+          "note_locale": {
+            "en": "for the pasta water",
+            "sv": "till kokvattnet",
+            "no": "til kokevannet",
+            "da": "til kogevandet"
+          }
+        },
+        {
+          "ingredient_id": "basil_fresh",
+          "amount": 1,
+          "unit": "dl",
+          "group": "pesto",
+          "note_locale": {
+            "en": "packed",
+            "sv": "hårt packad",
+            "no": "fast pakket",
+            "da": "hårdt pakket"
+          }
+        },
+        {
+          "ingredient_id": "pine_nuts",
+          "amount": 3,
+          "unit": "msk",
+          "group": "pesto"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 2,
+          "unit": "st",
+          "group": "pesto"
+        },
+        {
+          "ingredient_id": "parmesan",
+          "amount": 50,
+          "unit": "g",
+          "group": "pesto"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 1,
+          "unit": "dl",
+          "group": "pesto"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "pesto"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "krm",
+          "group": "pesto"
+        },
+        {
+          "ingredient_id": "lemon",
+          "amount": 0.5,
+          "unit": "st",
+          "group": "finish",
+          "note_locale": {
+            "en": "juice only",
+            "sv": "endast saften",
+            "no": "kun saften",
+            "da": "kun saften"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Toast the pine nuts",
+            "sv": "Rosta pinjenötterna",
+            "no": "Rist pinjekjernene",
+            "da": "Rist pinjekernerne"
+          },
+          "text": {
+            "en": "Toast pine nuts in a dry pan over medium heat for 2–3 minutes, stirring, until golden and fragrant. Let cool.",
+            "sv": "Rosta pinjenötter i en torr panna på medelvärme i 2–3 minuter under omrörning tills gyllene och doftande. Låt svalna.",
+            "no": "Rist pinjekjerner i en tørr panne på middels varme i 2–3 minutter under omrøring til gyldne og duftende. La avkjøles.",
+            "da": "Rist pinjekerner i en tør pande ved middelvarme i 2–3 minutter under omrøring til gyldne og duftende. Lad afkøle."
+          },
+          "timer_seconds": 180
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Boil the pasta",
+            "sv": "Koka pastan",
+            "no": "Kok pastaen",
+            "da": "Kog pastaen"
+          },
+          "text": {
+            "en": "Bring a large pot of water to a rolling boil. Add salt generously — the water should taste of the sea. Cook the pasta to al dente, 1 minute less than the package says.",
+            "sv": "Koka upp en stor kastrull vatten. Salta rejält — vattnet ska smaka av havet. Koka pastan al dente, 1 minut mindre än paketets tid.",
+            "no": "Kok opp en stor kjele vann. Salt godt — vannet skal smake av havet. Kok pastaen al dente, 1 minutt mindre enn det pakken sier.",
+            "da": "Kog en stor gryde vand op. Salt grundigt — vandet skal smage af havet. Kog pastaen al dente, 1 minut mindre end pakken siger."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Make the pesto",
+            "sv": "Gör peston",
+            "no": "Lag peston",
+            "da": "Lav peston"
+          },
+          "text": {
+            "en": "Blend basil, pine nuts, garlic, parmesan, and half the olive oil in a food processor until a rough paste forms. With the motor running, stream in the rest of the oil. Season with salt, pepper, and lemon juice.",
+            "sv": "Mixa basilika, pinjenötter, vitlök, parmesan och hälften av olivoljan i en matberedare till en grov pasta. Med motorn igång, häll i resten av oljan i en stråle. Smaka av med salt, peppar och citronsaft.",
+            "no": "Kjør basilikum, pinjekjerner, hvitløk, parmesan og halvparten av olivenoljen i en foodprosessor til en grov pasta. Med motoren i gang, hell i resten av oljen i en stråle. Smak til med salt, pepper og sitronsaft.",
+            "da": "Kør basilikum, pinjekerner, hvidløg, parmesan og halvdelen af olivenolien i en foodprocessor til en grov pasta. Med motoren kørende, hæld resten af olien i en stråle. Smag til med salt, peber og citronsaft."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Combine",
+            "sv": "Kombinera",
+            "no": "Bland sammen",
+            "da": "Bland sammen"
+          },
+          "text": {
+            "en": "Reserve 1 dl of the pasta water, then drain. Return the pasta to the pot, stir in the pesto off the heat. Loosen with splashes of pasta water until glossy and creamy. Do not heat further — pesto should stay bright green.",
+            "sv": "Spara 1 dl pastavatten, häll av resten. Lägg tillbaka pastan i kastrullen och vänd i peston borta från värmen. Lossa med skvättar pastavatten tills det blir glansigt och krämigt. Värm inte — peston ska förbli klargrön.",
+            "no": "Hold av 1 dl pastavann, sil av resten. Legg pastaen tilbake i kjelen og vend inn peston borte fra varmen. Løsne med skvetter av pastavann til det blir blankt og kremete. Ikke varm opp videre — peston skal holde seg klar grønn.",
+            "da": "Gem 1 dl pastavand, hæld resten af. Læg pastaen tilbage i gryden og vend peston i væk fra varmen. Løsn med sjatter pastavand til det bliver blankt og cremet. Varm ikke yderligere — peston skal forblive klar grøn."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Serve",
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér"
+          },
+          "text": {
+            "en": "Divide between bowls. Top with extra parmesan and a few whole basil leaves. Serve immediately — pesto pasta waits for no one.",
+            "sv": "Dela mellan tallrikar. Toppa med extra parmesan och några hela basilikablad. Servera direkt — pesto pasta väntar på ingen.",
+            "no": "Fordel mellom tallerkener. Topp med ekstra parmesan og noen hele basilikumblader. Server straks — pesto pasta venter ikke på noen.",
+            "da": "Fordel i tallerkener. Top med ekstra parmesan og et par hele basilikumblade. Servér straks — pesto pasta venter ikke på nogen."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "fish_and_chips",
+      "locale_of_authorship": "en",
+      "category": "dinner",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Fish and chips",
+        "sv": "Fish and chips",
+        "no": "Fish and chips",
+        "da": "Fish and chips"
+      },
+      "description": {
+        "en": "Fish and chips is British seaside food at its finest: a shard of crisp golden batter cracking to reveal soft, flaky cod, alongside thick-cut chips that stay fluffy inside. The batter gets its lightness from cold carbonated water — the bubbles expand in the hot oil and create that signature lacework crunch. Serve with malt vinegar, lemon, and a generous heap of peas on the side.",
+        "sv": "Fish and chips är brittisk kustmat i sin bästa form: ett stycke krispigt gyllene smet som spricker upp för att avslöja mjuk, flagnande torsk, bredvid tjocka pommes frites som stannar fluffiga inuti. Smetens lätthet kommer från kallt kolsyrat vatten — bubblorna expanderar i den heta oljan och skapar den karakteristiska knastriga ytan. Servera med maltvinäger, citron och en generös hög ärter.",
+        "no": "Fish and chips er britisk kystmat på sitt beste: et stykke sprø gyllen deig som knekker for å avsløre myk, flakende torsk, sammen med tykke pommes frites som holder seg luftige inni. Deigens letthet kommer fra kaldt mineralvann — boblene utvider seg i den varme oljen og skaper den karakteristiske knasingen. Server med malteddik, sitron og en generøs haug erter.",
+        "da": "Fish and chips er britisk kystmad i sin bedste form: et stykke sprødt gyldent dej der knækker for at afsløre blød, flagende torsk, ved siden af tykt skårne pommes frites der holder sig luftige indeni. Dejens lethed kommer fra koldt mineralvand — boblerne udvider sig i den varme olie og skaber den karakteristiske sprødhed. Servér med malteddike, citron og en generøs bunke ærter."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 20,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 25,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "british",
+        "classic",
+        "fried"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "cod_fillet",
+          "amount": 600,
+          "unit": "g",
+          "group": "fish",
+          "note_locale": {
+            "en": "skinless, in 4 portions",
+            "sv": "utan skinn, i 4 portioner",
+            "no": "uten skinn, i 4 porsjoner",
+            "da": "uden skind, i 4 portioner"
+          }
+        },
+        {
+          "ingredient_id": "potato",
+          "amount": 1000,
+          "unit": "g",
+          "group": "chips",
+          "note_locale": {
+            "en": "large, floury (Maris Piper)",
+            "sv": "stora, mjöliga",
+            "no": "store, melne",
+            "da": "store, melede"
+          }
+        },
+        {
+          "ingredient_id": "oil_neutral",
+          "amount": 1,
+          "unit": "l",
+          "group": "chips",
+          "note_locale": {
+            "en": "for deep frying",
+            "sv": "till fritering",
+            "no": "til fritering",
+            "da": "til friturestegning"
+          }
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 2,
+          "unit": "dl",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "baking_powder",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 2.5,
+          "unit": "dl",
+          "group": "batter",
+          "note_locale": {
+            "en": "very cold, carbonated",
+            "sv": "iskallt, kolsyrat",
+            "no": "iskaldt, med kullsyre",
+            "da": "iskoldt, med brus"
+          }
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 2,
+          "unit": "msk",
+          "group": "batter",
+          "note_locale": {
+            "en": "for dusting",
+            "sv": "till pudring",
+            "no": "til drysning",
+            "da": "til drysning"
+          }
+        },
+        {
+          "ingredient_id": "lemon",
+          "amount": 1,
+          "unit": "st",
+          "group": "serving"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "serving"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Cut the chips",
+            "sv": "Skär pommesen",
+            "no": "Skjær pommesen",
+            "da": "Skær pommesene"
+          },
+          "text": {
+            "en": "Peel potatoes and cut into 1.5 cm thick chips. Soak in cold water 10 minutes to wash off starch, then dry very thoroughly on a clean towel.",
+            "sv": "Skala potatisen och skär i 1,5 cm tjocka pommes. Lägg i kallt vatten i 10 minuter för att skölja av stärkelsen, torka sedan noggrant på en ren duk.",
+            "no": "Skrell potetene og skjær i 1,5 cm tykke pommes. Legg i kaldt vann i 10 minutter for å skylle av stivelsen, tørk deretter grundig på et rent kjøkkenhåndkle.",
+            "da": "Skræl kartoflerne og skær i 1,5 cm tykke pommes. Læg i koldt vand i 10 minutter for at skylle stivelsen af, tør derefter grundigt på et rent viskestykke."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "First fry for chips",
+            "sv": "Första fritering av pommes",
+            "no": "Første fritering av pommes",
+            "da": "Første friture af pommes"
+          },
+          "text": {
+            "en": "Heat oil to 140°C in a deep pot. Fry chips in batches 6–8 minutes until soft but not colored. Drain. This is the first fry — the second makes them crisp.",
+            "sv": "Värm oljan till 140°C i en djup kastrull. Fritera pommesen i omgångar 6–8 minuter tills mjuka men inte färgade. Lyft upp. Detta är första friteringen — andra gör dem krispiga.",
+            "no": "Varm oljen til 140°C i en dyp kjele. Friter pommesen i porsjoner 6–8 minutter til myke men ikke farget. Ta opp. Dette er første friteringen — andre gjør dem sprø.",
+            "da": "Varm olien til 140°C i en dyb gryde. Friter pommesen i hold 6–8 minutter til bløde men ikke farvede. Tag op. Det her er første friture — anden gør dem sprøde."
+          },
+          "timer_seconds": 420
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Batter the fish",
+            "sv": "Smeta fisken",
+            "no": "Smør deig på fisken",
+            "da": "Dyp fisken i dej"
+          },
+          "text": {
+            "en": "Dust the fish in the reserved 2 tbsp of flour. Whisk the batter ingredients together just before frying — lumps are fine and help texture. Dip each fish piece in batter, letting excess drip off.",
+            "sv": "Pudra fisken i de reserverade 2 msk mjöl. Vispa ihop smeten precis innan fritering — klumpar är okej och hjälper strukturen. Doppa varje fiskbit i smeten, låt överflödet rinna av.",
+            "no": "Pudre fisken i det reserverte 2 ss melet. Visp sammen røren rett før fritering — klumper er greit og hjelper teksturen. Dypp hvert fiskstykke i røren, la overflødig renne av.",
+            "da": "Drys fisken i det reserverede 2 spsk mel. Pisk dejen sammen lige før friture — klumper er fint og hjælper teksturen. Dyp hvert fiskestykke i dejen, lad overskud dryppe af."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Fry fish and finish chips",
+            "sv": "Stek fisk och färdigställ pommes",
+            "no": "Stek fisk og ferdigstill pommes",
+            "da": "Friter fisk og færdiggør pommes"
+          },
+          "text": {
+            "en": "Heat oil to 180°C. Fry the battered fish pieces 5–7 minutes until deep golden and crisp. Drain on paper. Raise oil to 190°C and fry the pre-cooked chips 3–4 minutes until golden and crunchy. Season immediately with salt.",
+            "sv": "Värm oljan till 180°C. Fritera fiskbitarna 5–7 minuter tills djupt gyllene och krispiga. Låt rinna av på papper. Höj till 190°C och fritera de förkokta pommesen 3–4 minuter tills gyllene och krispiga. Salta direkt.",
+            "no": "Varm oljen til 180°C. Friter fiskstykkene 5–7 minutter til dypt gylne og sprø. La renne av på papir. Øk til 190°C og friter de forhåndsstekte pommesen 3–4 minutter til gylne og sprø. Salt straks.",
+            "da": "Varm olien til 180°C. Friter fiskestykkerne 5–7 minutter til dybt gyldne og sprøde. Lad dryppe af på papir. Hæv til 190°C og friter de forkogte pommes 3–4 minutter til gyldne og sprøde. Salt straks."
+          },
+          "timer_seconds": 420
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Serve",
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér"
+          },
+          "text": {
+            "en": "Pile chips beside the fish on each plate. Serve with lemon wedges, malt vinegar, and if you can find them, mushy peas. A cold beer closes the circle.",
+            "sv": "Stapla pommesen vid fisken på varje tallrik. Servera med citronklyftor, maltvinäger och, om du har, mushy peas. En kall öl sluter cirkeln.",
+            "no": "Stabel pommesen ved fisken på hver tallerken. Server med sitronbåter, malteddik og, om du har, mushy peas. En kald øl lukker sirkelen.",
+            "da": "Stabl pommesene ved fisken på hver tallerken. Servér med citronbåde, malteddike og, hvis du har, mushy peas. En kold øl lukker cirklen."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "chicken_creamy_mustard",
+      "locale_of_authorship": "en",
+      "category": "dinner",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Chicken in creamy mustard sauce",
+        "sv": "Kyckling i senapssås",
+        "no": "Kylling i sennepssaus",
+        "da": "Kylling i sennepssovs"
+      },
+      "description": {
+        "en": "A 30-minute one-pan dinner built on a French bistro foundation: pan-seared chicken, finished in a cream sauce sharpened with Dijon. The mustard tempers the richness, the cream tempers the mustard — and a handful of fresh herbs at the end brings it all together. Serve over rice, mashed potatoes, or with good bread to mop up the sauce.",
+        "sv": "En 30-minutersmiddag i en panna, byggd på fransk bistrogrund: stekt kyckling, färdigställd i en gräddsås skärpt med dijonsenap. Senapen tämjer rikedomen, grädden tämjer senapen — och en nypa färska örter i slutet håller ihop allt. Servera över ris, potatismos eller med gott bröd för att suga upp såsen.",
+        "no": "En 30-minutters énpanne-middag bygget på fransk bistro-grunn: pannestekt kylling, ferdigstilt i en fløtesaus skjerpet med dijonsennep. Sennepen demper det rike, fløten demper sennepen — og en neve friske urter til slutt binder alt sammen. Server over ris, potetmos eller med godt brød til å tørke opp sausen.",
+        "da": "En 30-minutters én-pande-middag bygget på fransk bistro-fundament: pandestegt kylling, færdiggjort i en flødesovs skærpet med dijonsennep. Sennepen tæmmer fedmen, fløden tæmmer sennepen — og en håndfuld friske urter til sidst binder det hele sammen. Servér over ris, kartoffelmos eller med godt brød til at tørre sovsen op."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 25,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "french_inspired",
+        "quick",
+        "weeknight"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "chicken_breast",
+          "amount": 600,
+          "unit": "g",
+          "group": "chicken",
+          "note_locale": {
+            "en": "4 breasts",
+            "sv": "4 bröst",
+            "no": "4 filéer",
+            "da": "4 stykker"
+          }
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "krm",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 30,
+          "unit": "g",
+          "group": "cooking"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 1,
+          "unit": "msk",
+          "group": "cooking"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 2,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 2,
+          "unit": "dl",
+          "group": "sauce",
+          "note_locale": {
+            "en": "or chicken stock",
+            "sv": "eller kycklingbuljong",
+            "no": "eller kyllingkraft",
+            "da": "eller kyllingebouillon"
+          }
+        },
+        {
+          "ingredient_id": "cream_36",
+          "amount": 2,
+          "unit": "dl",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "dijon_mustard",
+          "amount": 2,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "parsley_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Sear the chicken",
+            "sv": "Stek kycklingen",
+            "no": "Brun kyllingen",
+            "da": "Brun kyllingen"
+          },
+          "text": {
+            "en": "Pat the chicken dry and season with salt and pepper. Heat butter and oil in a large skillet over medium-high. Sear chicken 4–5 minutes per side until deeply golden and cooked through. Rest on a warm plate.",
+            "sv": "Torka kycklingen torr och salta och peppra. Värm smör och olja i en stor stekpanna på hög medelvärme. Stek kycklingen 4–5 minuter per sida tills djupt gyllene och genomstekt. Låt vila på en varm tallrik.",
+            "no": "Tørk kyllingen tørr og krydre med salt og pepper. Varm smør og olje i en stor stekepanne på middels høy varme. Brun kyllingen 4–5 minutter per side til dypt gyllen og gjennomstekt. La hvile på en varm tallerken.",
+            "da": "Dup kyllingen tør og krydr med salt og peber. Varm smør og olie i en stor pande ved middelhøj varme. Brun kyllingen 4–5 minutter per side til dybt gylden og gennemstegt. Lad hvile på en varm tallerken."
+          },
+          "timer_seconds": 540
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Soften onion and garlic",
+            "sv": "Fräs lök och vitlök",
+            "no": "Stek løk og hvitløk",
+            "da": "Svits løg og hvidløg"
+          },
+          "text": {
+            "en": "In the same pan, add the finely chopped onion. Cook 5 minutes until soft and translucent. Add minced garlic and cook 1 minute more.",
+            "sv": "I samma panna, tillsätt den finhackade löken. Stek 5 minuter tills mjuk och genomskinlig. Tillsätt pressad vitlök och stek 1 minut till.",
+            "no": "I samme panne, tilsett den finhakkede løken. Stek 5 minutter til myk og gjennomsiktig. Tilsett presset hvitløk og stek 1 minutt til.",
+            "da": "I samme pande, tilsæt det finthakkede løg. Steg 5 minutter til blødt og gennemsigtigt. Tilsæt presset hvidløg og steg 1 minut mere."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Build the sauce",
+            "sv": "Bygg såsen",
+            "no": "Bygg sausen",
+            "da": "Byg sovsen"
+          },
+          "text": {
+            "en": "Pour in the stock or water and scrape up the browned bits. Let reduce by half, 3 minutes. Stir in cream and Dijon mustard and simmer 3–5 minutes until the sauce coats the back of a spoon.",
+            "sv": "Häll i buljongen eller vattnet och skrapa upp de brynta fondbitarna. Koka ner till hälften, 3 minuter. Rör i grädden och senapen och låt sjuda 3–5 minuter tills såsen täcker en sked.",
+            "no": "Hell i kraften eller vannet og skrap opp de brune fondbitene. Kok ned til halvparten, 3 minutter. Rør inn fløten og sennepen og la småkoke 3–5 minutter til sausen dekker baksiden av en skje.",
+            "da": "Hæld bouillonen eller vandet i og skrab de brune fondstykker op. Lad reducere til halvdelen, 3 minutter. Rør fløden og sennepen i og lad småsimre 3–5 minutter til sovsen dækker bagsiden af en ske."
+          },
+          "timer_seconds": 420
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Return chicken and finish",
+            "sv": "Lägg tillbaka kycklingen",
+            "no": "Legg kyllingen tilbake",
+            "da": "Læg kyllingen tilbage"
+          },
+          "text": {
+            "en": "Return the chicken and any resting juices to the pan. Spoon sauce over and warm through, 2 minutes. Scatter with chopped parsley. Serve with rice, mash, or crusty bread.",
+            "sv": "Lägg tillbaka kycklingen och eventuell köttsaft i pannan. Skeda såsen över och värm igenom, 2 minuter. Strö över hackad persilja. Servera med ris, mos eller gott bröd.",
+            "no": "Legg kyllingen og eventuell kjøttsaft tilbake i pannen. Skjeskei sausen over og varm gjennom, 2 minutter. Dryss med hakket persille. Server med ris, mos eller grovbrød.",
+            "da": "Læg kyllingen og eventuel kødsaft tilbage i panden. Øs sovsen over og varm igennem, 2 minutter. Drys med hakket persille. Servér med ris, mos eller sprødt brød."
+          },
+          "timer_seconds": 120
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "chili_con_carne",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Chili con carne",
+        "sv": "Chili con carne",
+        "no": "Chili con carne",
+        "da": "Chili con carne"
+      },
+      "description": {
+        "en": "Chili con carne is the American slow-simmer: beef, beans, and tomatoes loosened with spice and time. The longer it cooks, the deeper the flavor, so start in the afternoon if you can. Cumin and paprika are non-negotiable; a square of dark chocolate at the end is a trick Texans know and everyone else should. Serve over rice with sour cream, grated cheese, and fresh coriander.",
+        "sv": "Chili con carne är amerikansk grytmat: nötfärs, bönor och tomater möjliggjorda av kryddor och tid. Ju längre det sjuder, desto djupare smak, så börja på eftermiddagen om du kan. Spiskummin och paprikapulver är obligatoriska; en ruta mörk choklad på slutet är ett trick Texasbor känner till och alla andra borde. Servera över ris med gräddfil, riven ost och färsk koriander.",
+        "no": "Chili con carne er amerikansk grytemat: kjøttdeig, bønner og tomater åpnet opp av krydder og tid. Jo lenger den koker, desto dypere smak, så start på ettermiddagen om du kan. Spisskummen og paprikapulver er obligatorisk; en rute mørk sjokolade på slutten er et knep teksere kjenner til og alle andre burde. Server over ris med rømme, revet ost og fersk koriander.",
+        "da": "Chili con carne er amerikansk gryderet: hakket oksekød, bønner og tomater åbnet op af krydderier og tid. Jo længere den simrer, desto dybere smag, så start om eftermiddagen hvis du kan. Spidskommen og paprika er obligatoriske; et stykke mørk chokolade til sidst er et trick texanere kender og alle andre burde. Servér over ris med cremefraiche, revet ost og frisk koriander."
+      },
+      "servings": 6,
+      "servings_unit": "portions",
+      "time_prep_minutes": 15,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 90,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "american",
+        "comfort",
+        "stew"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "beef_ground",
+          "amount": 800,
+          "unit": "g",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 2,
+          "unit": "st",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 4,
+          "unit": "st",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "bell_pepper_red",
+          "amount": 2,
+          "unit": "st",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 2,
+          "unit": "msk",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "cumin_ground",
+          "amount": 2,
+          "unit": "tsk",
+          "group": "spice"
+        },
+        {
+          "ingredient_id": "paprika_ground",
+          "amount": 2,
+          "unit": "tsk",
+          "group": "spice"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 2,
+          "unit": "tsk",
+          "group": "spice"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 4,
+          "unit": "krm",
+          "group": "spice"
+        },
+        {
+          "ingredient_id": "tomato_canned",
+          "amount": 800,
+          "unit": "g",
+          "group": "liquid"
+        },
+        {
+          "ingredient_id": "tomato_paste",
+          "amount": 2,
+          "unit": "msk",
+          "group": "liquid"
+        },
+        {
+          "ingredient_id": "kidney_beans_canned",
+          "amount": 400,
+          "unit": "g",
+          "group": "beans"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 2,
+          "unit": "dl",
+          "group": "liquid"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Sweat the aromatics",
+            "sv": "Fräs grönsakerna",
+            "no": "Stek grønnsakene",
+            "da": "Svits grøntsagerne"
+          },
+          "text": {
+            "en": "Heat olive oil in a heavy pot over medium heat. Chop the onions finely and the bell pepper into small dice. Soften 8 minutes until sweet and translucent. Add minced garlic and cook 1 minute.",
+            "sv": "Värm olivolja i en tjockbottnad gryta på medelvärme. Hacka löken fint och paprikan i små tärningar. Fräs 8 minuter tills söta och genomskinliga. Tillsätt pressad vitlök och stek 1 minut.",
+            "no": "Varm olivenolje i en tykkbunnet gryte på middels varme. Hakk løken fint og paprikaen i små terninger. Stek 8 minutter til søte og gjennomsiktige. Tilsett presset hvitløk og stek 1 minutt.",
+            "da": "Varm olivenolie i en tykbundet gryde ved middelvarme. Hak løgene fint og peberfrugten i små tern. Svits 8 minutter til søde og gennemsigtige. Tilsæt presset hvidløg og steg 1 minut."
+          },
+          "timer_seconds": 540
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Brown the meat",
+            "sv": "Bryn köttet",
+            "no": "Brun kjøttet",
+            "da": "Brun kødet"
+          },
+          "text": {
+            "en": "Push the vegetables to one side. Add the ground beef to the empty half of the pot and break up with a spoon. Let it brown without stirring 2 minutes, then combine with vegetables and cook until fully browned, 5 minutes more.",
+            "sv": "Skjut grönsakerna åt sidan. Tillsätt nötfärsen i den tomma halvan av grytan och bryt upp med en sked. Låt brynas utan omrörning 2 minuter, blanda sedan med grönsakerna och stek tills genombrynt, 5 minuter till.",
+            "no": "Skyv grønnsakene til siden. Tilsett kjøttdeigen i den tomme halvdelen av gryten og bryt opp med en skje. La den brune uten omrøring 2 minutter, bland deretter med grønnsakene og stek til gjennombrunet, 5 minutter til.",
+            "da": "Skub grøntsagerne til siden. Tilsæt hakket oksekød i den tomme halvdel af gryden og bryd op med en ske. Lad det brune uden omrøring 2 minutter, bland derefter med grøntsagerne og steg til helt brunet, 5 minutter mere."
+          },
+          "timer_seconds": 420
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Season and add liquids",
+            "sv": "Krydda och tillsätt vätska",
+            "no": "Krydr og tilsett væske",
+            "da": "Krydr og tilsæt væske"
+          },
+          "text": {
+            "en": "Stir in cumin, paprika, salt, and pepper. Cook 30 seconds until fragrant. Add tomato paste and stir 1 minute to caramelize. Pour in canned tomatoes and water, bring to a boil.",
+            "sv": "Rör i spiskummin, paprikapulver, salt och peppar. Stek 30 sekunder tills doftande. Tillsätt tomatpuré och rör 1 minut för att karamellisera. Häll i de krossade tomaterna och vatten, koka upp.",
+            "no": "Rør i spisskummen, paprikapulver, salt og pepper. Stek 30 sekunder til duftende. Tilsett tomatpuré og rør 1 minutt for å karamellisere. Hell i de hermetiske tomatene og vannet, kok opp.",
+            "da": "Rør spidskommen, paprika, salt og peber i. Steg 30 sekunder til duftende. Tilsæt tomatpuré og rør 1 minut for at karamellisere. Hæld de flåede tomater og vandet i, kog op."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Simmer long and slow",
+            "sv": "Sjud länge",
+            "no": "Småkok lenge",
+            "da": "Småsimr længe"
+          },
+          "text": {
+            "en": "Drain and rinse the beans, stir them in. Reduce heat to low and simmer partially covered 60–90 minutes, stirring occasionally. The longer the better — it gets richer as it rests.",
+            "sv": "Skölj och låt bönorna rinna av, vänd ner dem. Sänk värmen och låt sjuda halvt täckt 60–90 minuter, rör då och då. Ju längre desto bättre — smaken djupnar när den vilar.",
+            "no": "Skyll og la bønnene renne av, vend dem i. Skru ned varmen og la småkoke halvt tildekket 60–90 minutter, rør av og til. Jo lenger desto bedre — smaken dypner når den hviler.",
+            "da": "Skyl og lad bønnerne dryppe af, vend dem i. Skru varmen ned og lad småsimre halvt tildækket 60–90 minutter, rør en gang imellem. Jo længere desto bedre — smagen fordyber sig når den hviler."
+          },
+          "timer_seconds": 5400
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Taste and serve",
+            "sv": "Smaka av och servera",
+            "no": "Smak til og server",
+            "da": "Smag til og servér"
+          },
+          "text": {
+            "en": "Taste for salt and add more if needed. Serve in bowls over rice, with sour cream, grated cheese, chopped fresh coriander, and a squeeze of lime if you have one. Leftovers are famously better on day two.",
+            "sv": "Smaka av med salt och tillsätt mer vid behov. Servera i skålar över ris, med gräddfil, riven ost, hackad färsk koriander och en klick lime om du har. Rester blir berömt bättre dag två.",
+            "no": "Smak til med salt og tilsett mer om nødvendig. Server i boller over ris, med rømme, revet ost, hakket fersk koriander og en skvett lime om du har. Rester blir berømt bedre dag to.",
+            "da": "Smag til med salt og tilsæt mere om nødvendigt. Servér i skåle over ris, med cremefraiche, revet ost, hakket frisk koriander og et squeeze lime hvis du har. Rester bliver berømt bedre dag to."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "hummus_classic",
+      "locale_of_authorship": "en",
+      "category": "side",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Classic hummus",
+        "sv": "Hummus",
+        "no": "Hummus",
+        "da": "Hummus"
+      },
+      "description": {
+        "en": "Good hummus is silky, tangy, and deeply savory — more than the sum of its parts. The secret is to use plenty of ice-cold water when blending, and to be generous with the tahini: it should taste like a dip of chickpeas AND sesame, not just beans. Serve with warm bread, olive oil pooled in the center, and a dusting of paprika for color.",
+        "sv": "Bra hummus är silkeslen, syrlig och djupt smakrik — mer än summan av sina delar. Hemligheten är att använda rikligt med iskallt vatten när man mixar, och att vara generös med tahini: det ska smaka som en dipp av kikärter OCH sesam, inte bara bönor. Servera med varmt bröd, olivolja i en liten pöl i mitten och ett strö paprikapulver för färg.",
+        "no": "God hummus er silkemyk, syrlig og dyp velsmakende — mer enn summen av delene. Hemmeligheten er å bruke rikelig med iskaldt vann når du mikser, og å være sjenerøs med tahinien: det skal smake som en dipp av kikerter OG sesam, ikke bare bønner. Server med varmt brød, olivenolje samlet i midten og et dryss paprikapulver for farge.",
+        "da": "God hummus er silkeblød, syrlig og dybt velsmagende — mere end summen af delene. Hemmeligheden er at bruge rigeligt iskoldt vand når man blender, og at være gavmild med tahin: det skal smage som en dip af kikærter OG sesam, ikke bare bønner. Servér med varmt brød, olivenolie samlet i midten og et drys paprika for farve."
+      },
+      "servings": 6,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 0,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "side",
+        "middle_eastern",
+        "vegetarian",
+        "dip"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "chickpeas_canned",
+          "amount": 400,
+          "unit": "g",
+          "group": "base",
+          "note_locale": {
+            "en": "drained, liquid reserved",
+            "sv": "avrunnen, spara vätskan",
+            "no": "avrent, ta vare på væsken",
+            "da": "drænet, gem væsken"
+          }
+        },
+        {
+          "ingredient_id": "tahini",
+          "amount": 4,
+          "unit": "msk",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "lemon",
+          "amount": 1,
+          "unit": "st",
+          "group": "base",
+          "note_locale": {
+            "en": "juice only",
+            "sv": "endast saften",
+            "no": "kun saften",
+            "da": "kun saften"
+          }
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 1,
+          "unit": "st",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "cumin_ground",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "base",
+          "note_locale": {
+            "en": "ice-cold",
+            "sv": "iskallt",
+            "no": "iskaldt",
+            "da": "iskoldt"
+          }
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 3,
+          "unit": "msk",
+          "group": "finish"
+        },
+        {
+          "ingredient_id": "paprika_ground",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Rinse and peel (optional)",
+            "sv": "Skölj och skala (valfritt)",
+            "no": "Skyll og skrell (valgfritt)",
+            "da": "Skyl og pil (valgfrit)"
+          },
+          "text": {
+            "en": "Drain chickpeas and rinse well. For the silkiest texture, pinch each chickpea between thumb and finger to slip off the skin — tedious but transformative.",
+            "sv": "Låt kikärterna rinna av och skölj väl. För silkeslen textur, kläm varje kikärta mellan tumme och finger för att dra av skalet — tjatigt men förvandlande.",
+            "no": "La kikertene renne av og skyll godt. For silkemyk tekstur, klem hver kikert mellom tommel og finger for å dra av skallet — kjedelig men forvandlende.",
+            "da": "Lad kikærterne dryppe af og skyl godt. For silkeblød tekstur, klem hver kikært mellem tommel og finger for at pille skindet af — kedeligt men forvandlende."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Blend the tahini first",
+            "sv": "Mixa tahinien först",
+            "no": "Kjør tahinien først",
+            "da": "Blend tahin først"
+          },
+          "text": {
+            "en": "In a food processor, blend tahini with lemon juice, garlic, cumin, and salt for 1 minute until pale and fluffy. This builds the base — adding chickpeas later to a smooth tahini gives the best texture.",
+            "sv": "Mixa tahini med citronsaft, vitlök, spiskummin och salt i en matberedare i 1 minut tills blekt och fluffigt. Det bygger basen — att tillsätta kikärterna senare till slät tahini ger bäst textur.",
+            "no": "Kjør tahini med sitronsaft, hvitløk, spisskummen og salt i en foodprosessor i 1 minutt til blekt og luftig. Det bygger basen — å tilsette kikertene senere til glatt tahini gir best tekstur.",
+            "da": "Blend tahin med citronsaft, hvidløg, spidskommen og salt i en foodprocessor i 1 minut til blegt og luftigt. Det bygger basen — at tilsætte kikærterne senere til glat tahin giver bedste tekstur."
+          },
+          "timer_seconds": 60
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Add chickpeas and blend long",
+            "sv": "Tillsätt kikärter och mixa länge",
+            "no": "Tilsett kikerter og kjør lenge",
+            "da": "Tilsæt kikærter og blend længe"
+          },
+          "text": {
+            "en": "Add chickpeas and blend 3–4 minutes, stopping to scrape down. Drizzle in ice-cold water a tablespoon at a time until the hummus turns pale and fluffy — you want it lighter and more aerated than you think.",
+            "sv": "Tillsätt kikärterna och mixa 3–4 minuter, stanna för att skrapa ner. Droppa i iskallt vatten en msk i taget tills humusen blir blek och fluffig — den ska vara ljusare och mer luftig än du tror.",
+            "no": "Tilsett kikertene og kjør 3–4 minutter, stopp for å skrape ned. Drypp i iskaldt vann en ss om gangen til hummusen blir blek og luftig — den skal være lysere og mer luftig enn du tror.",
+            "da": "Tilsæt kikærterne og blend 3–4 minutter, stop for at skrabe ned. Dryp iskoldt vand i en spsk ad gangen til hummusen bliver bleg og luftig — den skal være lysere og mere luftig end du tror."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Taste and serve",
+            "sv": "Smaka av och servera",
+            "no": "Smak til og server",
+            "da": "Smag til og servér"
+          },
+          "text": {
+            "en": "Taste for salt and lemon — both usually need a little more. Spread on a plate in a rough spiral, pool the olive oil in the center, dust with paprika. Serve with warm pita or flatbread.",
+            "sv": "Smaka av med salt och citron — båda brukar behövas lite mer. Bred ut på en tallrik i en spiral, häll olivoljan i en pöl i mitten, strö paprikapulver. Servera med varmt pitabröd eller mjukt matbröd.",
+            "no": "Smak til med salt og sitron — begge trenger vanligvis litt mer. Spre ut på en tallerken i en spiral, hell olivenoljen i en pøl i midten, dryss paprikapulver. Server med varmt pita- eller mykt matbrød.",
+            "da": "Smag til med salt og citron — begge skal normalt have lidt mere. Spred ud på en tallerken i en spiral, hæld olivenolien i en pyt i midten, drys paprika. Servér med varmt pita eller blødt brød."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "baked_tomato_soup",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Oven-roasted tomato soup",
+        "sv": "Ugnsrostad tomatsoppa",
+        "no": "Ovnsbakt tomatsuppe",
+        "da": "Ovnbagt tomatsuppe"
+      },
+      "description": {
+        "en": "Roasting tomatoes before blending is the shortcut to soup with real depth — the charred bits at the edges concentrate flavor you can never get from stovetop alone. Garlic, onion, and basil roast alongside, turning sweet and mellow. A splash of cream at the end rounds it out. Serve with grilled cheese for maximum comfort.",
+        "sv": "Att rosta tomaterna innan du mixar är genvägen till soppa med verklig djup — de brända bitarna på kanterna koncentrerar smak du aldrig får på spisen ensam. Vitlök, lök och basilika rostas med, blir söta och milda. En skvätt grädde på slutet rundar av. Servera med grillad ostsmörgås för maximal tröst.",
+        "no": "Å ovnsbake tomatene før miksingen er snarveien til suppe med ekte dybde — de karamelliserte kantene konsentrerer smak du aldri får på komfyren alene. Hvitløk, løk og basilikum bakes ved siden av, blir søte og milde. En skvett fløte til slutt runder det av. Server med grillet osteskive for maksimal trøst.",
+        "da": "At bage tomaterne inden blenderen er genvejen til suppe med ægte dybde — de karameliserede kanter koncentrerer smag du aldrig får på komfuret alene. Hvidløg, løg og basilikum bages ved siden af, bliver søde og milde. Et skvæt fløde til sidst runder det af. Servér med grillet osteskive for maksimal trøst."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 45,
+      "oven": {
+        "type": "conventional",
+        "temp_c": 220,
+        "fan_temp_c": 200
+      },
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "soup",
+        "vegetarian",
+        "comfort"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "tomato_canned",
+          "amount": 800,
+          "unit": "g",
+          "group": "roast"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "roast"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 4,
+          "unit": "st",
+          "group": "roast"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 3,
+          "unit": "msk",
+          "group": "roast"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "roast"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "roast"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 3,
+          "unit": "krm",
+          "group": "roast"
+        },
+        {
+          "ingredient_id": "tomato_paste",
+          "amount": 2,
+          "unit": "msk",
+          "group": "roast"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 3,
+          "unit": "dl",
+          "group": "finish"
+        },
+        {
+          "ingredient_id": "cream_15",
+          "amount": 1,
+          "unit": "dl",
+          "group": "finish"
+        },
+        {
+          "ingredient_id": "basil_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Prep the tray",
+            "sv": "Förbered plåten",
+            "no": "Gjør klar brettet",
+            "da": "Gør bradepanden klar"
+          },
+          "text": {
+            "en": "Heat the oven to 220°C (fan 200°C). Pour canned tomatoes into a deep roasting dish. Peel the onion and cut into eighths; leave garlic cloves whole and unpeeled. Drizzle everything with olive oil, sprinkle sugar, salt, and pepper. Dot with tomato paste.",
+            "sv": "Värm ugnen till 220°C (varmluft 200°C). Häll krossade tomater i en djup ugnsform. Skala löken och skär i åttondelar; låt vitlöksklyftorna vara hela och oskalade. Ringla olivolja över allt, strö socker, salt och peppar. Klicka tomatpurén.",
+            "no": "Varm ovnen til 220°C (varmluft 200°C). Hell hermetiske tomater i en dyp ildfast form. Skrell løken og skjær i åttedeler; la hvitløksfeddene være hele og uskrelle. Drypp olivenolje over alt, dryss sukker, salt og pepper. Klatt tomatpureen.",
+            "da": "Varm ovnen til 220°C (varmluft 200°C). Hæld flåede tomater i et dybt ovnfast fad. Skræl løget og skær i ottendedele; lad hvidløgsfeddene være hele og upillede. Dryp olivenolie over det hele, drys sukker, salt og peber. Klat tomatpuréen."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Roast",
+            "sv": "Rosta",
+            "no": "Stek",
+            "da": "Bag"
+          },
+          "text": {
+            "en": "Roast 40 minutes until edges char slightly and the kitchen smells of tomato and garlic. Stir once after 20 minutes so nothing burns.",
+            "sv": "Rosta 40 minuter tills kanterna bränner sig lätt och köket doftar tomat och vitlök. Rör om en gång efter 20 minuter så inget bränner fast.",
+            "no": "Stek 40 minutter til kantene brunes lett og kjøkkenet dufter tomat og hvitløk. Rør en gang etter 20 minutter så ingenting brenner seg.",
+            "da": "Bag 40 minutter til kanterne brunes let og køkkenet dufter tomat og hvidløg. Rør en gang efter 20 minutter så intet brænder fast."
+          },
+          "timer_seconds": 2400
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Blend",
+            "sv": "Mixa",
+            "no": "Miks",
+            "da": "Blend"
+          },
+          "text": {
+            "en": "Squeeze the roasted garlic cloves out of their skins into the roasting dish. Transfer everything to a blender (or use a stick blender), add water, and blend until completely smooth. Return to a pot.",
+            "sv": "Krama de rostade vitlöksklyftorna ur sina skal i ugnsformen. Häll allt i en mixer (eller använd stavmixer), tillsätt vatten och mixa tills helt slät. Häll tillbaka i en kastrull.",
+            "no": "Klem de ovnsbakte hvitløksfeddene ut av skallene sine i den ildfaste formen. Overfør alt til en blender (eller bruk stavmikser), tilsett vann og kjør til helt glatt. Hell tilbake i en kjele.",
+            "da": "Klem de ovnbagte hvidløgsfed ud af deres skind i fadet. Overfør alt til en blender (eller brug stavblender), tilsæt vand og blend til helt glat. Hæld tilbage i en gryde."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Finish and serve",
+            "sv": "Avsluta och servera",
+            "no": "Avslutt og server",
+            "da": "Afslut og servér"
+          },
+          "text": {
+            "en": "Warm the soup over medium heat. Stir in the cream and most of the chopped basil. Taste — it should be bright and slightly sweet. Serve in bowls topped with remaining basil and a drizzle of olive oil. Grilled cheese mandatory.",
+            "sv": "Värm soppan på medelvärme. Rör i grädden och största delen av den hackade basilikan. Smaka av — den ska vara pigg och lätt söt. Servera i skålar toppade med resten av basilikan och en skvätt olivolja. Grillad ostsmörgås obligatorisk.",
+            "no": "Varm suppen på middels varme. Rør inn fløten og mesteparten av den hakkede basilikumen. Smak til — den skal være frisk og lett søt. Server i boller toppet med resten av basilikumen og en skvett olivenolje. Grillet osteskive er obligatorisk.",
+            "da": "Varm suppen ved middelvarme. Rør fløden og det meste af den hakkede basilikum i. Smag til — den skal være frisk og let sød. Servér i skåle toppet med resten af basilikummen og et skvæt olivenolie. Grillet osteskive er obligatorisk."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "one_pot_pasta",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "One-pot pasta",
+        "sv": "One pot pasta",
+        "no": "One pot pasta",
+        "da": "One pot pasta"
+      },
+      "description": {
+        "en": "One-pot pasta is a weeknight lifesaver: everything — pasta, vegetables, seasonings, liquid — goes into a single pot, and the starch that normally drains away becomes the silky sauce. Italians may raise eyebrows, but after a long day it is hard to beat. The trick is to use just enough liquid to cook the pasta, so nothing dilutes the flavor.",
+        "sv": "One pot pasta är en vardagskvällsräddare: allt — pasta, grönsaker, kryddor, vätska — i en enda kastrull, och stärkelsen som vanligtvis sköljs bort blir den silkeslena såsen. Italienare höjer kanske på ögonbrynen, men efter en lång dag är det svårslaget. Knepet är att använda precis så mycket vätska som pastan behöver, så inget späder ut smaken.",
+        "no": "One pot pasta er en hverdagskveld-redder: alt — pasta, grønnsaker, krydder, væske — i en eneste kjele, og stivelsen som normalt helles av blir den silkemyke sausen. Italienere hever kanskje på øyenbrynene, men etter en lang dag er det vanskelig å slå. Trikset er å bruke akkurat så mye væske som pastaen trenger, så ingenting tynner ut smaken.",
+        "da": "One pot pasta er en hverdagsaften-redning: alt — pasta, grøntsager, krydderier, væske — i én eneste gryde, og stivelsen der normalt hældes fra bliver den silkebløde sovs. Italienere hæver måske øjenbrynene, men efter en lang dag er det svært at slå. Tricket er at bruge netop så meget væske pastaen behøver, så intet fortynder smagen."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 20,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "weeknight",
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "pasta_dry",
+          "amount": 400,
+          "unit": "g",
+          "group": "pot",
+          "note_locale": {
+            "en": "linguine or spaghetti",
+            "sv": "linguine eller spaghetti",
+            "no": "linguine eller spaghetti",
+            "da": "linguine eller spaghetti"
+          }
+        },
+        {
+          "ingredient_id": "tomato_canned",
+          "amount": 400,
+          "unit": "g",
+          "group": "pot"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "pot"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 3,
+          "unit": "st",
+          "group": "pot"
+        },
+        {
+          "ingredient_id": "basil_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "pot"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 2,
+          "unit": "msk",
+          "group": "pot"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1.5,
+          "unit": "tsk",
+          "group": "pot"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "krm",
+          "group": "pot"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 9,
+          "unit": "dl",
+          "group": "pot"
+        },
+        {
+          "ingredient_id": "parmesan",
+          "amount": 50,
+          "unit": "g",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Load the pot",
+            "sv": "Ladda kastrullen",
+            "no": "Fyll kjelen",
+            "da": "Fyld gryden"
+          },
+          "text": {
+            "en": "Put pasta, canned tomatoes, thinly sliced onion, sliced garlic, most of the basil (reserve some for garnish), olive oil, salt, pepper, and water all in a wide pot. Make sure the pasta is submerged.",
+            "sv": "Lägg pasta, krossade tomater, tunt skivad lök, skivad vitlök, största delen av basilikan (spara lite till garnering), olivolja, salt, peppar och vatten i en vid kastrull. Se till att pastan är täckt.",
+            "no": "Ha pasta, hermetiske tomater, tynt skåret løk, skåret hvitløk, mesteparten av basilikumen (ta vare på litt til pynt), olivenolje, salt, pepper og vann i en vid kjele. Pass på at pastaen er dekket.",
+            "da": "Læg pasta, flåede tomater, tyndt skåret løg, skåret hvidløg, det meste af basilikummen (gem lidt til pynt), olivenolie, salt, peber og vand i en bred gryde. Sørg for at pastaen er dækket."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Bring to a boil",
+            "sv": "Koka upp",
+            "no": "Kok opp",
+            "da": "Kog op"
+          },
+          "text": {
+            "en": "Bring to a rolling boil over high heat, stirring often so the pasta does not stick. Reduce to a steady medium boil once boiling.",
+            "sv": "Koka upp på hög värme under omrörning så pastan inte fastnar. Sänk till stabilt medelhög värme när det kokar.",
+            "no": "Kok opp på høy varme under omrøring så pastaen ikke setter seg fast. Reduser til stabil middels høy varme når det koker.",
+            "da": "Kog op ved høj varme under omrøring så pastaen ikke sætter sig fast. Reducer til stabil middelhøj varme når det koger."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Cook uncovered",
+            "sv": "Koka utan lock",
+            "no": "Kok uten lokk",
+            "da": "Kog uden låg"
+          },
+          "text": {
+            "en": "Cook uncovered 9–11 minutes, stirring frequently. As the water evaporates, it reduces to a glossy starchy sauce that coats the pasta. The pasta is done when al dente and the sauce clings.",
+            "sv": "Koka utan lock 9–11 minuter, rör ofta. När vattnet förångas reduceras det till en glansig stärkelsesås som klibbar på pastan. Pastan är klar när den är al dente och såsen fastnar.",
+            "no": "Kok uten lokk 9–11 minutter, rør ofte. Når vannet fordamper reduseres det til en blank stivelsessaus som klistrer seg til pastaen. Pastaen er klar når den er al dente og sausen hefter.",
+            "da": "Kog uden låg 9–11 minutter, rør ofte. Når vandet fordamper reduceres det til en blank stivelsessovs der klistrer sig til pastaen. Pastaen er klar når den er al dente og sovsen hænger ved."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Finish and serve",
+            "sv": "Avsluta och servera",
+            "no": "Avslutt og server",
+            "da": "Afslut og servér"
+          },
+          "text": {
+            "en": "Remove from heat. Grate in half the parmesan and stir — it melts into the sauce. Serve in deep bowls, topped with remaining parmesan and the reserved basil leaves.",
+            "sv": "Ta av från värmen. Riv ner hälften av parmesanen och rör — den smälter in i såsen. Servera i djupa tallrikar, toppa med resten av parmesanen och de sparade basilikabladen.",
+            "no": "Ta av varmen. Riv ned halvparten av parmesanen og rør — den smelter inn i sausen. Server i dype boller, topp med resten av parmesanen og de lagrede basilikumblader.",
+            "da": "Tag af varmen. Riv halvdelen af parmesanen i og rør — den smelter ind i sovsen. Servér i dybe tallerkener, top med resten af parmesanen og de gemte basilikumblade."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "marry_me_chicken",
+      "locale_of_authorship": "en",
+      "category": "dinner",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Marry Me Chicken",
+        "sv": "Marry Me Chicken",
+        "no": "Marry Me Chicken",
+        "da": "Marry Me Chicken"
+      },
+      "description": {
+        "en": "The name is ridiculous but the recipe has earned its internet fame: pan-seared chicken breasts in a cream sauce loaded with sun-dried tomatoes, garlic, and parmesan. It comes together in one pan in half an hour, looks and tastes like you tried twice as hard, and has apparently prompted more than one proposal. The sun-dried tomato oil is the flavor multiplier — do not skip it.",
+        "sv": "Namnet är löjligt men receptet har förtjänat sin internetberömdhet: stekta kycklingbröst i en gräddsås med soltorkade tomater, vitlök och parmesan. Det blir klart i en panna på en halvtimme, ser ut och smakar som du ansträngt dig dubbelt så mycket, och har tydligen fått fler än ett frieri att komma till. Oljan från de soltorkade tomaterna är smakförstärkaren — hoppa inte över den.",
+        "no": "Navnet er latterlig men oppskriften har fortjent sin internettberømmelse: pannestekt kyllingbryst i en fløtesaus med soltørkede tomater, hvitløk og parmesan. Det blir ferdig i én panne på en halvtime, ser ut og smaker som du har anstrengt deg dobbelt så mye, og har tilsynelatende fremkalt mer enn ett frieri. Oljen fra de soltørkede tomatene er smaksforsterkeren — ikke hopp over den.",
+        "da": "Navnet er latterligt men opskriften har fortjent sin internetberømmelse: pandestegte kyllingebryster i en flødesovs med soltørrede tomater, hvidløg og parmesan. Det bliver færdigt på én pande på en halv time, ser ud og smager som du har anstrengt dig dobbelt så meget, og har åbenbart fremkaldt mere end ét frieri. Olien fra de soltørrede tomater er smagsforstærkeren — spring ikke den over."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 25,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "american",
+        "quick",
+        "date_night"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "chicken_breast",
+          "amount": 600,
+          "unit": "g",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 3,
+          "unit": "krm",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "paprika_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 2,
+          "unit": "msk",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 2,
+          "unit": "msk",
+          "group": "cooking"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 30,
+          "unit": "g",
+          "group": "cooking"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 4,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "sun_dried_tomato",
+          "amount": 80,
+          "unit": "g",
+          "group": "sauce",
+          "note_locale": {
+            "en": "in oil, drained and chopped",
+            "sv": "i olja, avrunnen och hackad",
+            "no": "i olje, avrent og hakket",
+            "da": "i olie, drænet og hakket"
+          }
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 2,
+          "unit": "dl",
+          "group": "sauce",
+          "note_locale": {
+            "en": "or chicken stock",
+            "sv": "eller kycklingbuljong",
+            "no": "eller kyllingkraft",
+            "da": "eller kyllingebouillon"
+          }
+        },
+        {
+          "ingredient_id": "cream_36",
+          "amount": 3,
+          "unit": "dl",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "parmesan",
+          "amount": 40,
+          "unit": "g",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "basil_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Prep the chicken",
+            "sv": "Förbered kycklingen",
+            "no": "Forbered kyllingen",
+            "da": "Forbered kyllingen"
+          },
+          "text": {
+            "en": "Slice each chicken breast horizontally in half to make thin cutlets. Season with salt, pepper, and paprika, then dust lightly with flour.",
+            "sv": "Dela varje kycklingbröst på längden till tunna fileer. Krydda med salt, peppar och paprikapulver, pudra sedan lätt med mjöl.",
+            "no": "Del hvert kyllingbryst på langs i to for å få tynne fileter. Krydre med salt, pepper og paprikapulver, pudre deretter lett med mel.",
+            "da": "Del hvert kyllingebryst på langs i to for at få tynde filetter. Krydr med salt, peber og paprika, drys derefter let med mel."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Sear",
+            "sv": "Bryn",
+            "no": "Brun",
+            "da": "Brun"
+          },
+          "text": {
+            "en": "Heat olive oil and butter in a large skillet over medium-high heat. Sear chicken 3–4 minutes per side until golden and cooked through. Rest on a plate.",
+            "sv": "Värm olivolja och smör i en stor stekpanna på hög medelvärme. Stek kycklingen 3–4 minuter per sida tills gyllene och genomstekt. Låt vila på en tallrik.",
+            "no": "Varm olivenolje og smør i en stor stekepanne på middels høy varme. Brun kyllingen 3–4 minutter per side til gyllen og gjennomstekt. La hvile på en tallerken.",
+            "da": "Varm olivenolie og smør i en stor pande ved middelhøj varme. Brun kyllingen 3–4 minutter per side til gylden og gennemstegt. Lad hvile på en tallerken."
+          },
+          "timer_seconds": 420
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Build the sauce",
+            "sv": "Bygg såsen",
+            "no": "Bygg sausen",
+            "da": "Byg sovsen"
+          },
+          "text": {
+            "en": "Reduce heat to medium. Add minced garlic and chopped sun-dried tomatoes, cook 1 minute until fragrant. Pour in stock, scrape the pan bottom, and reduce by half, 3 minutes. Add cream and grated parmesan. Simmer until slightly thickened, 3 minutes.",
+            "sv": "Sänk värmen till medel. Tillsätt pressad vitlök och hackade soltorkade tomater, stek 1 minut tills doftande. Häll i buljongen, skrapa pannans botten och koka ner till hälften, 3 minuter. Tillsätt grädden och riven parmesan. Låt sjuda tills lätt tjocknat, 3 minuter.",
+            "no": "Reduser varmen til middels. Tilsett presset hvitløk og hakkede soltørkede tomater, stek 1 minutt til duftende. Hell i kraften, skrap bunnen av pannen, og reduser til halvparten, 3 minutter. Tilsett fløten og revet parmesan. La småkoke til lett tyknet, 3 minutter.",
+            "da": "Reducer varmen til middel. Tilsæt presset hvidløg og hakkede soltørrede tomater, steg 1 minut til duftende. Hæld bouillonen i, skrab panden, og reducer til halvdelen, 3 minutter. Tilsæt fløden og revet parmesan. Lad småsimre til let tyknet, 3 minutter."
+          },
+          "timer_seconds": 420
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Return and finish",
+            "sv": "Lägg tillbaka",
+            "no": "Legg tilbake",
+            "da": "Læg tilbage"
+          },
+          "text": {
+            "en": "Return the chicken and any resting juices to the pan, spoon sauce over. Warm through, 2 minutes. Scatter with torn basil leaves. Serve over pasta, mashed potatoes, or with a crusty baguette to sop up the sauce.",
+            "sv": "Lägg tillbaka kycklingen och eventuell köttsaft i pannan, skeda såsen över. Värm igenom, 2 minuter. Strö över rivna basilikablad. Servera med pasta, potatismos eller en baguette att suga upp såsen med.",
+            "no": "Legg kyllingen og eventuell kjøttsaft tilbake i pannen, skjeskei sausen over. Varm gjennom, 2 minutter. Dryss over avrevne basilikumblad. Server over pasta, potetmos eller med en baguette til å suge opp sausen.",
+            "da": "Læg kyllingen og eventuel kødsaft tilbage i panden, øs sovsen over. Varm igennem, 2 minutter. Drys med revne basilikumblade. Servér over pasta, kartoffelmos eller med en baguette til at suge sovsen op."
+          },
+          "timer_seconds": 120
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
     }
   ]
 }
