@@ -1,10 +1,11 @@
 "use client";
 
 import { createContext, createElement, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
-import type { AppLocale, Ingredient, IngredientUsage, Recipe } from "./types";
+import type { AppLocale, Ingredient, Recipe } from "./types";
 import { getIngredient, RECIPES } from "./data";
 
-const RECIPES_KEY = "nordic-recipes-shopping-recipes";
+const ITEMS_KEY = "nordic-recipes-shopping-items-v2";
+const LEGACY_RECIPES_KEY = "nordic-recipes-shopping-recipes";
 const CHECKED_KEY = "nordic-recipes-shopping-checked";
 
 // Canonicalize units so msk/ss/spsk/tbsp aggregate into one line,
@@ -71,14 +72,19 @@ export type AggregatedLine = {
   recipeIds: string[];
 };
 
-export function aggregateShoppingList(recipes: Recipe[]): AggregatedLine[] {
-  // key = ingredient_id::canonical_unit
+export type ShoppingInput = {
+  recipe: Recipe;
+  servings: number; // target servings (may differ from recipe.servings)
+};
+
+export function aggregateShoppingList(inputs: ShoppingInput[]): AggregatedLine[] {
   const map = new Map<
     string,
     { ingredient: Ingredient; canonicalUnit: string; amount: number; recipeIds: Set<string> }
   >();
 
-  for (const recipe of recipes) {
+  for (const { recipe, servings } of inputs) {
+    const factor = Math.max(servings, 1) / Math.max(recipe.servings, 1);
     for (const usage of recipe.ingredients) {
       const ingredient = getIngredient(usage.ingredient_id);
       if (!ingredient) continue;
@@ -90,7 +96,7 @@ export function aggregateShoppingList(recipes: Recipe[]): AggregatedLine[] {
         amount: 0,
         recipeIds: new Set<string>(),
       };
-      entry.amount += usage.amount;
+      entry.amount += usage.amount * factor;
       entry.recipeIds.add(recipe.id);
       map.set(key, entry);
     }
@@ -118,12 +124,20 @@ export function formatShoppingLine(line: AggregatedLine, locale: AppLocale): str
 
 // Context
 
+export type ShoppingItem = {
+  recipeId: string;
+  servings: number;
+};
+
 type ShoppingListContextValue = {
-  recipeIds: string[];
+  items: ShoppingItem[];
+  recipeIds: string[]; // derived — kept for the header indicator count
   hasRecipe: (id: string) => boolean;
+  getServings: (id: string) => number | undefined;
   addRecipe: (id: string) => void;
   removeRecipe: (id: string) => void;
   toggleRecipe: (id: string) => void;
+  setServings: (id: string, servings: number) => void;
   clearRecipes: () => void;
   checked: Set<string>;
   isChecked: (key: string) => boolean;
@@ -144,46 +158,109 @@ function readStringArray(key: string): string[] {
   }
 }
 
+function loadItems(): ShoppingItem[] {
+  const validIds = new Set(RECIPES.map((r) => r.id));
+
+  // Preferred: new format
+  try {
+    const raw = localStorage.getItem(ITEMS_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) {
+        return parsed
+          .filter(
+            (x): x is ShoppingItem =>
+              x &&
+              typeof x === "object" &&
+              typeof x.recipeId === "string" &&
+              typeof x.servings === "number" &&
+              Number.isFinite(x.servings) &&
+              x.servings > 0 &&
+              validIds.has(x.recipeId)
+          )
+          .map((x) => ({ recipeId: x.recipeId, servings: Math.max(1, Math.round(x.servings)) }));
+      }
+    }
+  } catch {
+    // fall through to legacy
+  }
+
+  // Legacy: array of recipe IDs; seed target servings from each recipe's default
+  const legacy = readStringArray(LEGACY_RECIPES_KEY);
+  return legacy
+    .filter((id) => validIds.has(id))
+    .map((id) => {
+      const recipe = RECIPES.find((r) => r.id === id);
+      return { recipeId: id, servings: recipe?.servings ?? 1 };
+    });
+}
+
 export function ShoppingListProvider({ children }: { children: ReactNode }) {
-  const [recipeIds, setRecipeIds] = useState<string[]>([]);
+  const [items, setItems] = useState<ShoppingItem[]>([]);
   const [checked, setChecked] = useState<Set<string>>(new Set());
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
-    const storedRecipes = readStringArray(RECIPES_KEY);
-    // Drop any IDs that no longer exist in the recipe dataset
-    const validIds = new Set(RECIPES.map((r) => r.id));
-    setRecipeIds(storedRecipes.filter((id) => validIds.has(id)));
+    setItems(loadItems());
     setChecked(new Set(readStringArray(CHECKED_KEY)));
     setHydrated(true);
   }, []);
 
   useEffect(() => {
     if (!hydrated) return;
-    localStorage.setItem(RECIPES_KEY, JSON.stringify(recipeIds));
-  }, [recipeIds, hydrated]);
+    localStorage.setItem(ITEMS_KEY, JSON.stringify(items));
+    // Remove legacy key once we've written the new format at least once
+    localStorage.removeItem(LEGACY_RECIPES_KEY);
+  }, [items, hydrated]);
 
   useEffect(() => {
     if (!hydrated) return;
     localStorage.setItem(CHECKED_KEY, JSON.stringify(Array.from(checked)));
   }, [checked, hydrated]);
 
-  const hasRecipe = useCallback((id: string) => recipeIds.includes(id), [recipeIds]);
+  const recipeIds = useMemo(() => items.map((i) => i.recipeId), [items]);
+
+  const hasRecipe = useCallback(
+    (id: string) => items.some((i) => i.recipeId === id),
+    [items]
+  );
+
+  const getServings = useCallback(
+    (id: string) => items.find((i) => i.recipeId === id)?.servings,
+    [items]
+  );
 
   const addRecipe = useCallback((id: string) => {
-    setRecipeIds((prev) => (prev.includes(id) ? prev : [...prev, id]));
+    setItems((prev) => {
+      if (prev.some((i) => i.recipeId === id)) return prev;
+      const recipe = RECIPES.find((r) => r.id === id);
+      return [...prev, { recipeId: id, servings: recipe?.servings ?? 1 }];
+    });
   }, []);
 
   const removeRecipe = useCallback((id: string) => {
-    setRecipeIds((prev) => prev.filter((r) => r !== id));
+    setItems((prev) => prev.filter((i) => i.recipeId !== id));
   }, []);
 
   const toggleRecipe = useCallback((id: string) => {
-    setRecipeIds((prev) => (prev.includes(id) ? prev.filter((r) => r !== id) : [...prev, id]));
+    setItems((prev) => {
+      if (prev.some((i) => i.recipeId === id)) {
+        return prev.filter((i) => i.recipeId !== id);
+      }
+      const recipe = RECIPES.find((r) => r.id === id);
+      return [...prev, { recipeId: id, servings: recipe?.servings ?? 1 }];
+    });
+  }, []);
+
+  const setServings = useCallback((id: string, servings: number) => {
+    const clamped = Math.max(1, Math.round(servings));
+    setItems((prev) =>
+      prev.map((i) => (i.recipeId === id ? { ...i, servings: clamped } : i))
+    );
   }, []);
 
   const clearRecipes = useCallback(() => {
-    setRecipeIds([]);
+    setItems([]);
     setChecked(new Set());
   }, []);
 
@@ -204,18 +281,35 @@ export function ShoppingListProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<ShoppingListContextValue>(
     () => ({
+      items,
       recipeIds,
       hasRecipe,
+      getServings,
       addRecipe,
       removeRecipe,
       toggleRecipe,
+      setServings,
       clearRecipes,
       checked,
       isChecked,
       toggleChecked,
       clearChecked,
     }),
-    [recipeIds, hasRecipe, addRecipe, removeRecipe, toggleRecipe, clearRecipes, checked, isChecked, toggleChecked, clearChecked]
+    [
+      items,
+      recipeIds,
+      hasRecipe,
+      getServings,
+      addRecipe,
+      removeRecipe,
+      toggleRecipe,
+      setServings,
+      clearRecipes,
+      checked,
+      isChecked,
+      toggleChecked,
+      clearChecked,
+    ]
   );
 
   return createElement(ShoppingListContext.Provider, { value }, children);

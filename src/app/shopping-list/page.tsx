@@ -9,28 +9,37 @@ import {
   categorySortKey,
   formatShoppingLine,
   useShoppingList,
+  type ShoppingInput,
 } from "@/lib/shopping-list";
 import { getRecipe } from "@/lib/data";
-import { recipeTitle } from "@/lib/types";
+import { recipeTitle, type Recipe } from "@/lib/types";
 
 export default function ShoppingListPage() {
   const { locale } = useLocale();
   const ui = UI[locale];
   const {
-    recipeIds,
+    items,
     removeRecipe,
+    setServings,
     clearRecipes,
     isChecked,
     toggleChecked,
   } = useShoppingList();
 
-  const recipes = useMemo(
-    () => recipeIds.map(getRecipe).filter((r): r is NonNullable<typeof r> => !!r),
-    [recipeIds]
-  );
+  // Resolve each item's Recipe and target servings, dropping any orphans.
+  const resolved = useMemo<Array<{ recipe: Recipe; servings: number }>>(() => {
+    return items
+      .map((item) => {
+        const recipe = getRecipe(item.recipeId);
+        if (!recipe) return null;
+        return { recipe, servings: item.servings };
+      })
+      .filter((x): x is { recipe: Recipe; servings: number } => x !== null);
+  }, [items]);
 
   const groupedLines = useMemo(() => {
-    const lines = aggregateShoppingList(recipes);
+    const inputs: ShoppingInput[] = resolved;
+    const lines = aggregateShoppingList(inputs);
     const byCategory = new Map<string, typeof lines>();
     for (const line of lines) {
       const cat = line.ingredient.category;
@@ -49,9 +58,9 @@ export default function ShoppingListPage() {
     return Array.from(byCategory.entries()).sort(
       ([a], [b]) => categorySortKey(a) - categorySortKey(b)
     );
-  }, [recipes, locale]);
+  }, [resolved, locale]);
 
-  const empty = recipes.length === 0;
+  const empty = resolved.length === 0;
 
   return (
     <main className="min-h-screen bg-stone-50 pb-16">
@@ -89,27 +98,57 @@ export default function ShoppingListPage() {
             <h2 className="mb-2 text-xs font-semibold uppercase tracking-wider text-stone-500">
               {ui.selectedRecipes}
             </h2>
-            <ul className="flex flex-col gap-1">
-              {recipes.map((recipe) => (
-                <li
-                  key={recipe.id}
-                  className="flex items-center justify-between gap-3 rounded-md border border-stone-200 bg-white px-3 py-2"
-                >
-                  <Link
-                    href={`/recipe/${recipe.id}`}
-                    className="min-w-0 flex-1 truncate text-sm text-stone-800 active:text-stone-900"
+            <ul className="flex flex-col gap-2">
+              {resolved.map(({ recipe, servings }) => {
+                const unit = ui.servingsUnit(recipe.servings_unit, servings);
+                const scaled = servings !== recipe.servings;
+                return (
+                  <li
+                    key={recipe.id}
+                    className="rounded-md border border-stone-200 bg-white px-3 py-2.5"
                   >
-                    {recipeTitle(recipe, locale)}
-                  </Link>
-                  <button
-                    onClick={() => removeRecipe(recipe.id)}
-                    className="text-xs text-stone-500 active:text-stone-900"
-                    aria-label={ui.removeRecipe}
-                  >
-                    {ui.removeRecipe}
-                  </button>
-                </li>
-              ))}
+                    <div className="flex items-center justify-between gap-2">
+                      <Link
+                        href={`/recipe/${recipe.id}`}
+                        className="min-w-0 flex-1 truncate text-sm font-medium text-stone-800 active:text-stone-900"
+                      >
+                        {recipeTitle(recipe, locale)}
+                      </Link>
+                      <button
+                        onClick={() => removeRecipe(recipe.id)}
+                        className="text-xs text-stone-500 active:text-stone-900"
+                        aria-label={ui.removeRecipe}
+                      >
+                        {ui.removeRecipe}
+                      </button>
+                    </div>
+                    <div className="mt-2 flex items-center justify-between gap-3">
+                      <div className="flex items-center gap-2">
+                        <StepButton
+                          onClick={() => setServings(recipe.id, servings - 1)}
+                          disabled={servings <= 1}
+                          label="−"
+                        />
+                        <span className="min-w-[3.5rem] text-center text-sm font-semibold tabular-nums text-stone-800">
+                          {servings} <span className="font-normal text-stone-500">{unit}</span>
+                        </span>
+                        <StepButton
+                          onClick={() => setServings(recipe.id, servings + 1)}
+                          label="+"
+                        />
+                      </div>
+                      {scaled && (
+                        <button
+                          onClick={() => setServings(recipe.id, recipe.servings)}
+                          className="text-[11px] text-stone-500 underline-offset-2 hover:underline active:text-stone-800"
+                        >
+                          ×{(servings / recipe.servings).toFixed(2).replace(/\.?0+$/, "")}
+                        </button>
+                      )}
+                    </div>
+                  </li>
+                );
+              })}
             </ul>
           </section>
 
@@ -164,6 +203,26 @@ export default function ShoppingListPage() {
         </div>
       )}
     </main>
+  );
+}
+
+function StepButton({
+  onClick,
+  label,
+  disabled,
+}: {
+  onClick: () => void;
+  label: string;
+  disabled?: boolean;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      disabled={disabled}
+      className="flex h-8 w-8 items-center justify-center rounded-full border border-stone-300 bg-white text-base font-semibold text-stone-700 active:bg-stone-100 disabled:cursor-not-allowed disabled:opacity-40"
+    >
+      {label}
+    </button>
   );
 }
 
