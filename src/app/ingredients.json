@@ -2098,6 +2098,153 @@
         "fiber_g": 5.7,
         "salt_g": 1
       }
+    },
+    {
+      "id": "celery",
+      "category": "vegetable",
+      "names": {
+        "sv": "selleri (stjälk)",
+        "no": "stangselleri",
+        "da": "bladselleri",
+        "en": "celery (stalk)"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 16,
+        "protein_g": 0.7,
+        "fat_g": 0.2,
+        "carbs_g": 3,
+        "fiber_g": 1.6,
+        "salt_g": 0.08
+      }
+    },
+    {
+      "id": "corn_canned",
+      "category": "pantry",
+      "names": {
+        "sv": "majs (konserv)",
+        "no": "mais (hermetisk)",
+        "da": "majs (dåse)",
+        "en": "canned corn kernels"
+      },
+      "density_g_per_ml": 0.7,
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 72,
+        "protein_g": 2.2,
+        "fat_g": 0.8,
+        "carbs_g": 16.3,
+        "fiber_g": 1.6,
+        "salt_g": 0.25
+      }
+    },
+    {
+      "id": "cheddar_cheese",
+      "category": "dairy",
+      "names": {
+        "sv": "cheddar (riven)",
+        "no": "cheddar (revet)",
+        "da": "cheddar (revet)",
+        "en": "shredded cheddar cheese"
+      },
+      "density_g_per_ml": 0.48,
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 403,
+        "protein_g": 25,
+        "fat_g": 33,
+        "carbs_g": 1.3,
+        "fiber_g": 0,
+        "salt_g": 1.8
+      }
+    },
+    {
+      "id": "spinach_fresh",
+      "category": "vegetable",
+      "names": {
+        "sv": "spenat (färsk)",
+        "no": "spinat (fersk)",
+        "da": "spinat (frisk)",
+        "en": "fresh spinach"
+      },
+      "density_g_per_ml": 0.1,
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 23,
+        "protein_g": 2.9,
+        "fat_g": 0.4,
+        "carbs_g": 3.6,
+        "fiber_g": 2.2,
+        "salt_g": 0.08
+      }
+    },
+    {
+      "id": "blue_mussels",
+      "category": "fish",
+      "names": {
+        "sv": "blåmusslor (skalade eller med skal)",
+        "no": "blåskjell (med skall)",
+        "da": "blåmuslinger (med skal)",
+        "en": "blue mussels (in shell)"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 86,
+        "protein_g": 12,
+        "fat_g": 2.2,
+        "carbs_g": 3.7,
+        "fiber_g": 0,
+        "salt_g": 0.7
+      }
+    },
+    {
+      "id": "cucumber",
+      "category": "vegetable",
+      "names": {
+        "sv": "gurka",
+        "no": "agurk",
+        "da": "agurk",
+        "en": "cucumber"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 15,
+        "protein_g": 0.7,
+        "fat_g": 0.1,
+        "carbs_g": 3.6,
+        "fiber_g": 0.5,
+        "salt_g": 0.004
+      }
     }
   ]
 }

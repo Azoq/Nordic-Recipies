@@ -5705,6 +5705,1593 @@
       ],
       "verified_by": "author",
       "verified_at": "2026-04-24"
+    },
+    {
+      "id": "noodle_soup_chicken_greens",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-25",
+      "title": {
+        "en": "Noodle soup with chicken and greens",
+        "sv": "Nudelsoppa med kyckling och grönt",
+        "no": "Nudelsuppe med kylling og grønt",
+        "da": "Nudelsuppe med kylling og grønt"
+      },
+      "description": {
+        "en": "Halfway between a Japanese ramen and a Chinese chicken noodle, this is the bowl you make when you want something brothy, herby, and restorative in 25 minutes. Poaching the chicken directly in the broth keeps the meat tender and builds the soup in one pot. Pile on greens at the end so they stay bright — kale, spinach, bok choy, or whatever hardy leaf is in your fridge.",
+        "sv": "Halvvägs mellan en japansk ramen och en kinesisk kycklingnudelsoppa är detta skålen du gör när du vill ha något buljongartat, örtigt och läkande på 25 minuter. Att pochera kycklingen direkt i buljongen håller köttet mört och bygger soppan i en enda gryta. Lägg i gröna blad på slutet så de förblir friska — grönkål, spenat, pak choi eller vad du har i kylen.",
+        "no": "Halvveis mellom en japansk ramen og en kinesisk kyllingnudelsuppe er dette bollen du lager når du vil ha noe kraft-aktig, urtete og helbredende på 25 minutter. Å posjere kyllingen direkte i kraften holder kjøttet mørt og bygger suppen i en eneste gryte. Legg i grønne blader på slutten så de holder seg friske — grønnkål, spinat, pak choi eller hva du har i kjøleskapet.",
+        "da": "Halvvejs mellem en japansk ramen og en kinesisk kyllingenudelsuppe er det her skålen du laver når du vil have noget bouillonagtigt, urteagtigt og helende på 25 minutter. At pochere kyllingen direkte i bouillonen holder kødet mørt og bygger suppen i én gryde. Læg grønt i til sidst så det holder sig friskt — grønkål, spinat, pak choi eller hvad du har i køleskabet."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 25,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "soup",
+        "asian",
+        "weeknight"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "chicken_thigh",
+          "amount": 400,
+          "unit": "g",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "beef_stock",
+          "amount": 15,
+          "unit": "dl",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "ginger_fresh",
+          "amount": 30,
+          "unit": "g",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 4,
+          "unit": "st",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "soy_sauce",
+          "amount": 3,
+          "unit": "msk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "miso_paste",
+          "amount": 2,
+          "unit": "msk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "sesame_oil",
+          "amount": 1,
+          "unit": "msk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "ramen_noodles",
+          "amount": 300,
+          "unit": "g",
+          "group": "noodles"
+        },
+        {
+          "ingredient_id": "spinach_fresh",
+          "amount": 200,
+          "unit": "g",
+          "group": "greens"
+        },
+        {
+          "ingredient_id": "cabbage_white",
+          "amount": 150,
+          "unit": "g",
+          "group": "greens"
+        },
+        {
+          "ingredient_id": "spring_onion",
+          "amount": 3,
+          "unit": "st",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "chili_red_fresh",
+          "amount": 1,
+          "unit": "st",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "lime",
+          "amount": 1,
+          "unit": "st",
+          "group": "topping"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Build the broth",
+            "sv": "Bygg buljongen",
+            "no": "Bygg kraften",
+            "da": "Byg bouillonen"
+          },
+          "text": {
+            "en": "In a large pot, combine stock, sliced ginger, whole garlic cloves, soy sauce, and sesame oil. Bring to a simmer.",
+            "sv": "I en stor kastrull, blanda buljong, skivad ingefära, hela vitlöksklyftor, sojasås och sesamolja. Låt sjuda.",
+            "no": "I en stor kjele, bland kraft, skiver ingefær, hele hvitløksfedd, soyasaus og sesamolje. Kok opp.",
+            "da": "I en stor gryde, bland bouillon, skivet ingefær, hele hvidløgsfed, sojasovs og sesamolie. Lad småsimre."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Poach the chicken",
+            "sv": "Pochera kycklingen",
+            "no": "Posjer kyllingen",
+            "da": "Pocher kyllingen"
+          },
+          "text": {
+            "en": "Slide the whole chicken thighs into the simmering broth. Cover and cook 15 minutes on low until cooked through. Lift out, shred with two forks, return to the pot.",
+            "sv": "Lägg ner hela kycklinglåren i den sjudande buljongen. Lägg på lock och koka 15 minuter på låg värme tills genomstekt. Lyft upp, strimla med två gafflar, lägg tillbaka.",
+            "no": "Senk hele kyllinglårene i den kokende kraften. Legg på lokk og kok 15 minutter på lav varme til gjennomstekt. Ta opp, riv fra hverandre med to gafler, legg tilbake.",
+            "da": "Sænk hele kyllingelårene i den simrende bouillon. Læg låg på og kog 15 minutter ved lav varme til gennemstegt. Tag op, riv fra hinanden med to gafler, læg tilbage."
+          },
+          "timer_seconds": 900
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Whisk in miso",
+            "sv": "Vispa i miso",
+            "no": "Visp inn miso",
+            "da": "Pisk miso i"
+          },
+          "text": {
+            "en": "Take a ladle of broth, whisk miso paste into it in a small bowl until smooth, then pour back into the pot. This prevents miso lumps. Do not boil hard after adding miso — it dulls the flavor.",
+            "sv": "Ta en slev buljong, vispa miso i en liten skål tills slät, häll sedan tillbaka i grytan. Det förhindrar misoklumpar. Koka inte kraftigt efter miso-tillägg — det dämpar smaken.",
+            "no": "Ta en øse kraft, visp miso i en liten bolle til glatt, hell deretter tilbake i gryten. Det hindrer misoklumper. Ikke kok kraftig etter miso-tilsetting — det demper smaken.",
+            "da": "Tag en øse bouillon, pisk miso i en lille skål til glat, hæld så tilbage i gryden. Det forhindrer misoklumper. Kog ikke kraftigt efter miso-tilsætning — det dæmper smagen."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Add noodles and greens",
+            "sv": "Tillsätt nudlar och grönt",
+            "no": "Tilsett nudler og grønt",
+            "da": "Tilsæt nudler og grønt"
+          },
+          "text": {
+            "en": "Add shredded cabbage, simmer 2 minutes. Add ramen noodles, cook per package (usually 3 minutes). In the last minute, fold in spinach — it wilts instantly.",
+            "sv": "Tillsätt strimlad kål, sjud 2 minuter. Tillsätt ramennudlar, koka enligt paket (vanligtvis 3 minuter). Vänd i spenat sista minuten — den viker ner sig direkt.",
+            "no": "Tilsett strimlet kål, la småkoke 2 minutter. Tilsett ramennudler, kok etter pakning (vanligvis 3 minutter). Vend inn spinat siste minutt — den visner straks.",
+            "da": "Tilsæt snittet kål, lad småsimre 2 minutter. Tilsæt ramennudler, kog efter pakken (normalt 3 minutter). Vend spinat i sidste minut — den visner straks."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Serve",
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér"
+          },
+          "text": {
+            "en": "Ladle into deep bowls. Top with sliced spring onion, fresh chili, and a wedge of lime. Chili oil if you have it.",
+            "sv": "Slev upp i djupa skålar. Toppa med skivad salladslök, färsk chili och en limeklyfta. Chiliolja om du har.",
+            "no": "Øs i dype boller. Topp med skåret vårløk, fersk chili og en limebåt. Chiliolje om du har.",
+            "da": "Øs i dybe skåle. Top med skåret forårsløg, frisk chili og en limebåd. Chiliolie hvis du har."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-25"
+    },
+    {
+      "id": "celery_soup",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-25",
+      "title": {
+        "en": "Creamy celery soup",
+        "sv": "Krämig sellerisoppa",
+        "no": "Kremet stangsellerisuppe",
+        "da": "Cremet bladsellerisuppe"
+      },
+      "description": {
+        "en": "Celery is the underrated hero of the soup world: cook it long enough and its vegetal edge mellows into something almost sweet. A few potatoes give body without the need for heavy cream, though a small splash rounds everything out. This is the soup for using up the celery that always seems to multiply in the vegetable drawer.",
+        "sv": "Selleri är soppvärldens underskattade hjälte: koka det tillräckligt länge och dess grönsakskant mjuknar till något nästan sött. Några potatisar ger kropp utan att behöva tung grädde, även om en liten skvätt rundar av allt. Detta är soppan för att använda upp sellerien som alltid verkar växa sig i grönsakslådan.",
+        "no": "Stangselleri er suppeverdenens undervurderte helt: kok det lenge nok og den grønnsaksaktige kanten mykner til noe nesten søtt. Noen poteter gir kropp uten å trenge tung fløte, selv om en liten skvett runder av alt. Dette er suppen for å bruke opp sellerien som alltid ser ut til å formere seg i grønnsakskuffen.",
+        "da": "Bladselleri er suppeverdenens undervurderede helt: kog det længe nok og den grøntsagsagtige kant mildnes til noget næsten sødt. Nogle kartofler giver kroppen uden brug af tung fløde, selvom et lille skvæt runder det hele af. Det her er suppen til at bruge bladselleri op når det altid ser ud til at formere sig i grøntsagsskuffen."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 30,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "soup",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "celery",
+          "amount": 8,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 2,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "potato",
+          "amount": 300,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 30,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 1,
+          "unit": "msk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "beef_stock",
+          "amount": 10,
+          "unit": "dl",
+          "group": "soup",
+          "note_locale": {
+            "en": "vegetable stock also fine",
+            "sv": "grönsaksbuljong funkar också",
+            "no": "grønnsakskraft fungerer også",
+            "da": "grøntsagsbouillon virker også"
+          }
+        },
+        {
+          "ingredient_id": "cream_15",
+          "amount": 1,
+          "unit": "dl",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 3,
+          "unit": "krm",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "parsley_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "finish"
+        },
+        {
+          "ingredient_id": "lemon",
+          "amount": 0.5,
+          "unit": "st",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Sweat the aromatics",
+            "sv": "Fräs aromerna",
+            "no": "Svett aromaene",
+            "da": "Svits aromaerne"
+          },
+          "text": {
+            "en": "Chop the celery, onion, and garlic roughly. Melt butter and olive oil in a heavy pot over medium-low heat. Sweat everything 10 minutes, stirring, until vegetables are soft but not browned.",
+            "sv": "Hacka selleri, lök och vitlök grovt. Smält smör och olivolja i en tjockbottnad gryta på låg medelvärme. Fräs allt 10 minuter, rör ofta, tills grönsakerna är mjuka men inte brynta.",
+            "no": "Hakk selleri, løk og hvitløk grovt. Smelt smør og olivenolje i en tykkbunnet gryte på lav middels varme. Svett alt 10 minutter, rør ofte, til grønnsakene er myke men ikke brunet.",
+            "da": "Hak bladselleri, løg og hvidløg groft. Smelt smør og olivenolie i en tykbundet gryde ved lav middelvarme. Svits alt 10 minutter, rør ofte, til grøntsagerne er bløde men ikke brunede."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Add potato and stock",
+            "sv": "Tillsätt potatis och buljong",
+            "no": "Tilsett potet og kraft",
+            "da": "Tilsæt kartoffel og bouillon"
+          },
+          "text": {
+            "en": "Peel and dice the potato. Add to the pot with stock, salt, and pepper. Bring to a boil, reduce heat, simmer 20 minutes until potato is tender.",
+            "sv": "Skala och tärna potatisen. Tillsätt i grytan med buljong, salt och peppar. Koka upp, sänk värmen, låt sjuda 20 minuter tills potatisen är mjuk.",
+            "no": "Skrell og tern poteten. Tilsett i gryten med kraft, salt og pepper. Kok opp, skru ned varmen, la småkoke 20 minutter til poteten er mør.",
+            "da": "Skræl og tern kartoflen. Tilsæt i gryden med bouillon, salt og peber. Kog op, skru varmen ned, lad småsimre 20 minutter til kartoflen er mør."
+          },
+          "timer_seconds": 1200
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Blend smooth",
+            "sv": "Mixa slät",
+            "no": "Miks glatt",
+            "da": "Blend glat"
+          },
+          "text": {
+            "en": "Use a stick blender to purée the soup smooth. Stir in the cream. Taste — celery soups often need a second pinch of salt and always benefit from acid.",
+            "sv": "Använd stavmixer för att mixa soppan slät. Rör i grädden. Smaka — sellerisoppor behöver ofta en andra nypa salt och har alltid nytta av syra.",
+            "no": "Bruk stavmikser for å mikse suppen glatt. Rør inn fløten. Smak — stangsellerisupper trenger ofte en andre klype salt og har alltid nytte av syre.",
+            "da": "Brug stavblender til at blende suppen glat. Rør fløden i. Smag — bladsellerisupper har ofte brug for en anden knivspids salt og har altid gavn af syre."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Finish and serve",
+            "sv": "Avsluta och servera",
+            "no": "Avslutt og server",
+            "da": "Afslut og servér"
+          },
+          "text": {
+            "en": "Squeeze in lemon juice — start with half the lemon, taste, add more. Serve in warm bowls topped with chopped parsley and a final drizzle of olive oil.",
+            "sv": "Krama i citronsaft — börja med halva citronen, smaka, tillsätt mer. Servera i varma skålar toppade med hackad persilja och en sista skvätt olivolja.",
+            "no": "Klem inn sitronsaft — start med halve sitronen, smak, tilsett mer. Server i varme boller toppet med hakket persille og en siste skvett olivenolje.",
+            "da": "Pres citronsaft i — start med halvdelen af citronen, smag, tilsæt mere. Servér i varme skåle toppet med hakket persille og et sidste skvæt olivenolie."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-25"
+    },
+    {
+      "id": "cabbage_soup_danish",
+      "locale_of_authorship": "da",
+      "category": "family_meal",
+      "added_at": "2026-04-25",
+      "title": {
+        "da": "Dansk hvidkålssuppe",
+        "sv": "Dansk vitkålssoppa",
+        "no": "Dansk hvitkålsuppe",
+        "en": "Danish white cabbage soup"
+      },
+      "description": {
+        "da": "Hvidkålssuppe er dansk vintermad når den er bedst: sød kål langtidskogt med lidt fedt flæsk og gulerødder til en fyldig, trøstende suppe med knap noget arbejde. Kålen bliver så mør at den nærmest smelter i munden, og kraften får en dyb smag fra flæskets fedtstof. Server med et godt stykke rugbrød og smør.",
+        "sv": "Vitkålssoppa är dansk vintermat när den är som bäst: söt kål långtidskokt med lite fett fläsk och morötter till en fyllig, tröstande soppa med nästan inget arbete. Kålen blir så mjuk att den nästan smälter i munnen, och buljongen får en djup smak från fläskets fett. Servera med en bra bit rågbröd och smör.",
+        "no": "Hvitkålssuppe er dansk vintermat på sitt beste: søt kål langtidskokt med litt fett flesk og gulrøtter til en fyldig, trøstende suppe med nesten ingen jobb. Kålen blir så mør at den nesten smelter i munnen, og kraften får en dyp smak fra fleskets fett. Server med et godt stykke rugbrød og smør.",
+        "en": "White cabbage soup is Danish winter food at its finest: sweet cabbage slow-cooked with a bit of fatty pork and carrots into a full-bodied, comforting soup with almost no effort. The cabbage becomes so tender it almost melts on the tongue, and the broth picks up deep flavor from the pork fat. Serve with a good slice of rye bread and butter."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 60,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "soup",
+        "danish",
+        "winter",
+        "classic"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "pork_belly",
+          "amount": 200,
+          "unit": "g",
+          "group": "soup",
+          "note_locale": {
+            "da": "i terninger",
+            "sv": "i tärningar",
+            "no": "i terninger",
+            "en": "cubed"
+          }
+        },
+        {
+          "ingredient_id": "cabbage_white",
+          "amount": 700,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "carrot",
+          "amount": 3,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 2,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "potato",
+          "amount": 400,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "beef_stock",
+          "amount": 15,
+          "unit": "dl",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "allspice_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 3,
+          "unit": "krm",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "parsley_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "da": "Steg flæsket",
+            "sv": "Stek fläsket",
+            "no": "Stek flesket",
+            "en": "Render the pork"
+          },
+          "text": {
+            "da": "Læg flæsketerningerne i en stor tør gryde på middelvarme. Steg 5–7 minutter, til fedtet er udsmeltet og terningerne er gyldne. Efterlad fedtet i gryden.",
+            "sv": "Lägg fläsksterningarna i en stor torr gryta på medelvärme. Stek 5–7 minuter tills fettet smält och terningarna är gyllene. Lämna fettet i grytan.",
+            "no": "Legg flesketerningene i en stor tørr gryte på middels varme. Stek 5–7 minutter til fettet er smeltet ut og terningene er gyldne. La fettet bli igjen i gryten.",
+            "en": "Put the pork cubes in a large dry pot over medium heat. Render 5–7 minutes until the fat melts out and the cubes are golden. Leave the fat in the pot."
+          },
+          "timer_seconds": 420
+        },
+        {
+          "order": 2,
+          "title": {
+            "da": "Tilsæt grøntsager",
+            "sv": "Tillsätt grönsakerna",
+            "no": "Tilsett grønnsakene",
+            "en": "Add the vegetables"
+          },
+          "text": {
+            "da": "Skær kålen i strimler, løgene i både, gulerødderne og kartoflerne i store tern. Tilsæt alt i gryden og vend rundt i fedtet 2 minutter.",
+            "sv": "Strimla kålen, skär löken i klyftor, morötter och potatis i stora tärningar. Tillsätt allt i grytan och vänd runt i fettet 2 minuter.",
+            "no": "Strimle kålen, skjær løken i båter, gulrøtter og poteter i store terninger. Tilsett alt i gryten og vend rundt i fettet 2 minutter.",
+            "en": "Shred the cabbage, cut onions into wedges, carrots and potatoes into large cubes. Add everything to the pot and toss in the fat 2 minutes."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "da": "Kog længe",
+            "sv": "Koka länge",
+            "no": "Kok lenge",
+            "en": "Simmer long"
+          },
+          "text": {
+            "da": "Hæld bouillon over, tilsæt allehånde, salt og peber. Kog op, skru ned til lav varme, og lad simre under låg i 45 minutter til kålen er helt mør.",
+            "sv": "Häll på buljong, tillsätt kryddpeppar, salt och peppar. Koka upp, sänk värmen och låt sjuda under lock 45 minuter tills kålen är helt mjuk.",
+            "no": "Hell kraft over, tilsett allehånde, salt og pepper. Kok opp, skru ned varmen og la småkoke under lokk 45 minutter til kålen er helt mør.",
+            "en": "Pour in the stock, add allspice, salt, and pepper. Bring to a boil, reduce heat, and simmer covered 45 minutes until the cabbage is completely tender."
+          },
+          "timer_seconds": 2700
+        },
+        {
+          "order": 4,
+          "title": {
+            "da": "Servér",
+            "sv": "Servera",
+            "no": "Server",
+            "en": "Serve"
+          },
+          "text": {
+            "da": "Smag til med mere salt og peber. Øs op i dybe tallerkener, drys med frisk persille. Server med rugbrød og smør.",
+            "sv": "Smaka av med mer salt och peppar. Ös upp i djupa tallrikar, strö färsk persilja. Servera med rågbröd och smör.",
+            "no": "Smak til med mer salt og pepper. Øs opp i dype tallerkener, dryss fersk persille. Server med rugbrød og smør.",
+            "en": "Taste and adjust salt and pepper. Ladle into deep bowls, scatter with fresh parsley. Serve with rye bread and butter."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-25"
+    },
+    {
+      "id": "taco_soup",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-25",
+      "title": {
+        "en": "Taco soup",
+        "sv": "Tacosoppa",
+        "no": "Tacosuppe",
+        "da": "Tacosuppe"
+      },
+      "description": {
+        "en": "Taco soup is what happens when a Tex-Mex kitchen decides everything should be in one bowl: seasoned ground beef, beans, corn, tomatoes, and all the toppings. It lives in the no-man's-land between chili and fajitas, and it is absurdly satisfying. Twenty minutes of active work, done.",
+        "sv": "Tacosoppa är vad som händer när ett Tex-Mex-kök bestämmer att allt ska vara i en skål: kryddad nötfärs, bönor, majs, tomater och alla toppingar. Det lever i ingenmansland mellan chili och fajitas, och är absurt tillfredsställande. Tjugo minuters aktivt arbete, klart.",
+        "no": "Tacosuppe er hva som skjer når et Tex-Mex-kjøkken bestemmer at alt skal være i én bolle: krydret kjøttdeig, bønner, mais, tomater og alle toppingene. Den lever i ingenmannsland mellom chili og fajitas, og er absurd tilfredsstillende. Tjue minutters aktivt arbeid, ferdig.",
+        "da": "Tacosuppe er hvad der sker når et Tex-Mex-køkken beslutter at alt skal være i én skål: krydret hakket kød, bønner, majs, tomater og alle toppingsene. Den lever i ingenmandsland mellem chili og fajitas, og er absurd tilfredsstillende. Tyve minutters aktivt arbejde, færdig."
+      },
+      "servings": 6,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 30,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "soup",
+        "tex_mex",
+        "weeknight"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "beef_ground",
+          "amount": 500,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 3,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "bell_pepper_red",
+          "amount": 1,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 2,
+          "unit": "msk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "cumin_ground",
+          "amount": 2,
+          "unit": "tsk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "paprika_ground",
+          "amount": 2,
+          "unit": "tsk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "chili_red_fresh",
+          "amount": 1,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1.5,
+          "unit": "tsk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "tomato_canned",
+          "amount": 800,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "kidney_beans_canned",
+          "amount": 400,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "corn_canned",
+          "amount": 300,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "beef_stock",
+          "amount": 5,
+          "unit": "dl",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "cheddar_cheese",
+          "amount": 100,
+          "unit": "g",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "sour_cream",
+          "amount": 1,
+          "unit": "dl",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "cilantro_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "lime",
+          "amount": 1,
+          "unit": "st",
+          "group": "topping"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Brown the beef",
+            "sv": "Bryn köttet",
+            "no": "Brun kjøttet",
+            "da": "Brun kødet"
+          },
+          "text": {
+            "en": "Heat olive oil in a large pot over medium-high. Brown the ground beef, breaking up with a spoon, 5 minutes. Drain excess fat if needed.",
+            "sv": "Värm olivolja i en stor gryta på hög medelvärme. Bryn nötfärsen, bryt upp med en sked, 5 minuter. Häll av överflödigt fett vid behov.",
+            "no": "Varm olivenolje i en stor gryte på middels høy varme. Brun kjøttdeigen, bryt opp med en skje, 5 minutter. Hell av overflødig fett om nødvendig.",
+            "da": "Varm olivenolie i en stor gryde ved middelhøj varme. Brun hakket kød, bryd op med en ske, 5 minutter. Hæld overflødigt fedt fra om nødvendigt."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Add vegetables and spices",
+            "sv": "Tillsätt grönsaker och kryddor",
+            "no": "Tilsett grønnsaker og krydder",
+            "da": "Tilsæt grøntsager og krydderier"
+          },
+          "text": {
+            "en": "Add chopped onion and diced bell pepper. Cook 5 minutes until soft. Stir in minced garlic, sliced chili, cumin, paprika, and salt. Cook 1 minute until fragrant.",
+            "sv": "Tillsätt hackad lök och tärnad paprika. Stek 5 minuter tills mjuka. Rör i pressad vitlök, skivad chili, spiskummin, paprikapulver och salt. Stek 1 minut tills doftande.",
+            "no": "Tilsett hakket løk og ternet paprika. Stek 5 minutter til myk. Rør i presset hvitløk, skåret chili, spisskummen, paprikapulver og salt. Stek 1 minutt til duftende.",
+            "da": "Tilsæt hakket løg og ternet peberfrugt. Steg 5 minutter til blødt. Rør presset hvidløg, skåret chili, spidskommen, paprika og salt i. Steg 1 minut til duftende."
+          },
+          "timer_seconds": 360
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Build and simmer",
+            "sv": "Bygg och sjud",
+            "no": "Bygg og småkok",
+            "da": "Byg og småsimr"
+          },
+          "text": {
+            "en": "Add canned tomatoes, stock, drained and rinsed kidney beans, and drained corn. Bring to a boil, reduce heat, simmer 20 minutes for flavors to meld.",
+            "sv": "Tillsätt krossade tomater, buljong, avrunna och sköljda kidneybönor och avrunnen majs. Koka upp, sänk värmen, låt sjuda 20 minuter för att smakerna ska gifta sig.",
+            "no": "Tilsett hermetiske tomater, kraft, avrunne og skylte kidneybønner og avrunnet mais. Kok opp, skru ned varmen, la småkoke 20 minutter så smakene gifter seg.",
+            "da": "Tilsæt flåede tomater, bouillon, drænede og skyllede kidneybønner og drænet majs. Kog op, skru varmen ned, lad småsimre 20 minutter så smagene gifter sig."
+          },
+          "timer_seconds": 1200
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Serve with toppings",
+            "sv": "Servera med toppings",
+            "no": "Server med topping",
+            "da": "Servér med topping"
+          },
+          "text": {
+            "en": "Taste — usually needs another pinch of salt. Ladle into bowls and top with grated cheddar, a dollop of sour cream, chopped cilantro, and a squeeze of lime. Tortilla chips on the side for crunch.",
+            "sv": "Smaka av — behöver oftast en nypa salt till. Ös upp i skålar och toppa med riven cheddar, en klick gräddfil, hackad koriander och en klick lime. Tortillachips bredvid för krisp.",
+            "no": "Smak til — trenger som regel en ekstra klype salt. Øs opp i boller og topp med revet cheddar, en klatt rømme, hakket koriander og en skvett lime. Tortillachips ved siden for sprø.",
+            "da": "Smag til — skal som regel have en ekstra knivspids salt. Øs op i skåle og top med revet cheddar, en klat cremefraiche, hakket koriander og et squeeze lime. Tortillachips ved siden for sprødhed."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-25"
+    },
+    {
+      "id": "curry_chickpea_soup",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-25",
+      "title": {
+        "en": "Vegetarian curry soup with chickpeas",
+        "sv": "Vegetarisk currysoppa med kikärter",
+        "no": "Vegetarisk karrisuppe med kikerter",
+        "da": "Vegetarisk karrysuppe med kikærter"
+      },
+      "description": {
+        "en": "This is a weeknight fix for when you need something warming, filling, and vegetarian in 25 minutes: canned chickpeas, coconut milk, tomatoes, and a handful of Indian spices bloomed in the pan for depth. The spinach goes in at the end, folding into the golden broth. Serve with rice or simply warm naan.",
+        "sv": "Detta är en vardagsfix för när du behöver något värmande, mättande och vegetariskt på 25 minuter: kikärter, kokosmjölk, tomater och en handfull indiska kryddor blommade i pannan för djup. Spenaten går i på slutet, viks in i den gyllene buljongen. Servera med ris eller helt enkelt varm naan.",
+        "no": "Dette er en hverdagsfix for når du trenger noe varmende, mettende og vegetarisk på 25 minutter: kikerter, kokosmelk, tomater og en håndfull indiske krydder blomstret i pannen for dybde. Spinaten går inn på slutten, vendes inn i den gylne kraften. Server med ris eller bare varm naan.",
+        "da": "Det her er en hverdagsfix for når du har brug for noget varmende, mættende og vegetarisk på 25 minutter: kikærter, kokosmælk, tomater og en håndfuld indiske krydderier blomstret i panden for dybde. Spinaten går i til sidst, vendes ind i den gyldne bouillon. Servér med ris eller bare varm naan."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 20,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "soup",
+        "vegetarian",
+        "indian_inspired"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 3,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "ginger_fresh",
+          "amount": 20,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 2,
+          "unit": "msk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "garam_masala",
+          "amount": 1.5,
+          "unit": "tsk",
+          "group": "spice"
+        },
+        {
+          "ingredient_id": "turmeric_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "spice"
+        },
+        {
+          "ingredient_id": "cumin_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "spice"
+        },
+        {
+          "ingredient_id": "tomato_paste",
+          "amount": 2,
+          "unit": "msk",
+          "group": "spice"
+        },
+        {
+          "ingredient_id": "tomato_canned",
+          "amount": 400,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "chickpeas_canned",
+          "amount": 400,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "coconut_milk",
+          "amount": 4,
+          "unit": "dl",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "beef_stock",
+          "amount": 4,
+          "unit": "dl",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "spinach_fresh",
+          "amount": 200,
+          "unit": "g",
+          "group": "greens"
+        },
+        {
+          "ingredient_id": "lime",
+          "amount": 1,
+          "unit": "st",
+          "group": "finish"
+        },
+        {
+          "ingredient_id": "cilantro_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Sweat aromatics",
+            "sv": "Fräs aromerna",
+            "no": "Svett aromaene",
+            "da": "Svits aromaerne"
+          },
+          "text": {
+            "en": "Chop onion finely. Heat oil in a pot over medium heat, cook onion 5 minutes until soft. Add grated garlic and ginger, cook 1 minute.",
+            "sv": "Hacka löken fint. Värm olja i en gryta på medelvärme, fräs löken 5 minuter tills mjuk. Tillsätt riven vitlök och ingefära, fräs 1 minut.",
+            "no": "Hakk løken fint. Varm olje i en gryte på middels varme, stek løken 5 minutter til myk. Tilsett revet hvitløk og ingefær, stek 1 minutt.",
+            "da": "Hak løget fint. Varm olie i en gryde ved middelvarme, steg løget 5 minutter til blødt. Tilsæt revet hvidløg og ingefær, steg 1 minut."
+          },
+          "timer_seconds": 360
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Bloom spices",
+            "sv": "Blomma kryddorna",
+            "no": "Blomstre krydderne",
+            "da": "Lad krydderierne blomstre"
+          },
+          "text": {
+            "en": "Add garam masala, turmeric, cumin, and tomato paste. Cook 1 minute, stirring constantly — the oil will turn deep orange and everything will smell intoxicating.",
+            "sv": "Tillsätt garam masala, gurkmeja, spiskummin och tomatpuré. Stek 1 minut under konstant omrörning — oljan blir djupt orange och allt kommer att dofta berusande.",
+            "no": "Tilsett garam masala, gurkemeie, spisskummen og tomatpuré. Stek 1 minutt under konstant omrøring — oljen blir dypt oransje og alt vil dufte berusende.",
+            "da": "Tilsæt garam masala, gurkemeje, spidskommen og tomatpuré. Steg 1 minut under konstant omrøring — olien bliver dybt orange og alt vil dufte berusende."
+          },
+          "timer_seconds": 60
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Add liquids and simmer",
+            "sv": "Tillsätt vätskor och sjud",
+            "no": "Tilsett væsker og småkok",
+            "da": "Tilsæt væsker og småsimr"
+          },
+          "text": {
+            "en": "Pour in canned tomatoes, drained chickpeas, coconut milk, stock, and salt. Simmer 15 minutes.",
+            "sv": "Häll i krossade tomater, avrunna kikärter, kokosmjölk, buljong och salt. Sjud 15 minuter.",
+            "no": "Hell i hermetiske tomater, avrunne kikerter, kokosmelk, kraft og salt. La småkoke 15 minutter.",
+            "da": "Hæld flåede tomater, drænede kikærter, kokosmælk, bouillon og salt i. Lad småsimre 15 minutter."
+          },
+          "timer_seconds": 900
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Add spinach and finish",
+            "sv": "Tillsätt spenat och avsluta",
+            "no": "Tilsett spinat og avslutt",
+            "da": "Tilsæt spinat og afslut"
+          },
+          "text": {
+            "en": "Stir in spinach, cook just until wilted, 2 minutes. Squeeze in lime juice. Taste for salt. Serve in bowls topped with fresh cilantro.",
+            "sv": "Rör i spenaten, koka bara tills den viker ner sig, 2 minuter. Krama i limesaft. Smaka av med salt. Servera i skålar toppade med färsk koriander.",
+            "no": "Rør inn spinaten, kok bare til den visner, 2 minutter. Klem inn limesaft. Smak til med salt. Server i boller toppet med fersk koriander.",
+            "da": "Rør spinaten i, kog kun til den visner, 2 minutter. Pres limesaft i. Smag til med salt. Servér i skåle toppet med frisk koriander."
+          },
+          "timer_seconds": 120
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-25"
+    },
+    {
+      "id": "mussel_soup_cream",
+      "locale_of_authorship": "da",
+      "category": "dinner",
+      "added_at": "2026-04-25",
+      "title": {
+        "da": "Blåmuslingsuppe med hvidvin",
+        "sv": "Blåmusselsoppa med vitt vin",
+        "no": "Blåskjellsuppe med hvitvin",
+        "en": "Blue mussel soup with white wine"
+      },
+      "description": {
+        "da": "Blåmuslinger kogt i deres egen saft med løg, hvidløg og hvidvin — det er den enkleste rige suppe du kan lave, og den er færdig på under en halv time. Muslingerne afgiver al deres havssmag i kraften, og et skvæt fløde rundet af med persille gør det til noget mere end bare skaldyr og væske. Server med brød til at dyppe.",
+        "sv": "Blåmusslor kokade i sin egen saft med lök, vitlök och vitt vin — det är den enklaste rika soppa du kan göra, och den är klar på under en halvtimme. Musslorna avger all sin havssmak i buljongen, och en skvätt grädde avrundad med persilja gör det till något mer än bara skaldjur och vätska. Servera med bröd att doppa med.",
+        "no": "Blåskjell kokt i sin egen saft med løk, hvitløk og hvitvin — det er den enkleste rike suppen du kan lage, og den er ferdig på under en halvtime. Skjellene avgir all sin havssmak i kraften, og en skvett fløte rundet av med persille gjør det til noe mer enn bare skalldyr og væske. Server med brød å dyppe med.",
+        "en": "Blue mussels cooked in their own juice with onion, garlic, and white wine — the simplest rich soup you can make, ready in under half an hour. The mussels give up all their sea flavor to the broth, and a splash of cream finished with parsley turns it into something more than just shellfish and liquid. Serve with bread for dipping."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 20,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "soup",
+        "seafood",
+        "nordic",
+        "french_inspired"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "blue_mussels",
+          "amount": 1500,
+          "unit": "g",
+          "group": "mussels",
+          "note_locale": {
+            "da": "med skal, rengjorte",
+            "sv": "med skal, rengjorda",
+            "no": "med skall, renset",
+            "en": "in shell, cleaned"
+          }
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 3,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "celery",
+          "amount": 2,
+          "unit": "st",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 40,
+          "unit": "g",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 3,
+          "unit": "dl",
+          "group": "soup",
+          "note_locale": {
+            "da": "eller hvidvin",
+            "sv": "eller vitt vin",
+            "no": "eller hvitvin",
+            "en": "or white wine"
+          }
+        },
+        {
+          "ingredient_id": "cream_36",
+          "amount": 2,
+          "unit": "dl",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 3,
+          "unit": "krm",
+          "group": "soup"
+        },
+        {
+          "ingredient_id": "parsley_fresh",
+          "amount": 1,
+          "unit": "dl",
+          "group": "finish"
+        },
+        {
+          "ingredient_id": "lemon",
+          "amount": 0.5,
+          "unit": "st",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "da": "Rens muslingerne",
+            "sv": "Rengör musslorna",
+            "no": "Rens skjellene",
+            "en": "Clean the mussels"
+          },
+          "text": {
+            "da": "Skrub muslingerne rene under koldt vand. Kassér åbne muslinger der ikke lukker når du banker på dem — de er døde. Fjern eventuelle \"skæg\" (trådene der stikker ud af siden).",
+            "sv": "Skrubba musslorna rena under kallt vatten. Kassera öppna musslor som inte stänger när du knackar på dem — de är döda. Ta bort eventuella \"skägg\" (trådarna som sticker ut ur sidan).",
+            "no": "Skrubb skjellene rene under kaldt vann. Kaster åpne skjell som ikke lukker seg når du banker på dem — de er døde. Fjern eventuelle \"skjegg\" (trådene som stikker ut av siden).",
+            "en": "Scrub the mussels under cold water. Discard any open ones that do not close when tapped — they are dead. Pull off any \"beards\" (the wiry threads sticking out of the side)."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "da": "Svits aromaerne",
+            "sv": "Fräs aromerna",
+            "no": "Svett aromaene",
+            "en": "Sweat the aromatics"
+          },
+          "text": {
+            "da": "Hak løg, hvidløg og bladselleri fint. Smelt smørret i en stor gryde, svits grøntsagerne 5 minutter til bløde og gyldne.",
+            "sv": "Hacka lök, vitlök och selleri fint. Smält smöret i en stor gryta, fräs grönsakerna 5 minuter tills mjuka och gyllene.",
+            "no": "Hakk løk, hvitløk og stangselleri fint. Smelt smøret i en stor gryte, stek grønnsakene 5 minutter til myke og gylne.",
+            "en": "Finely chop onion, garlic, and celery. Melt butter in a large pot, sweat the vegetables 5 minutes until soft and just golden."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "order": 3,
+          "title": {
+            "da": "Damp muslingerne",
+            "sv": "Ånga musslorna",
+            "no": "Damp skjellene",
+            "en": "Steam the mussels"
+          },
+          "text": {
+            "da": "Hæld vand (eller vin) i gryden og kog op. Tilsæt muslingerne, læg låg på og damp 5–6 minutter, ryst gryden et par gange. Alle muslinger skal være åbne — kassér dem der forbliver lukkede.",
+            "sv": "Häll vatten (eller vin) i grytan och koka upp. Tillsätt musslorna, lägg på lock och ånga 5–6 minuter, skaka grytan ett par gånger. Alla musslor ska vara öppna — kassera de som förblir stängda.",
+            "no": "Hell vann (eller vin) i gryten og kok opp. Tilsett skjellene, legg på lokk og damp 5–6 minutter, rist gryten et par ganger. Alle skjell skal være åpne — kast de som forblir lukket.",
+            "en": "Pour water (or wine) into the pot and bring to a boil. Add the mussels, cover, and steam 5–6 minutes, shaking the pot a couple of times. All mussels should open — discard any that stay shut."
+          },
+          "timer_seconds": 360
+        },
+        {
+          "order": 4,
+          "title": {
+            "da": "Færdiggør bouillonen",
+            "sv": "Färdigställ buljongen",
+            "no": "Ferdigstill kraften",
+            "en": "Finish the broth"
+          },
+          "text": {
+            "da": "Tag muslingerne op med hulske og hold dem varme. Sigt bouillonen gennem et fint sigte for at fjerne sand. Hæld den tilbage i gryden, rør fløden i, smag til med salt og peber.",
+            "sv": "Ta upp musslorna med hålslev och håll dem varma. Sila buljongen genom en finmaskig sil för att avlägsna sand. Häll tillbaka i grytan, rör i grädden, smaka av med salt och peppar.",
+            "no": "Ta opp skjellene med hullsleiv og hold dem varme. Sil kraften gjennom en finmasket sil for å fjerne sand. Hell tilbake i gryten, rør inn fløten, smak til med salt og pepper.",
+            "en": "Lift the mussels out with a slotted spoon and keep warm. Strain the broth through a fine sieve to remove sand. Return to the pot, stir in cream, season with salt and pepper."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 5,
+          "title": {
+            "da": "Servér",
+            "sv": "Servera",
+            "no": "Server",
+            "en": "Serve"
+          },
+          "text": {
+            "da": "Del muslingerne i dybe tallerkener, hæld varm bouillon over, drys rigeligt med hakket persille og en sprøjt citron. Server med godt brød.",
+            "sv": "Dela musslorna i djupa tallrikar, häll varm buljong över, strö rikligt med hackad persilja och en klick citron. Servera med gott bröd.",
+            "no": "Fordel skjellene i dype tallerkener, hell varm kraft over, dryss rikelig med hakket persille og en skvett sitron. Server med godt brød.",
+            "en": "Divide the mussels among deep bowls, pour hot broth over, scatter generously with chopped parsley and a squeeze of lemon. Serve with good bread."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-25"
+    },
+    {
+      "id": "easy_meat_sauce_vegetables",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-25",
+      "title": {
+        "en": "Easy meat sauce with vegetables",
+        "sv": "Enkel köttfärssås med grönsaker",
+        "no": "Enkel kjøttsaus med grønnsaker",
+        "da": "Nem kødsovs med grøntsager"
+      },
+      "description": {
+        "en": "Every family needs a go-to meat sauce recipe, and this is a sturdy one: ground beef, onion, carrot, bell pepper, canned tomatoes, a little paste for depth. It simmers for 40 minutes if you have time, 20 if you don't. Serve over pasta, polenta, or just a good baked potato — it makes anything better. Doubles for freezing.",
+        "sv": "Varje familj behöver ett pålitligt köttfärssåsrecept, och detta är ett stabilt: nötfärs, lök, morot, paprika, krossade tomater, lite puré för djup. Den sjuder 40 minuter om du har tid, 20 om du inte har. Servera över pasta, polenta eller bara en bakad potatis — den gör allt bättre. Dubbla gärna för frysning.",
+        "no": "Hver familie trenger en favoritt-kjøttsaus, og dette er en pålitelig en: kjøttdeig, løk, gulrot, paprika, hermetiske tomater, litt puré for dybde. Den småkoker 40 minutter hvis du har tid, 20 hvis du ikke har. Server over pasta, polenta eller bare en god bakt potet — den gjør alt bedre. Dobler gjerne for frysing.",
+        "da": "Hver familie har brug for en go-to kødsovs, og det her er en solid: hakket oksekød, løg, gulerod, peberfrugt, flåede tomater, lidt puré for dybde. Den simrer 40 minutter hvis du har tid, 20 hvis du ikke har. Servér over pasta, polenta eller bare en god bagt kartoffel — den gør alt bedre. Fordobler sig gerne til frysning."
+      },
+      "servings": 6,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 40,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "weeknight",
+        "comfort",
+        "freezer_friendly"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "beef_ground",
+          "amount": 600,
+          "unit": "g",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "carrot",
+          "amount": 2,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "bell_pepper_red",
+          "amount": 1,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 3,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "olive_oil",
+          "amount": 2,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "tomato_paste",
+          "amount": 2,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "tomato_canned",
+          "amount": 800,
+          "unit": "g",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "beef_stock",
+          "amount": 2,
+          "unit": "dl",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "paprika_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1.5,
+          "unit": "tsk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 3,
+          "unit": "krm",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "basil_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Soffritto base",
+            "sv": "Soffritto-bas",
+            "no": "Soffritto-base",
+            "da": "Soffritto-base"
+          },
+          "text": {
+            "en": "Finely chop onion, carrot, and bell pepper. Heat olive oil in a large pan over medium heat and soften the vegetables 8 minutes until sweet and translucent.",
+            "sv": "Hacka lök, morot och paprika fint. Värm olivolja i en stor panna på medelvärme och fräs grönsakerna 8 minuter tills söta och genomskinliga.",
+            "no": "Hakk løk, gulrot og paprika fint. Varm olivenolje i en stor panne på middels varme og stek grønnsakene 8 minutter til søte og gjennomsiktige.",
+            "da": "Hak løg, gulerod og peberfrugt fint. Varm olivenolie i en stor pande ved middelvarme og svits grøntsagerne 8 minutter til søde og gennemsigtige."
+          },
+          "timer_seconds": 480
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Brown the beef",
+            "sv": "Bryn köttet",
+            "no": "Brun kjøttet",
+            "da": "Brun kødet"
+          },
+          "text": {
+            "en": "Push vegetables to one side. Add the ground beef to the empty half, let it brown 3 minutes without moving, then break up and cook 5 minutes more until browned. Add grated garlic, cook 1 minute.",
+            "sv": "Skjut grönsakerna åt sidan. Tillsätt nötfärsen i den tomma halvan, låt den brynas 3 minuter utan att röra, bryt sedan upp och stek 5 minuter till tills brunt. Tillsätt riven vitlök, stek 1 minut.",
+            "no": "Skyv grønnsakene til siden. Tilsett kjøttdeigen i den tomme halvdelen, la den brune 3 minutter uten å røre, bryt deretter opp og stek 5 minutter til brunet. Tilsett revet hvitløk, stek 1 minutt.",
+            "da": "Skub grøntsagerne til siden. Tilsæt hakket kød i den tomme halvdel, lad det brune 3 minutter uden at røre, bryd derefter op og steg 5 minutter mere til brunet. Tilsæt revet hvidløg, steg 1 minut."
+          },
+          "timer_seconds": 540
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Build the sauce",
+            "sv": "Bygg såsen",
+            "no": "Bygg sausen",
+            "da": "Byg sovsen"
+          },
+          "text": {
+            "en": "Stir in tomato paste and paprika, cook 1 minute until paste darkens. Add canned tomatoes, stock, salt, pepper, and sugar. Bring to a simmer.",
+            "sv": "Rör i tomatpuré och paprikapulver, stek 1 minut tills purén mörknar. Tillsätt krossade tomater, buljong, salt, peppar och socker. Låt sjuda.",
+            "no": "Rør i tomatpuré og paprikapulver, stek 1 minutt til purén mørkner. Tilsett hermetiske tomater, kraft, salt, pepper og sukker. Kok opp.",
+            "da": "Rør tomatpuré og paprika i, steg 1 minut til puréen mørkner. Tilsæt flåede tomater, bouillon, salt, peber og sukker. Lad småsimre."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Simmer",
+            "sv": "Sjud",
+            "no": "Småkok",
+            "da": "Småsimr"
+          },
+          "text": {
+            "en": "Simmer uncovered 30 minutes, stirring occasionally, until thickened and deep red. Taste and adjust salt. Fold in fresh basil off the heat.",
+            "sv": "Sjud utan lock 30 minuter under omrörning tills den tjocknat och blivit djupt röd. Smaka av och justera salt. Vänd i färsk basilika borta från värmen.",
+            "no": "La småkoke uten lokk 30 minutter under omrøring til tyknet og dypt rød. Smak til og juster salt. Vend inn fersk basilikum borte fra varmen.",
+            "da": "Lad småsimre uden låg 30 minutter under omrøring til tyknet og dybrød. Smag til og juster salt. Vend frisk basilikum i væk fra varmen."
+          },
+          "timer_seconds": 1800
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Serve",
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér"
+          },
+          "text": {
+            "en": "Serve over cooked pasta with a generous shower of parmesan. Leftover sauce freezes beautifully — portion into containers for future weeknight rescues.",
+            "sv": "Servera över kokt pasta med en generös skur parmesan. Rester fryser fint — portionera i behållare för framtida vardagskvällsräddningar.",
+            "no": "Server over kokt pasta med en sjenerøs dusj parmesan. Rester fryser fint — porsjoner i beholdere for fremtidige hverdagsreddninger.",
+            "da": "Servér over kogt pasta med en gavmild byge parmesan. Rester fryser fint — portioner i beholdere til fremtidige hverdagsredninger."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-25"
+    },
+    {
+      "id": "meatballs_pan_sauce_cucumber",
+      "locale_of_authorship": "sv",
+      "category": "family_meal",
+      "added_at": "2026-04-25",
+      "title": {
+        "sv": "Köttbullar med gräddsås, gurksallad och potatis",
+        "no": "Kjøttkaker med fløtesaus, agurksalat og poteter",
+        "da": "Kødboller med flødesovs, agurkesalat og kartofler",
+        "en": "Swedish meatballs with cream gravy and cucumber salad"
+      },
+      "description": {
+        "sv": "Den ultimata svenska vardagsmåltiden: saftiga köttbullar, silkeslen gräddsås, pressgurka och kokt potatis. Gurksalladen är nyckeln — den friska sötsyrade gurkan skär genom den rika såsen och gör hela tallriken balanserad. Allt är klart på 45 minuter och ingen blir missnöjd.",
+        "no": "Den ultimate svenske hverdagsmiddagen: saftige kjøttkaker, silkemyk fløtesaus, presset agurk og kokte poteter. Agurksalaten er nøkkelen — den friske søtsurlige agurken skjærer gjennom den rike sausen og gjør hele tallerkenen balansert. Alt er ferdig på 45 minutter og ingen blir misfornøyd.",
+        "da": "Det ultimative svenske hverdagsmåltid: saftige kødboller, silkeblød flødesovs, presset agurk og kogte kartofler. Agurkesalaten er nøglen — den friske sødsure agurk skærer gennem den fyldige sovs og gør hele tallerkenen balanceret. Det hele er færdigt på 45 minutter og ingen bliver utilfreds.",
+        "en": "The ultimate Swedish weeknight dinner: juicy meatballs, silky cream gravy, quick-pickled cucumber salad, and boiled potatoes. The cucumber is the key — its fresh sweet-sour crunch cuts through the rich sauce and balances the whole plate. Everything is ready in 45 minutes and nobody leaves disappointed."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 20,
+      "time_rest_minutes": 30,
+      "time_cook_minutes": 25,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "classic",
+        "swedish",
+        "weeknight"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "beef_ground",
+          "amount": 400,
+          "unit": "g",
+          "group": "meatballs"
+        },
+        {
+          "ingredient_id": "pork_ground",
+          "amount": 100,
+          "unit": "g",
+          "group": "meatballs"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "meatballs"
+        },
+        {
+          "ingredient_id": "breadcrumbs",
+          "amount": 1,
+          "unit": "dl",
+          "group": "meatballs"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 1,
+          "unit": "dl",
+          "group": "meatballs"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 1,
+          "unit": "st",
+          "group": "meatballs"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1.5,
+          "unit": "tsk",
+          "group": "meatballs"
+        },
+        {
+          "ingredient_id": "allspice_ground",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "meatballs"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 3,
+          "unit": "krm",
+          "group": "meatballs"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 40,
+          "unit": "g",
+          "group": "frying"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 30,
+          "unit": "g",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 2,
+          "unit": "msk",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "beef_stock",
+          "amount": 4,
+          "unit": "dl",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "cream_36",
+          "amount": 1.5,
+          "unit": "dl",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "soy_sauce",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "cucumber",
+          "amount": 1,
+          "unit": "st",
+          "group": "cucumber"
+        },
+        {
+          "ingredient_id": "rice_vinegar",
+          "amount": 3,
+          "unit": "msk",
+          "group": "cucumber"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 2,
+          "unit": "msk",
+          "group": "cucumber"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "cucumber"
+        },
+        {
+          "ingredient_id": "parsley_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "cucumber"
+        },
+        {
+          "ingredient_id": "potato",
+          "amount": 800,
+          "unit": "g",
+          "group": "potatoes"
+        },
+        {
+          "ingredient_id": "lingonberry_jam",
+          "amount": 4,
+          "unit": "msk",
+          "group": "serving"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "sv": "Pickla gurkan",
+            "no": "Syltemyr agurken",
+            "da": "Syltes agurken",
+            "en": "Quick-pickle the cucumber"
+          },
+          "text": {
+            "sv": "Skiva gurkan hårfint på mandolin eller med vass kniv. Blanda vinäger, socker och salt i en skål tills sockret löst sig. Lägg i gurkan och pressa ner i laken. Låt stå 30 minuter. Rör i hackad persilja före servering.",
+            "no": "Skjær agurken papirtynt med mandolin eller skarp kniv. Bland eddik, sukker og salt i en bolle til sukkeret er oppløst. Legg agurken i og press ned i laken. La stå 30 minutter. Rør inn hakket persille før servering.",
+            "da": "Skær agurken papirtyndt med mandolin eller skarp kniv. Bland eddike, sukker og salt i en skål til sukkeret er opløst. Læg agurken i og pres ned i laken. Lad stå 30 minutter. Rør hakket persille i før servering.",
+            "en": "Slice cucumber paper-thin with a mandoline or sharp knife. Mix vinegar, sugar, and salt in a bowl until sugar dissolves. Add cucumber and press down into the brine. Let sit 30 minutes. Stir in chopped parsley before serving."
+          },
+          "timer_seconds": 1800
+        },
+        {
+          "order": 2,
+          "title": {
+            "sv": "Arbeta smeten",
+            "no": "Bland farsen",
+            "da": "Rør farsen",
+            "en": "Make the meatballs"
+          },
+          "text": {
+            "sv": "Blanda ströbröd och mjölk, låt svälla 5 minuter. Finhacka löken. Blanda färs, uppblött ströbröd, lök, ägg, salt, kryddpeppar och peppar. Arbeta ordentligt. Rulla till 24 jämna bollar.",
+            "no": "Bland strøbrød og melk, la trekke 5 minutter. Finhakk løken. Bland kjøttdeig, bløtlagt strøbrød, løk, egg, salt, allehånde og pepper. Arbeid godt. Rull til 24 jevne kuler.",
+            "da": "Bland rasp og mælk, lad trække 5 minutter. Hak løget fint. Bland hakket kød, udblødt rasp, løg, æg, salt, allehånde og peber. Rør godt. Rul til 24 ensartede boller.",
+            "en": "Mix breadcrumbs and milk, soak 5 minutes. Finely chop onion. Combine beef, pork, soaked breadcrumbs, onion, egg, salt, allspice, and pepper. Mix thoroughly. Roll into 24 even meatballs."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "order": 3,
+          "title": {
+            "sv": "Koka potatis och stek bullarna",
+            "no": "Kok poteter og stek kakene",
+            "da": "Kog kartofler og steg bollerne",
+            "en": "Boil potatoes and fry meatballs"
+          },
+          "text": {
+            "sv": "Koka potatisen i lättsaltat vatten 20 min tills mjuk. Under tiden: smält smöret i en stor stekpanna på medelvärme. Stek köttbullarna i omgångar 6 minuter tills jämnt brynta och genomstekta.",
+            "no": "Kok potetene i lettsaltet vann 20 min til møre. Samtidig: smelt smøret i en stor stekepanne på middels varme. Stek kjøttkakene i porsjoner 6 minutter til jevnt brune og gjennomstekte.",
+            "da": "Kog kartoflerne i letsaltet vand 20 min til møre. I mellemtiden: smelt smørret i en stor pande ved middelvarme. Steg kødbollerne i hold 6 minutter til jævnt brune og gennemstegte.",
+            "en": "Boil potatoes in lightly salted water 20 min until tender. Meanwhile: melt butter in a large skillet over medium heat. Fry meatballs in batches 6 minutes until evenly browned and cooked through."
+          },
+          "timer_seconds": 1200
+        },
+        {
+          "order": 4,
+          "title": {
+            "sv": "Gör gräddsåsen",
+            "no": "Lag fløtesausen",
+            "da": "Lav flødesovsen",
+            "en": "Make the cream gravy"
+          },
+          "text": {
+            "sv": "Ta upp köttbullarna. Smält 30 g smör i samma panna, vispa i mjölet, rör 1 minut. Spä med buljong under vispning. Häll i grädden och sojasåsen, låt sjuda 3 minuter till sidenmjuk. Smaka av.",
+            "no": "Ta opp kjøttkakene. Smelt 30 g smør i samme panne, visp inn mel, rør 1 minutt. Spe med kraft under visping. Hell i fløte og soyasaus, la småkoke 3 minutter til silkemyk. Smak til.",
+            "da": "Tag kødbollerne op. Smelt 30 g smør i samme pande, pisk melet i, rør 1 minut. Spæd med bouillon under piskning. Hæld fløde og sojasovs i, lad småsimre 3 minutter til silkeblød. Smag til.",
+            "en": "Remove meatballs. Melt 30 g butter in the same pan, whisk in flour, stir 1 minute. Whisk in stock gradually. Pour in cream and soy sauce, simmer 3 minutes until silky. Taste and adjust."
+          },
+          "timer_seconds": 180
+        },
+        {
+          "order": 5,
+          "title": {
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér",
+            "en": "Serve"
+          },
+          "text": {
+            "sv": "Lägg tillbaka köttbullarna i såsen och värm igenom. Servera med kokt potatis, en klick lingonsylt och en rejäl portion pressgurka vid sidan.",
+            "no": "Legg kjøttkakene tilbake i sausen og varm gjennom. Server med kokte poteter, en klatt tyttebærsyltetøy og en skikkelig porsjon agurksalat ved siden.",
+            "da": "Læg kødbollerne tilbage i sovsen og varm igennem. Servér med kogte kartofler, en klat tyttebærsyltetøj og en ordentlig portion agurkesalat ved siden.",
+            "en": "Return meatballs to the gravy and heat through. Serve with boiled potatoes, a spoonful of lingonberry jam, and a generous serving of the cucumber salad alongside."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-25"
     }
   ]
 }
