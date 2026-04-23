@@ -25,6 +25,12 @@
       "oven": { "type": "conventional", "temp_c": 225, "fan_temp_c": 200 },
       "yeast_type": "fresh",
       "tags": ["baking", "fika", "classic", "swedish"],
+      "hero_image": {
+        "unsplash_id": "1558961363-fa8fdf82db35",
+        "photographer": "Charles Chen",
+        "photographer_url": "https://unsplash.com/@ccfeng2000",
+        "alt": "Cinnamon buns with pearl sugar"
+      },
       "ingredients": [
         { "ingredient_id": "yeast_fresh", "amount": 25, "unit": "g", "group": "dough" },
         { "ingredient_id": "milk_whole", "amount": 2.5, "unit": "dl", "group": "dough" },
@@ -135,6 +141,12 @@
       "oven": null,
       "yeast_type": null,
       "tags": ["dinner", "classic", "norwegian", "weeknight"],
+      "hero_image": {
+        "unsplash_id": "1544025162-d76694265947",
+        "photographer": "Sander Dalhuisen",
+        "photographer_url": "https://unsplash.com/@sanderdalhuisen",
+        "alt": "Meat patties with brown gravy and potatoes"
+      },
       "ingredients": [
         { "ingredient_id": "beef_ground", "amount": 500, "unit": "g", "group": "patties" },
         { "ingredient_id": "onion_yellow", "amount": 1, "unit": "st", "group": "patties" },
@@ -235,6 +247,12 @@
       "oven": null,
       "yeast_type": null,
       "tags": ["dinner", "classic", "danish", "weeknight"],
+      "hero_image": {
+        "unsplash_id": "1529042410759-befb1204b468",
+        "photographer": "Emiliano Vittoriosi",
+        "photographer_url": "https://unsplash.com/@emilianovittoriosi",
+        "alt": "Danish meatballs with potatoes"
+      },
       "ingredients": [
         { "ingredient_id": "pork_ground", "amount": 400, "unit": "g", "group": "meat" },
         { "ingredient_id": "beef_ground", "amount": 100, "unit": "g", "group": "meat" },
@@ -321,9 +339,16 @@
       "oven": null,
       "yeast_type": null,
       "tags": ["breakfast", "quick", "nordic"],
+      "hero_image": {
+        "unsplash_id": "1517686469429-8bdb88b9f907",
+        "photographer": "Melissa Belanger",
+        "photographer_url": "https://unsplash.com/@melissabelanger",
+        "alt": "Bowl of oat porridge"
+      },
       "ingredients": [
         { "ingredient_id": "water", "amount": 4, "unit": "dl", "group": "porridge" },
         { "ingredient_id": "milk_whole", "amount": 2, "unit": "dl", "group": "porridge" },
+        { "ingredient_id": "rolled_oats", "amount": 2, "unit": "dl", "group": "porridge" },
         { "ingredient_id": "salt_fine", "amount": 0.25, "unit": "tsk", "group": "porridge" }
       ],
       "steps": [
@@ -389,6 +414,12 @@
       "oven": null,
       "yeast_type": null,
       "tags": ["fika", "no_bake", "classic", "swedish"],
+      "hero_image": {
+        "unsplash_id": "1548907040-4baa42d10919",
+        "photographer": "Louis Hansel",
+        "photographer_url": "https://unsplash.com/@louishansel",
+        "alt": "Chocolate oat balls coated in pearl sugar"
+      },
       "ingredients": [
         { "ingredient_id": "butter", "amount": 100, "unit": "g", "group": "balls" },
         { "ingredient_id": "sugar_granulated", "amount": 1, "unit": "dl", "group": "balls" },

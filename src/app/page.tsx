@@ -9,6 +9,7 @@ import { UI, formatTime } from "@/lib/ui-strings";
 import { CATEGORY_IDS, type CategoryId } from "@/lib/categories";
 import { LocaleButton } from "@/components/LocaleButton";
 import { CategoryFilter } from "@/components/CategoryFilter";
+import { unsplashImageUrl } from "@/lib/unsplash";
 
 type SortMode = "latest" | "alphabetical";
 
@@ -102,10 +103,20 @@ export default function HomePage() {
                   href={`/recipe/${recipe.id}`}
                   className="flex items-center gap-3 rounded-lg py-2 transition-colors active:bg-stone-100"
                 >
-                  <div
-                    className="h-14 w-14 flex-shrink-0 rounded-md"
-                    style={{ backgroundColor: tileColor(recipe.id) }}
-                  />
+                  {recipe.hero_image ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={unsplashImageUrl(recipe.hero_image.unsplash_id, { width: 112, height: 112 })}
+                      alt={recipe.hero_image.alt}
+                      className="h-14 w-14 flex-shrink-0 rounded-md object-cover"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div
+                      className="h-14 w-14 flex-shrink-0 rounded-md"
+                      style={{ backgroundColor: tileColor(recipe.id) }}
+                    />
+                  )}
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-sm font-medium">
                       {recipeTitle(recipe, locale)}

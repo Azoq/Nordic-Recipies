@@ -14,8 +14,16 @@ import {
 } from "@/lib/types";
 import { UI } from "@/lib/ui-strings";
 import { formatIngredient } from "@/lib/format";
+import { unsplashImageUrl, unsplashUserPageUrl } from "@/lib/unsplash";
+import { NutritionPanel } from "@/components/NutritionPanel";
 
-type GroupedUsages = { group: string | undefined; usages: ReturnType<typeof getRecipe> extends infer R ? R extends { ingredients: infer U } ? U : never : never }[];
+// Deterministic pastel color per recipe ID, used when there is no hero image.
+function tileColor(id: string): string {
+  const palette = ["#FAC775", "#C0DD97", "#F5C4B3", "#B5D4F4"];
+  let hash = 0;
+  for (let i = 0; i < id.length; i++) hash = (hash * 31 + id.charCodeAt(i)) | 0;
+  return palette[Math.abs(hash) % palette.length];
+}
 
 export default function RecipeDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
@@ -25,7 +33,6 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
 
   if (!recipe) return notFound();
 
-  // Group ingredients, preserving first-seen order
   const groups: { group: string | undefined; usages: typeof recipe.ingredients }[] = [];
   for (const usage of recipe.ingredients) {
     const existing = groups.find((g) => g.group === usage.group);
@@ -34,6 +41,7 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
   }
 
   const showAuthorshipLabel = recipe.locale_of_authorship !== locale;
+  const hero = recipe.hero_image;
 
   return (
     <main className="min-h-screen bg-white pb-12">
@@ -44,8 +52,32 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
         <h1 className="truncate text-base font-medium">{recipeTitle(recipe, locale)}</h1>
       </header>
 
-      {/* Hero placeholder */}
-      <div className="h-40 w-full" style={{ backgroundColor: "#FAC775" }} />
+      {/* Hero image or colored fallback */}
+      {hero ? (
+        <div className="relative h-56 w-full overflow-hidden bg-stone-100">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={unsplashImageUrl(hero.unsplash_id, { width: 1200, height: 600 })}
+            alt={hero.alt}
+            className="h-full w-full object-cover"
+            loading="eager"
+          />
+          <div className="absolute bottom-2 right-2 rounded bg-black/40 px-2 py-1 text-[10px] text-white backdrop-blur-sm">
+            {ui.photoBy}{" "}
+            <a
+              href={unsplashUserPageUrl(hero.photographer_url)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              {hero.photographer}
+            </a>{" "}
+            {ui.onUnsplash}
+          </div>
+        </div>
+      ) : (
+        <div className="h-40 w-full" style={{ backgroundColor: tileColor(recipe.id) }} />
+      )}
 
       <div className="px-5 pt-4">
         {showAuthorshipLabel && (
@@ -115,6 +147,9 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
             ))}
           </ol>
         </section>
+
+        {/* Nutrition */}
+        <NutritionPanel recipe={recipe} />
       </div>
     </main>
   );
