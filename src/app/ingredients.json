@@ -1017,6 +1017,1087 @@
         "fiber_g": 2.5,
         "salt_g": 0.018
       }
+    },
+    {
+      "id": "pasta_dry",
+      "category": "pantry",
+      "names": {
+        "sv": "pasta (torr)",
+        "no": "pasta (tørr)",
+        "da": "pasta (tør)",
+        "en": "dry pasta"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 371,
+        "protein_g": 13,
+        "fat_g": 1.5,
+        "carbs_g": 74.7,
+        "fiber_g": 3.2,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "basil_fresh",
+      "category": "vegetable",
+      "names": {
+        "sv": "basilika (färsk)",
+        "no": "basilikum (fersk)",
+        "da": "basilikum (frisk)",
+        "en": "fresh basil"
+      },
+      "density_g_per_ml": 0.15,
+      "default_unit_by_locale": {
+        "sv": "dl",
+        "no": "dl",
+        "da": "dl",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 23,
+        "protein_g": 3.2,
+        "fat_g": 0.6,
+        "carbs_g": 2.6,
+        "fiber_g": 1.6,
+        "salt_g": 0.004
+      }
+    },
+    {
+      "id": "pine_nuts",
+      "category": "pantry",
+      "names": {
+        "sv": "pinjenötter",
+        "no": "pinjekjerner",
+        "da": "pinjekerner",
+        "en": "pine nuts"
+      },
+      "density_g_per_ml": 0.55,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 673,
+        "protein_g": 13.7,
+        "fat_g": 68.4,
+        "carbs_g": 13.1,
+        "fiber_g": 3.7,
+        "salt_g": 0.005
+      }
+    },
+    {
+      "id": "parmesan",
+      "category": "dairy",
+      "names": {
+        "sv": "parmesan (riven)",
+        "no": "parmesan (revet)",
+        "da": "parmesan (revet)",
+        "en": "grated parmesan"
+      },
+      "density_g_per_ml": 0.45,
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 431,
+        "protein_g": 38.5,
+        "fat_g": 29,
+        "carbs_g": 4.1,
+        "fiber_g": 0,
+        "salt_g": 1.6
+      }
+    },
+    {
+      "id": "olive_oil",
+      "category": "fat",
+      "names": {
+        "sv": "olivolja",
+        "no": "olivenolje",
+        "da": "olivenolie",
+        "en": "olive oil"
+      },
+      "density_g_per_ml": 0.92,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 884,
+        "protein_g": 0,
+        "fat_g": 100,
+        "carbs_g": 0,
+        "fiber_g": 0,
+        "salt_g": 0
+      }
+    },
+    {
+      "id": "lemon",
+      "category": "fruit",
+      "names": {
+        "sv": "citron",
+        "no": "sitron",
+        "da": "citron",
+        "en": "lemon"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 29,
+        "protein_g": 1.1,
+        "fat_g": 0.3,
+        "carbs_g": 9.3,
+        "fiber_g": 2.8,
+        "salt_g": 0.005
+      }
+    },
+    {
+      "id": "cod_fillet",
+      "category": "fish",
+      "names": {
+        "sv": "torsk (filé)",
+        "no": "torsk (filet)",
+        "da": "torsk (filet)",
+        "en": "cod fillet"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 82,
+        "protein_g": 18,
+        "fat_g": 0.7,
+        "carbs_g": 0,
+        "fiber_g": 0,
+        "salt_g": 0.18
+      }
+    },
+    {
+      "id": "chicken_breast",
+      "category": "meat",
+      "names": {
+        "sv": "kycklingbröst (utan skinn)",
+        "no": "kyllingbryst (uten skinn)",
+        "da": "kyllingebryst (uden skind)",
+        "en": "chicken breast (skinless)"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 165,
+        "protein_g": 31,
+        "fat_g": 3.6,
+        "carbs_g": 0,
+        "fiber_g": 0,
+        "salt_g": 0.19
+      }
+    },
+    {
+      "id": "dijon_mustard",
+      "category": "pantry",
+      "names": {
+        "sv": "dijonsenap",
+        "no": "dijonsennep",
+        "da": "dijonsennep",
+        "en": "Dijon mustard"
+      },
+      "density_g_per_ml": 1.05,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 60,
+        "protein_g": 4.4,
+        "fat_g": 3.3,
+        "carbs_g": 5.3,
+        "fiber_g": 3.3,
+        "salt_g": 4.9
+      }
+    },
+    {
+      "id": "tomato_canned",
+      "category": "pantry",
+      "names": {
+        "sv": "krossade tomater (konserv)",
+        "no": "hermetiske tomater (knuste)",
+        "da": "flåede tomater (hakkede)",
+        "en": "canned chopped tomatoes"
+      },
+      "density_g_per_ml": 1.04,
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 32,
+        "protein_g": 1.6,
+        "fat_g": 0.3,
+        "carbs_g": 7.3,
+        "fiber_g": 2.2,
+        "salt_g": 0.35
+      }
+    },
+    {
+      "id": "kidney_beans_canned",
+      "category": "pantry",
+      "names": {
+        "sv": "kidneybönor (konserv)",
+        "no": "kidneybønner (hermetisk)",
+        "da": "kidneybønner (dåse)",
+        "en": "canned kidney beans"
+      },
+      "density_g_per_ml": 0.9,
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 127,
+        "protein_g": 8.7,
+        "fat_g": 0.5,
+        "carbs_g": 22.8,
+        "fiber_g": 6.4,
+        "salt_g": 0.5
+      }
+    },
+    {
+      "id": "bell_pepper_red",
+      "category": "vegetable",
+      "names": {
+        "sv": "röd paprika",
+        "no": "rød paprika",
+        "da": "rød peberfrugt",
+        "en": "red bell pepper"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 31,
+        "protein_g": 1,
+        "fat_g": 0.3,
+        "carbs_g": 6,
+        "fiber_g": 2.1,
+        "salt_g": 0.005
+      }
+    },
+    {
+      "id": "cumin_ground",
+      "category": "spice",
+      "names": {
+        "sv": "spiskummin, mald",
+        "no": "spisskummen, malt",
+        "da": "spidskommen, stødt",
+        "en": "ground cumin"
+      },
+      "density_g_per_ml": 0.47,
+      "default_unit_by_locale": {
+        "sv": "tsk",
+        "no": "ts",
+        "da": "tsk",
+        "en": "tsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 375,
+        "protein_g": 17.8,
+        "fat_g": 22.3,
+        "carbs_g": 44.2,
+        "fiber_g": 10.5,
+        "salt_g": 0.17
+      }
+    },
+    {
+      "id": "paprika_ground",
+      "category": "spice",
+      "names": {
+        "sv": "paprikapulver",
+        "no": "paprikapulver",
+        "da": "paprika, stødt",
+        "en": "ground paprika"
+      },
+      "density_g_per_ml": 0.47,
+      "default_unit_by_locale": {
+        "sv": "tsk",
+        "no": "ts",
+        "da": "tsk",
+        "en": "tsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 282,
+        "protein_g": 14.1,
+        "fat_g": 13,
+        "carbs_g": 54,
+        "fiber_g": 34.9,
+        "salt_g": 0.07
+      }
+    },
+    {
+      "id": "chickpeas_canned",
+      "category": "pantry",
+      "names": {
+        "sv": "kikärter (konserv)",
+        "no": "kikerter (hermetisk)",
+        "da": "kikærter (dåse)",
+        "en": "canned chickpeas"
+      },
+      "density_g_per_ml": 0.85,
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 164,
+        "protein_g": 8.9,
+        "fat_g": 2.6,
+        "carbs_g": 27.4,
+        "fiber_g": 7.6,
+        "salt_g": 0.24
+      }
+    },
+    {
+      "id": "tahini",
+      "category": "pantry",
+      "names": {
+        "sv": "tahini",
+        "no": "tahini",
+        "da": "tahin",
+        "en": "tahini"
+      },
+      "density_g_per_ml": 1,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 595,
+        "protein_g": 17,
+        "fat_g": 53.8,
+        "carbs_g": 21.2,
+        "fiber_g": 9.3,
+        "salt_g": 0.12
+      }
+    },
+    {
+      "id": "tomato_paste",
+      "category": "pantry",
+      "names": {
+        "sv": "tomatpuré",
+        "no": "tomatpuré",
+        "da": "tomatpuré",
+        "en": "tomato paste"
+      },
+      "density_g_per_ml": 1.09,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 82,
+        "protein_g": 4.3,
+        "fat_g": 0.5,
+        "carbs_g": 18.9,
+        "fiber_g": 4.1,
+        "salt_g": 0.16
+      }
+    },
+    {
+      "id": "sun_dried_tomato",
+      "category": "pantry",
+      "names": {
+        "sv": "soltorkade tomater",
+        "no": "soltørkede tomater",
+        "da": "soltørrede tomater",
+        "en": "sun-dried tomatoes"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 213,
+        "protein_g": 5.1,
+        "fat_g": 2.8,
+        "carbs_g": 43.5,
+        "fiber_g": 5.8,
+        "salt_g": 0.27
+      }
+    },
+    {
+      "id": "chicken_thigh",
+      "category": "meat",
+      "names": {
+        "sv": "kycklinglår (utan skinn och ben)",
+        "no": "kyllinglår (uten skinn og ben)",
+        "da": "kyllingelår (uden skind og ben)",
+        "en": "chicken thigh (boneless, skinless)"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 177,
+        "protein_g": 23.9,
+        "fat_g": 8.1,
+        "carbs_g": 0,
+        "fiber_g": 0,
+        "salt_g": 0.2
+      }
+    },
+    {
+      "id": "chicken_ground",
+      "category": "meat",
+      "names": {
+        "sv": "kycklingfärs",
+        "no": "kyllingdeig",
+        "da": "hakket kylling",
+        "en": "ground chicken"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 143,
+        "protein_g": 17.4,
+        "fat_g": 8.1,
+        "carbs_g": 0,
+        "fiber_g": 0,
+        "salt_g": 0.2
+      }
+    },
+    {
+      "id": "shrimp_raw",
+      "category": "fish",
+      "names": {
+        "sv": "räkor (råa, skalade)",
+        "no": "reker (rå, skrellede)",
+        "da": "rejer (rå, pillede)",
+        "en": "raw shrimp (peeled)"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 71,
+        "protein_g": 14.6,
+        "fat_g": 1.1,
+        "carbs_g": 0.9,
+        "fiber_g": 0,
+        "salt_g": 0.3
+      }
+    },
+    {
+      "id": "beef_sirloin",
+      "category": "meat",
+      "names": {
+        "sv": "nötkött (ryggbiff, tunt skivad)",
+        "no": "biff (ytrefilet, tynt skåret)",
+        "da": "oksefilet (tyndt skåret)",
+        "en": "beef sirloin (thinly sliced)"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 201,
+        "protein_g": 24.8,
+        "fat_g": 10.5,
+        "carbs_g": 0,
+        "fiber_g": 0,
+        "salt_g": 0.2
+      }
+    },
+    {
+      "id": "beef_stock",
+      "category": "pantry",
+      "names": {
+        "sv": "köttbuljong",
+        "no": "kjøttkraft",
+        "da": "oksebouillon",
+        "en": "beef stock"
+      },
+      "density_g_per_ml": 1.01,
+      "default_unit_by_locale": {
+        "sv": "dl",
+        "no": "dl",
+        "da": "dl",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 4,
+        "protein_g": 0.5,
+        "fat_g": 0.2,
+        "carbs_g": 0.3,
+        "fiber_g": 0,
+        "salt_g": 0.5
+      }
+    },
+    {
+      "id": "rice_noodles",
+      "category": "pantry",
+      "names": {
+        "sv": "risnudlar (torra)",
+        "no": "risnudler (tørre)",
+        "da": "risnudler (tørre)",
+        "en": "dry rice noodles"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 364,
+        "protein_g": 6.2,
+        "fat_g": 0.8,
+        "carbs_g": 81,
+        "fiber_g": 1.8,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "ramen_noodles",
+      "category": "pantry",
+      "names": {
+        "sv": "ramennudlar (torra/färska)",
+        "no": "ramennudler",
+        "da": "ramennudler",
+        "en": "ramen noodles"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 356,
+        "protein_g": 12,
+        "fat_g": 2.1,
+        "carbs_g": 71.2,
+        "fiber_g": 2.5,
+        "salt_g": 0.1
+      }
+    },
+    {
+      "id": "rice_paper",
+      "category": "pantry",
+      "names": {
+        "sv": "rispapper (till vårrullar)",
+        "no": "rispapir (til vårruller)",
+        "da": "rispapir (til forårsruller)",
+        "en": "rice paper wrappers"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 335,
+        "protein_g": 1,
+        "fat_g": 0.1,
+        "carbs_g": 83,
+        "fiber_g": 1,
+        "salt_g": 0.1
+      }
+    },
+    {
+      "id": "gyoza_wrappers",
+      "category": "pantry",
+      "names": {
+        "sv": "gyoza-skinn",
+        "no": "gyoza-skinn",
+        "da": "gyoza-plader",
+        "en": "gyoza wrappers"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 274,
+        "protein_g": 8.8,
+        "fat_g": 1.2,
+        "carbs_g": 56.8,
+        "fiber_g": 2,
+        "salt_g": 0.7
+      }
+    },
+    {
+      "id": "soy_sauce",
+      "category": "pantry",
+      "names": {
+        "sv": "sojasås",
+        "no": "soyasaus",
+        "da": "sojasovs",
+        "en": "soy sauce"
+      },
+      "density_g_per_ml": 1.15,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 53,
+        "protein_g": 8,
+        "fat_g": 0,
+        "carbs_g": 4.9,
+        "fiber_g": 0.8,
+        "salt_g": 14.3
+      }
+    },
+    {
+      "id": "fish_sauce",
+      "category": "pantry",
+      "names": {
+        "sv": "fisksås (nam pla)",
+        "no": "fiskesaus (nam pla)",
+        "da": "fiskesauce (nam pla)",
+        "en": "fish sauce (nam pla)"
+      },
+      "density_g_per_ml": 1.14,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 35,
+        "protein_g": 5.1,
+        "fat_g": 0,
+        "carbs_g": 3.6,
+        "fiber_g": 0,
+        "salt_g": 26
+      }
+    },
+    {
+      "id": "oyster_sauce",
+      "category": "pantry",
+      "names": {
+        "sv": "ostronsås",
+        "no": "østerssaus",
+        "da": "østerssovs",
+        "en": "oyster sauce"
+      },
+      "density_g_per_ml": 1.21,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 107,
+        "protein_g": 1.4,
+        "fat_g": 0.3,
+        "carbs_g": 25.4,
+        "fiber_g": 0.3,
+        "salt_g": 11.3
+      }
+    },
+    {
+      "id": "sesame_oil",
+      "category": "fat",
+      "names": {
+        "sv": "sesamolja (rostad)",
+        "no": "sesamolje (ristet)",
+        "da": "sesamolie (ristet)",
+        "en": "toasted sesame oil"
+      },
+      "density_g_per_ml": 0.92,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 884,
+        "protein_g": 0,
+        "fat_g": 100,
+        "carbs_g": 0,
+        "fiber_g": 0,
+        "salt_g": 0
+      }
+    },
+    {
+      "id": "rice_vinegar",
+      "category": "pantry",
+      "names": {
+        "sv": "risvinäger",
+        "no": "riseddik",
+        "da": "riseddike",
+        "en": "rice vinegar"
+      },
+      "density_g_per_ml": 1.01,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 21,
+        "protein_g": 0.1,
+        "fat_g": 0,
+        "carbs_g": 5,
+        "fiber_g": 0,
+        "salt_g": 0.005
+      }
+    },
+    {
+      "id": "miso_paste",
+      "category": "pantry",
+      "names": {
+        "sv": "misopasta",
+        "no": "misopaste",
+        "da": "misopasta",
+        "en": "miso paste"
+      },
+      "density_g_per_ml": 1.15,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 199,
+        "protein_g": 12.8,
+        "fat_g": 6,
+        "carbs_g": 26.5,
+        "fiber_g": 5.4,
+        "salt_g": 10.7
+      }
+    },
+    {
+      "id": "coconut_milk",
+      "category": "pantry",
+      "names": {
+        "sv": "kokosmjölk",
+        "no": "kokosmelk",
+        "da": "kokosmælk",
+        "en": "coconut milk"
+      },
+      "density_g_per_ml": 0.97,
+      "default_unit_by_locale": {
+        "sv": "dl",
+        "no": "dl",
+        "da": "dl",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 230,
+        "protein_g": 2.3,
+        "fat_g": 24,
+        "carbs_g": 5.5,
+        "fiber_g": 2.2,
+        "salt_g": 0.03
+      }
+    },
+    {
+      "id": "garam_masala",
+      "category": "spice",
+      "names": {
+        "sv": "garam masala",
+        "no": "garam masala",
+        "da": "garam masala",
+        "en": "garam masala"
+      },
+      "density_g_per_ml": 0.47,
+      "default_unit_by_locale": {
+        "sv": "tsk",
+        "no": "ts",
+        "da": "tsk",
+        "en": "tsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 379,
+        "protein_g": 14,
+        "fat_g": 15,
+        "carbs_g": 50,
+        "fiber_g": 16,
+        "salt_g": 0.08
+      }
+    },
+    {
+      "id": "turmeric_ground",
+      "category": "spice",
+      "names": {
+        "sv": "gurkmeja, mald",
+        "no": "gurkemeie, malt",
+        "da": "gurkemeje, stødt",
+        "en": "ground turmeric"
+      },
+      "density_g_per_ml": 0.55,
+      "default_unit_by_locale": {
+        "sv": "tsk",
+        "no": "ts",
+        "da": "tsk",
+        "en": "tsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 354,
+        "protein_g": 7.8,
+        "fat_g": 9.9,
+        "carbs_g": 64.9,
+        "fiber_g": 21.1,
+        "salt_g": 0.09
+      }
+    },
+    {
+      "id": "star_anise",
+      "category": "spice",
+      "names": {
+        "sv": "stjärnanis",
+        "no": "stjerneanis",
+        "da": "stjerneanis",
+        "en": "star anise"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 337,
+        "protein_g": 17.6,
+        "fat_g": 15.9,
+        "carbs_g": 50,
+        "fiber_g": 14.6,
+        "salt_g": 0.04
+      }
+    },
+    {
+      "id": "ginger_fresh",
+      "category": "vegetable",
+      "names": {
+        "sv": "ingefära (färsk)",
+        "no": "ingefær (fersk)",
+        "da": "ingefær (frisk)",
+        "en": "fresh ginger"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 80,
+        "protein_g": 1.8,
+        "fat_g": 0.8,
+        "carbs_g": 17.8,
+        "fiber_g": 2,
+        "salt_g": 0.03
+      }
+    },
+    {
+      "id": "cilantro_fresh",
+      "category": "vegetable",
+      "names": {
+        "sv": "koriander (färsk)",
+        "no": "koriander (fersk)",
+        "da": "koriander (frisk)",
+        "en": "fresh cilantro"
+      },
+      "density_g_per_ml": 0.15,
+      "default_unit_by_locale": {
+        "sv": "dl",
+        "no": "dl",
+        "da": "dl",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 23,
+        "protein_g": 2.1,
+        "fat_g": 0.5,
+        "carbs_g": 3.7,
+        "fiber_g": 2.8,
+        "salt_g": 0.12
+      }
+    },
+    {
+      "id": "spring_onion",
+      "category": "vegetable",
+      "names": {
+        "sv": "salladslök",
+        "no": "vårløk",
+        "da": "forårsløg",
+        "en": "spring onions (scallions)"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 32,
+        "protein_g": 1.8,
+        "fat_g": 0.2,
+        "carbs_g": 7.3,
+        "fiber_g": 2.6,
+        "salt_g": 0.04
+      }
+    },
+    {
+      "id": "chili_red_fresh",
+      "category": "vegetable",
+      "names": {
+        "sv": "röd chili (färsk)",
+        "no": "rød chili (fersk)",
+        "da": "rød chili (frisk)",
+        "en": "fresh red chili"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 40,
+        "protein_g": 1.9,
+        "fat_g": 0.4,
+        "carbs_g": 8.8,
+        "fiber_g": 1.5,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "lime",
+      "category": "fruit",
+      "names": {
+        "sv": "lime",
+        "no": "lime",
+        "da": "lime",
+        "en": "lime"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 30,
+        "protein_g": 0.7,
+        "fat_g": 0.2,
+        "carbs_g": 10.5,
+        "fiber_g": 2.8,
+        "salt_g": 0.005
+      }
+    },
+    {
+      "id": "yogurt_greek",
+      "category": "dairy",
+      "names": {
+        "sv": "grekisk yoghurt (10%)",
+        "no": "gresk yoghurt (10%)",
+        "da": "græsk yoghurt (10%)",
+        "en": "Greek yogurt (full-fat)"
+      },
+      "density_g_per_ml": 1.03,
+      "default_unit_by_locale": {
+        "sv": "dl",
+        "no": "dl",
+        "da": "dl",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 97,
+        "protein_g": 9,
+        "fat_g": 5,
+        "carbs_g": 3.6,
+        "fiber_g": 0,
+        "salt_g": 0.1
+      }
+    },
+    {
+      "id": "peanut_butter",
+      "category": "pantry",
+      "names": {
+        "sv": "jordnötssmör",
+        "no": "peanøttsmør",
+        "da": "peanutbutter",
+        "en": "peanut butter"
+      },
+      "density_g_per_ml": 1,
+      "default_unit_by_locale": {
+        "sv": "msk",
+        "no": "ss",
+        "da": "spsk",
+        "en": "tbsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 597,
+        "protein_g": 23.3,
+        "fat_g": 50.6,
+        "carbs_g": 20.2,
+        "fiber_g": 5.7,
+        "salt_g": 1
+      }
     }
   ]
 }
