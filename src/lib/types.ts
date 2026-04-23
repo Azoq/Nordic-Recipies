@@ -13,6 +13,15 @@ export const LOCALE_DISPLAY_NAME: Record<AppLocale, string> = {
 
 // Ingredient
 
+export type NutritionPer100g = {
+  kcal: number;
+  protein_g: number;
+  fat_g: number;
+  carbs_g: number;
+  fiber_g?: number;
+  salt_g?: number;
+};
+
 export type Ingredient = {
   id: string;
   category: string;
@@ -22,6 +31,7 @@ export type Ingredient = {
   fat_percentage?: number;
   substitutions?: string[];
   notes?: Partial<Record<AppLocale, string>>;
+  nutrition_per_100g?: NutritionPer100g;
 };
 
 export function ingredientName(ing: Ingredient, locale: AppLocale): string {
@@ -51,6 +61,13 @@ export type Step = {
   timer_seconds: number | null;
 };
 
+export type HeroImage = {
+  unsplash_id: string;
+  photographer: string;
+  photographer_url: string;
+  alt: string;
+};
+
 export type Recipe = {
   id: string;
   locale_of_authorship: AppLocale;
@@ -68,6 +85,7 @@ export type Recipe = {
   tags: string[];
   ingredients: IngredientUsage[];
   steps: Step[];
+  hero_image?: HeroImage;
   verified_by?: string;
   verified_at?: string;
 };
