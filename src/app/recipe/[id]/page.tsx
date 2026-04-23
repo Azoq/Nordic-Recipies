@@ -17,6 +17,7 @@ import { UI, formatTime } from "@/lib/ui-strings";
 import { formatIngredient } from "@/lib/format";
 import { unsplashImageUrl, unsplashUserPageUrl } from "@/lib/unsplash";
 import { NutritionPanel } from "@/components/NutritionPanel";
+import { ShoppingListToggle } from "@/components/ShoppingListToggle";
 
 function tileColor(id: string): string {
   const palette = ["#FAC775", "#C0DD97", "#F5C4B3", "#B5D4F4"];
@@ -102,6 +103,10 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
             label={ui.serves}
             value={`${recipe.servings} ${ui.servingsUnit(recipe.servings_unit, recipe.servings)}`}
           />
+        </div>
+
+        <div className="mx-auto mt-6 max-w-sm">
+          <ShoppingListToggle recipeId={recipe.id} />
         </div>
 
         <div className="mt-10 grid gap-10 md:grid-cols-[2fr_3fr]">

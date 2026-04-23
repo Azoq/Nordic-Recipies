@@ -9,6 +9,7 @@ import { UI, formatTime } from "@/lib/ui-strings";
 import { CATEGORY_IDS, type CategoryId } from "@/lib/categories";
 import { LocaleButton } from "@/components/LocaleButton";
 import { CategoryFilter } from "@/components/CategoryFilter";
+import { ShoppingListIndicator } from "@/components/ShoppingListIndicator";
 import { unsplashImageUrl } from "@/lib/unsplash";
 
 type SortMode = "latest" | "alphabetical";
@@ -62,7 +63,10 @@ export default function HomePage() {
       <header className="sticky top-0 z-10 border-b border-stone-200 bg-white/90 backdrop-blur">
         <div className="flex items-center justify-between px-5 py-4">
           <h1 className="text-lg font-medium">{ui.recipes}</h1>
-          <LocaleButton />
+          <div className="flex items-center gap-1">
+            <ShoppingListIndicator />
+            <LocaleButton />
+          </div>
         </div>
       </header>
 
