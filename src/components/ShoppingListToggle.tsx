@@ -4,7 +4,13 @@ import { useShoppingList } from "@/lib/shopping-list";
 import { useLocale } from "@/lib/locale-context";
 import { UI } from "@/lib/ui-strings";
 
-export function ShoppingListToggle({ recipeId }: { recipeId: string }) {
+export function ShoppingListToggle({
+  recipeId,
+  servings,
+}: {
+  recipeId: string;
+  servings?: number;
+}) {
   const { hasRecipe, toggleRecipe } = useShoppingList();
   const { locale } = useLocale();
   const ui = UI[locale];
@@ -12,7 +18,7 @@ export function ShoppingListToggle({ recipeId }: { recipeId: string }) {
 
   return (
     <button
-      onClick={() => toggleRecipe(recipeId)}
+      onClick={() => toggleRecipe(recipeId, servings)}
       aria-pressed={added}
       className={`flex w-full items-center justify-center gap-2 rounded-full border px-4 py-2.5 text-sm font-medium transition-colors ${
         added

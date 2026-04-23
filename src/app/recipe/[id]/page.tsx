@@ -1,6 +1,6 @@
 "use client";
 
-import { use } from "react";
+import { use, useState } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getIngredient, getRecipe } from "@/lib/data";
@@ -18,6 +18,8 @@ import { formatIngredient } from "@/lib/format";
 import { unsplashImageUrl, unsplashUserPageUrl } from "@/lib/unsplash";
 import { NutritionPanel } from "@/components/NutritionPanel";
 import { ShoppingListToggle } from "@/components/ShoppingListToggle";
+import { ServingScaler } from "@/components/ServingScaler";
+import { useShoppingList } from "@/lib/shopping-list";
 
 function tileColor(id: string): string {
   const palette = ["#FAC775", "#C0DD97", "#F5C4B3", "#B5D4F4"];
@@ -31,8 +33,26 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
   const recipe = getRecipe(id);
   const { locale } = useLocale();
   const ui = UI[locale];
+  const { hasRecipe, getServings, setServings } = useShoppingList();
+
+  // Local scaler state for when the recipe is NOT in the shopping list.
+  // When it IS in the list, the list's stored value is the source of truth
+  // so scaling stays in sync across detail view and list view.
+  const [localServings, setLocalServings] = useState<number | null>(null);
 
   if (!recipe) return notFound();
+
+  const inList = hasRecipe(recipe.id);
+  const currentServings = inList
+    ? getServings(recipe.id) ?? recipe.servings
+    : localServings ?? recipe.servings;
+
+  const handleServingsChange = (n: number) => {
+    if (inList) setServings(recipe.id, n);
+    else setLocalServings(n);
+  };
+
+  const factor = currentServings / recipe.servings;
 
   const groups: { group: string | undefined; usages: typeof recipe.ingredients }[] = [];
   for (const usage of recipe.ingredients) {
@@ -101,12 +121,20 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
           <MetaItem label={ui.activeTime} value={formatTime(activeMin, locale)} />
           <MetaItem
             label={ui.serves}
-            value={`${recipe.servings} ${ui.servingsUnit(recipe.servings_unit, recipe.servings)}`}
+            value={`${currentServings} ${ui.servingsUnit(recipe.servings_unit, currentServings)}`}
+          />
+        </div>
+
+        <div className="mt-4">
+          <ServingScaler
+            recipe={recipe}
+            value={currentServings}
+            onChange={handleServingsChange}
           />
         </div>
 
         <div className="mx-auto mt-6 max-w-sm">
-          <ShoppingListToggle recipeId={recipe.id} />
+          <ShoppingListToggle recipeId={recipe.id} servings={currentServings} />
         </div>
 
         <div className="mt-10 grid gap-10 md:grid-cols-[2fr_3fr]">
@@ -124,13 +152,14 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
                 <ul className="flex flex-col gap-1.5">
                   {usages.map((usage) => {
                     const ing = getIngredient(usage.ingredient_id);
+                    const scaledUsage = { ...usage, amount: usage.amount * factor };
                     return (
                       <li
                         key={`${group}-${usage.ingredient_id}-${usage.amount}`}
                         className="text-[15px] leading-relaxed text-stone-700"
                       >
                         {ing ? (
-                          formatIngredient(usage, ing, locale)
+                          formatIngredient(scaledUsage, ing, locale)
                         ) : (
                           <span className="text-red-600">
                             ⚠ missing: {usage.ingredient_id}
