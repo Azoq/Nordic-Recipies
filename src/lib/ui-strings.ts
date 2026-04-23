@@ -36,6 +36,7 @@ type UIStrings = {
   photoBy: string;
   onUnsplash: string;
   newRecipes: string;
+  source: string;
   shoppingList: string;
   addToShoppingList: string;
   removeFromShoppingList: string;
@@ -87,6 +88,7 @@ export const UI: Record<AppLocale, UIStrings> = {
     photoBy: "Foto av",
     onUnsplash: "på Unsplash",
     newRecipes: "Nya recept",
+    source: "Källa",
     shoppingList: "Inköpslista",
     addToShoppingList: "Lägg till i inköpslistan",
     removeFromShoppingList: "Ta bort från inköpslistan",
@@ -96,7 +98,7 @@ export const UI: Record<AppLocale, UIStrings> = {
     emptyShoppingList: "Inköpslistan är tom",
     emptyShoppingListHint: "Öppna ett recept och lägg till det i listan.",
     removeRecipe: "Ta bort",
-    categoryName: (c) => ({ vegetable: "Grönsaker", meat: "Kött", dairy: "Mejeri", flour: "Mjöl", sugar: "Socker", spice: "Kryddor", seasoning: "Krydda", leavening: "Jäst & bakpulver", pantry: "Skafferi", fat: "Fett & olja" }[c] ?? c),
+    categoryName: (c) => ({ vegetable: "Grönsaker", meat: "Kött", dairy: "Mejeri", flour: "Mjöl", sugar: "Socker", spice: "Kryddor", seasoning: "Krydda", leavening: "Jäst & bakpulver", pantry: "Skafferi", fat: "Fett & olja", side: "Tillbehör" }[c] ?? c),
     servingsUnit: (unit) => ({ buns: "bullar", portions: "portioner", pieces: "st" }[unit] ?? unit),
     groupName: (g) => ({ dough: "Deg", filling: "Fyllning", topping: "Topping", patties: "Köttkakor", frying: "Stekning", gravy: "Sås", meat: "Färs", porridge: "Gröt", balls: "Bollar", coating: "Garnering" }[g] ?? g),
   },
@@ -136,6 +138,7 @@ export const UI: Record<AppLocale, UIStrings> = {
     photoBy: "Foto av",
     onUnsplash: "på Unsplash",
     newRecipes: "Nye oppskrifter",
+    source: "Kilde",
     shoppingList: "Handleliste",
     addToShoppingList: "Legg til i handlelisten",
     removeFromShoppingList: "Fjern fra handlelisten",
@@ -185,6 +188,7 @@ export const UI: Record<AppLocale, UIStrings> = {
     photoBy: "Foto af",
     onUnsplash: "på Unsplash",
     newRecipes: "Nye opskrifter",
+    source: "Kilde",
     shoppingList: "Indkøbsliste",
     addToShoppingList: "Føj til indkøbsliste",
     removeFromShoppingList: "Fjern fra indkøbsliste",
@@ -234,6 +238,7 @@ export const UI: Record<AppLocale, UIStrings> = {
     photoBy: "Photo by",
     onUnsplash: "on Unsplash",
     newRecipes: "New recipes",
+    source: "Source",
     shoppingList: "Shopping list",
     addToShoppingList: "Add to shopping list",
     removeFromShoppingList: "Remove from shopping list",

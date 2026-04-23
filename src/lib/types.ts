@@ -86,6 +86,7 @@ export type Recipe = {
   ingredients: IngredientUsage[];
   steps: Step[];
   hero_image?: HeroImage;
+  source?: string;              // Human-readable attribution for the tradition/book
   verified_by?: string;
   verified_at?: string;
 };

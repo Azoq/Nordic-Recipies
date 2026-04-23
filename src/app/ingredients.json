@@ -348,7 +348,8 @@
         "carbs_g": 3,
         "fiber_g": 0,
         "salt_g": 0.1
-      }
+      },
+      "density_g_per_ml": 1
     },
     {
       "id": "egg_large",
@@ -820,6 +821,31 @@
         "salt_g": 0.01
       },
       "density_g_per_ml": 1
+    },
+    {
+      "id": "ginger_ground",
+      "category": "spice",
+      "names": {
+        "sv": "ingefära, mald",
+        "no": "ingefær, malt",
+        "da": "ingefær, stødt",
+        "en": "ground ginger"
+      },
+      "density_g_per_ml": 0.55,
+      "default_unit_by_locale": {
+        "sv": "tsk",
+        "no": "ts",
+        "da": "tsk",
+        "en": "tsp"
+      },
+      "nutrition_per_100g": {
+        "kcal": 335,
+        "protein_g": 8.98,
+        "fat_g": 4.24,
+        "carbs_g": 71.6,
+        "fiber_g": 14.1,
+        "salt_g": 0.07
+      }
     }
   ]
 }

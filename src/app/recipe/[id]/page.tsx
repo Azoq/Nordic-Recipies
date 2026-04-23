@@ -116,6 +116,12 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
           {recipeDescription(recipe, locale)}
         </p>
 
+        {recipe.source && (
+          <p className="mt-3 text-center text-[11px] italic text-stone-500">
+            {ui.source}: {recipe.source}
+          </p>
+        )}
+
         <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-1 text-sm text-stone-700">
           <MetaItem label={ui.totalTime} value={formatTime(totalMin, locale)} />
           <MetaItem label={ui.activeTime} value={formatTime(activeMin, locale)} />
