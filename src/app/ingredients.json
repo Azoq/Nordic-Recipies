@@ -1,0 +1,378 @@
+{
+  "ingredients": [
+    {
+      "id": "wheat_flour_allpurpose",
+      "category": "flour",
+      "names": {
+        "sv": "vetemjöl",
+        "no": "hvetemel",
+        "da": "hvedemel",
+        "en": "all-purpose flour"
+      },
+      "density_g_per_ml": 0.53,
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "g", "en": "cup" }
+    },
+    {
+      "id": "wheat_flour_bread",
+      "category": "flour",
+      "names": {
+        "sv": "vetemjöl special",
+        "no": "hvetemel manitoba",
+        "da": "hvedemel manitoba",
+        "en": "bread flour"
+      },
+      "density_g_per_ml": 0.55,
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "g", "en": "cup" }
+    },
+    {
+      "id": "rye_flour",
+      "category": "flour",
+      "names": {
+        "sv": "rågmjöl",
+        "no": "rugmel",
+        "da": "rugmel",
+        "en": "rye flour"
+      },
+      "density_g_per_ml": 0.56,
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "g", "en": "cup" }
+    },
+    {
+      "id": "sugar_granulated",
+      "category": "sugar",
+      "names": {
+        "sv": "strösocker",
+        "no": "sukker",
+        "da": "sukker",
+        "en": "granulated sugar"
+      },
+      "density_g_per_ml": 0.85,
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "g", "en": "cup" }
+    },
+    {
+      "id": "sugar_brown",
+      "category": "sugar",
+      "names": {
+        "sv": "farinsocker",
+        "no": "brunt sukker",
+        "da": "brun farin",
+        "en": "brown sugar"
+      },
+      "density_g_per_ml": 0.93,
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "g", "en": "cup" }
+    },
+    {
+      "id": "salt_fine",
+      "category": "seasoning",
+      "names": {
+        "sv": "salt",
+        "no": "salt",
+        "da": "salt",
+        "en": "fine salt"
+      },
+      "density_g_per_ml": 1.2,
+      "default_unit_by_locale": { "sv": "tsk", "no": "ts", "da": "tsk", "en": "tsp" }
+    },
+    {
+      "id": "cardamom_ground",
+      "category": "spice",
+      "names": {
+        "sv": "kardemumma, mald",
+        "no": "kardemomme, malt",
+        "da": "kardemomme, stødt",
+        "en": "ground cardamom"
+      },
+      "default_unit_by_locale": { "sv": "msk", "no": "ss", "da": "spsk", "en": "tbsp" }
+    },
+    {
+      "id": "cinnamon_ground",
+      "category": "spice",
+      "names": {
+        "sv": "kanel, mald",
+        "no": "kanel, malt",
+        "da": "kanel, stødt",
+        "en": "ground cinnamon"
+      },
+      "default_unit_by_locale": { "sv": "msk", "no": "ss", "da": "spsk", "en": "tbsp" }
+    },
+    {
+      "id": "black_pepper",
+      "category": "spice",
+      "names": {
+        "sv": "svartpeppar",
+        "no": "sort pepper",
+        "da": "sort peber",
+        "en": "black pepper"
+      },
+      "default_unit_by_locale": { "sv": "krm", "no": "krm", "da": "knsp", "en": "pinch" }
+    },
+    {
+      "id": "butter",
+      "category": "dairy",
+      "names": {
+        "sv": "smör",
+        "no": "smør",
+        "da": "smør",
+        "en": "butter"
+      },
+      "default_unit_by_locale": { "sv": "g", "no": "g", "da": "g", "en": "tbsp" }
+    },
+    {
+      "id": "milk_whole",
+      "category": "dairy",
+      "names": {
+        "sv": "mjölk (3%)",
+        "no": "helmelk",
+        "da": "sødmælk",
+        "en": "whole milk"
+      },
+      "density_g_per_ml": 1.03,
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "dl", "en": "cup" }
+    },
+    {
+      "id": "cream_36",
+      "category": "dairy",
+      "names": {
+        "sv": "vispgrädde",
+        "no": "kremfløte",
+        "da": "piskefløde"
+      },
+      "fat_percentage": 36,
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "dl", "en": "cup" }
+    },
+    {
+      "id": "cream_15",
+      "category": "dairy",
+      "names": {
+        "sv": "matlagningsgrädde",
+        "no": "matfløte",
+        "da": "madlavningsfløde",
+        "en": "light cream"
+      },
+      "fat_percentage": 15,
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "dl", "en": "cup" }
+    },
+    {
+      "id": "sour_cream",
+      "category": "dairy",
+      "names": {
+        "sv": "gräddfil",
+        "no": "rømme",
+        "da": "cremefraiche",
+        "en": "sour cream"
+      },
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "dl", "en": "cup" }
+    },
+    {
+      "id": "egg_large",
+      "category": "dairy",
+      "names": {
+        "sv": "ägg (stora)",
+        "no": "egg (store)",
+        "da": "æg (store)",
+        "en": "large eggs"
+      },
+      "default_unit_by_locale": { "sv": "st", "no": "stk", "da": "stk", "en": "whole" }
+    },
+    {
+      "id": "yeast_fresh",
+      "category": "leavening",
+      "names": {
+        "sv": "färsk jäst",
+        "no": "fersk gjær",
+        "da": "frisk gær",
+        "en": "fresh yeast"
+      },
+      "default_unit_by_locale": { "sv": "g", "no": "g", "da": "g", "en": "g" },
+      "substitutions": ["yeast_dry"]
+    },
+    {
+      "id": "yeast_dry",
+      "category": "leavening",
+      "names": {
+        "sv": "torrjäst",
+        "no": "tørrgjær",
+        "da": "tørgær",
+        "en": "active dry yeast"
+      },
+      "default_unit_by_locale": { "sv": "g", "no": "g", "da": "g", "en": "tsp" },
+      "substitutions": ["yeast_fresh"]
+    },
+    {
+      "id": "baking_powder",
+      "category": "leavening",
+      "names": {
+        "sv": "bakpulver",
+        "no": "bakepulver",
+        "da": "bagepulver",
+        "en": "baking powder"
+      },
+      "default_unit_by_locale": { "sv": "tsk", "no": "ts", "da": "tsk", "en": "tsp" }
+    },
+    {
+      "id": "potato",
+      "category": "vegetable",
+      "names": {
+        "sv": "potatis",
+        "no": "poteter",
+        "da": "kartofler",
+        "en": "potatoes"
+      },
+      "default_unit_by_locale": { "sv": "g", "no": "g", "da": "g", "en": "lb" }
+    },
+    {
+      "id": "onion_yellow",
+      "category": "vegetable",
+      "names": {
+        "sv": "gul lök",
+        "no": "gul løk",
+        "da": "gule løg",
+        "en": "yellow onion"
+      },
+      "default_unit_by_locale": { "sv": "st", "no": "stk", "da": "stk", "en": "whole" }
+    },
+    {
+      "id": "garlic_clove",
+      "category": "vegetable",
+      "names": {
+        "sv": "vitlöksklyftor",
+        "no": "hvitløksfedd",
+        "da": "hvidløgsfed",
+        "en": "garlic cloves"
+      },
+      "default_unit_by_locale": { "sv": "st", "no": "stk", "da": "stk", "en": "whole" }
+    },
+    {
+      "id": "carrot",
+      "category": "vegetable",
+      "names": {
+        "sv": "morot",
+        "no": "gulrot",
+        "da": "gulerod",
+        "en": "carrot"
+      },
+      "default_unit_by_locale": { "sv": "st", "no": "stk", "da": "stk", "en": "whole" }
+    },
+    {
+      "id": "beef_ground",
+      "category": "meat",
+      "names": {
+        "sv": "nötfärs",
+        "no": "kjøttdeig",
+        "da": "hakket oksekød",
+        "en": "ground beef"
+      },
+      "default_unit_by_locale": { "sv": "g", "no": "g", "da": "g", "en": "lb" }
+    },
+    {
+      "id": "pork_ground",
+      "category": "meat",
+      "names": {
+        "sv": "fläskfärs",
+        "no": "svinekjøttdeig",
+        "da": "hakket svinekød",
+        "en": "ground pork"
+      },
+      "default_unit_by_locale": { "sv": "g", "no": "g", "da": "g", "en": "lb" }
+    },
+    {
+      "id": "breadcrumbs",
+      "category": "pantry",
+      "names": {
+        "sv": "ströbröd",
+        "no": "strøbrød",
+        "da": "rasp",
+        "en": "breadcrumbs"
+      },
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "g", "en": "cup" }
+    },
+    {
+      "id": "allspice_ground",
+      "category": "spice",
+      "names": {
+        "sv": "kryddpeppar, mald",
+        "no": "allehånde, malt",
+        "da": "allehånde, stødt",
+        "en": "ground allspice"
+      },
+      "default_unit_by_locale": { "sv": "krm", "no": "krm", "da": "knsp", "en": "pinch" }
+    },
+    {
+      "id": "lingonberry_jam",
+      "category": "pantry",
+      "names": {
+        "sv": "lingonsylt",
+        "no": "tyttebærsyltetøy",
+        "da": "tyttebærsyltetøj",
+        "en": "lingonberry jam"
+      },
+      "default_unit_by_locale": { "sv": "msk", "no": "ss", "da": "spsk", "en": "tbsp" }
+    },
+    {
+      "id": "oil_neutral",
+      "category": "fat",
+      "names": {
+        "sv": "rapsolja",
+        "no": "rapsolje",
+        "da": "rapsolie",
+        "en": "canola oil"
+      },
+      "default_unit_by_locale": { "sv": "msk", "no": "ss", "da": "spsk", "en": "tbsp" }
+    },
+    {
+      "id": "water",
+      "category": "pantry",
+      "names": {
+        "sv": "vatten",
+        "no": "vann",
+        "da": "vand",
+        "en": "water"
+      },
+      "density_g_per_ml": 1.0,
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "dl", "en": "cup" }
+    },
+    {
+      "id": "pearl_sugar",
+      "category": "sugar",
+      "names": {
+        "sv": "pärlsocker",
+        "no": "perlesukker",
+        "da": "perlesukker",
+        "en": "pearl sugar"
+      },
+      "default_unit_by_locale": { "sv": "msk", "no": "ss", "da": "spsk", "en": "tbsp" }
+    },
+    {
+      "id": "cocoa_powder",
+      "category": "pantry",
+      "names": {
+        "sv": "kakao",
+        "no": "kakao",
+        "da": "kakao",
+        "en": "cocoa powder"
+      },
+      "default_unit_by_locale": { "sv": "msk", "no": "ss", "da": "spsk", "en": "tbsp" }
+    },
+    {
+      "id": "rolled_oats",
+      "category": "pantry",
+      "names": {
+        "sv": "havregryn",
+        "no": "havregryn",
+        "da": "havregryn",
+        "en": "rolled oats"
+      },
+      "default_unit_by_locale": { "sv": "dl", "no": "dl", "da": "dl", "en": "cup" }
+    },
+    {
+      "id": "coffee_brewed",
+      "category": "pantry",
+      "names": {
+        "sv": "kallt kaffe",
+        "no": "kald kaffe",
+        "da": "kold kaffe",
+        "en": "cold brewed coffee"
+      },
+      "default_unit_by_locale": { "sv": "msk", "no": "ss", "da": "spsk", "en": "tbsp" }
+    }
+  ]
+}
