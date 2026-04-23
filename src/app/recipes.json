@@ -22,9 +22,18 @@
       "time_prep_minutes": 30,
       "time_rest_minutes": 90,
       "time_cook_minutes": 10,
-      "oven": { "type": "conventional", "temp_c": 225, "fan_temp_c": 200 },
+      "oven": {
+        "type": "conventional",
+        "temp_c": 225,
+        "fan_temp_c": 200
+      },
       "yeast_type": "fresh",
-      "tags": ["baking", "fika", "classic", "swedish"],
+      "tags": [
+        "baking",
+        "fika",
+        "classic",
+        "swedish"
+      ],
       "hero_image": {
         "unsplash_id": "1558961363-fa8fdf82db35",
         "photographer": "Charles Chen",
@@ -32,23 +41,88 @@
         "alt": "Cinnamon buns with pearl sugar"
       },
       "ingredients": [
-        { "ingredient_id": "yeast_fresh", "amount": 25, "unit": "g", "group": "dough" },
-        { "ingredient_id": "milk_whole", "amount": 2.5, "unit": "dl", "group": "dough" },
-        { "ingredient_id": "butter", "amount": 75, "unit": "g", "group": "dough" },
-        { "ingredient_id": "sugar_granulated", "amount": 1, "unit": "dl", "group": "dough" },
-        { "ingredient_id": "salt_fine", "amount": 0.5, "unit": "tsk", "group": "dough" },
-        { "ingredient_id": "cardamom_ground", "amount": 1, "unit": "msk", "group": "dough" },
-        { "ingredient_id": "wheat_flour_allpurpose", "amount": 7, "unit": "dl", "group": "dough" },
-        { "ingredient_id": "butter", "amount": 75, "unit": "g", "group": "filling" },
-        { "ingredient_id": "sugar_granulated", "amount": 0.75, "unit": "dl", "group": "filling" },
-        { "ingredient_id": "cinnamon_ground", "amount": 2, "unit": "msk", "group": "filling" },
-        { "ingredient_id": "egg_large", "amount": 1, "unit": "st", "group": "topping" },
-        { "ingredient_id": "pearl_sugar", "amount": 2, "unit": "msk", "group": "topping" }
+        {
+          "ingredient_id": "yeast_fresh",
+          "amount": 25,
+          "unit": "g",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 2.5,
+          "unit": "dl",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 75,
+          "unit": "g",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "dl",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "cardamom_ground",
+          "amount": 1,
+          "unit": "msk",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 7,
+          "unit": "dl",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 75,
+          "unit": "g",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 0.75,
+          "unit": "dl",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "cinnamon_ground",
+          "amount": 2,
+          "unit": "msk",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 1,
+          "unit": "st",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "pearl_sugar",
+          "amount": 2,
+          "unit": "msk",
+          "group": "topping"
+        }
       ],
       "steps": [
         {
           "order": 1,
-          "title": { "sv": "Lös upp jästen", "no": "Løs opp gjæren", "da": "Opløs gæren", "en": "Dissolve the yeast" },
+          "title": {
+            "sv": "Lös upp jästen",
+            "no": "Løs opp gjæren",
+            "da": "Opløs gæren",
+            "en": "Dissolve the yeast"
+          },
           "text": {
             "sv": "Smält smöret i en kastrull. Häll i mjölken och värm tills blandningen är fingervarm (37 °C). Smula jästen i en bunke och rör ut med den ljumma vätskan.",
             "no": "Smelt smøret i en kjele. Hell i melken og varm til blandingen er fingervarm (37 °C). Smuldre gjæren i en bolle og rør den ut i den lunkne væsken.",
@@ -59,7 +133,12 @@
         },
         {
           "order": 2,
-          "title": { "sv": "Blanda degen", "no": "Bland deigen", "da": "Bland dejen", "en": "Mix the dough" },
+          "title": {
+            "sv": "Blanda degen",
+            "no": "Bland deigen",
+            "da": "Bland dejen",
+            "en": "Mix the dough"
+          },
           "text": {
             "sv": "Tillsätt socker, salt och kardemumma. Rör i mjölet lite i taget och arbeta degen smidig i 8–10 minuter.",
             "no": "Tilsett sukker, salt og kardemomme. Rør inn melet litt etter litt og kna deigen smidig i 8–10 minutter.",
@@ -70,7 +149,12 @@
         },
         {
           "order": 3,
-          "title": { "sv": "Första jäsning", "no": "Første heving", "da": "Første hævning", "en": "First rise" },
+          "title": {
+            "sv": "Första jäsning",
+            "no": "Første heving",
+            "da": "Første hævning",
+            "en": "First rise"
+          },
           "text": {
             "sv": "Täck bunken med en bakduk och låt degen jäsa i 40 minuter, eller tills den har dubblat i storlek.",
             "no": "Dekk bollen med et kjøkkenhåndkle og la deigen heve i 40 minutter, eller til den har doblet seg.",
@@ -81,7 +165,12 @@
         },
         {
           "order": 4,
-          "title": { "sv": "Rulla och fyll", "no": "Kjevle ut og fyll", "da": "Rul ud og fyld", "en": "Roll and fill" },
+          "title": {
+            "sv": "Rulla och fyll",
+            "no": "Kjevle ut og fyll",
+            "da": "Rul ud og fyld",
+            "en": "Roll and fill"
+          },
           "text": {
             "sv": "Kavla ut degen till en rektangel på cirka 30×40 cm. Bred ut det mjuka smöret, strö över socker och kanel. Rulla ihop från långsidan och skär i 24 bitar.",
             "no": "Kjevle ut deigen til et rektangel på ca 30×40 cm. Smør det myke smøret på, strø over sukker og kanel. Rull sammen fra langsiden og del i 24 biter.",
@@ -92,7 +181,12 @@
         },
         {
           "order": 5,
-          "title": { "sv": "Andra jäsning", "no": "Andre heving", "da": "Anden hævning", "en": "Second rise" },
+          "title": {
+            "sv": "Andra jäsning",
+            "no": "Andre heving",
+            "da": "Anden hævning",
+            "en": "Second rise"
+          },
           "text": {
             "sv": "Lägg bullarna i pappersformar på plåtar. Täck med bakduk och låt jäsa i 45 minuter.",
             "no": "Legg bollene i papirformer på stekebrett. Dekk med kjøkkenhåndkle og la heve i 45 minutter.",
@@ -103,7 +197,12 @@
         },
         {
           "order": 6,
-          "title": { "sv": "Grädda", "no": "Stek", "da": "Bag", "en": "Bake" },
+          "title": {
+            "sv": "Grädda",
+            "no": "Stek",
+            "da": "Bag",
+            "en": "Bake"
+          },
           "text": {
             "sv": "Pensla bullarna med uppvispat ägg och strö över pärlsocker. Grädda mitt i ugnen i 8–10 minuter tills de är gyllenbruna.",
             "no": "Pensle bollene med sammenvispet egg og strø på perlesukker. Stek midt i ovnen i 8–10 minutter til de er gyllenbrune.",
@@ -140,7 +239,12 @@
       "time_cook_minutes": 25,
       "oven": null,
       "yeast_type": null,
-      "tags": ["dinner", "classic", "norwegian", "weeknight"],
+      "tags": [
+        "dinner",
+        "classic",
+        "norwegian",
+        "weeknight"
+      ],
       "hero_image": {
         "unsplash_id": "1544025162-d76694265947",
         "photographer": "Sander Dalhuisen",
@@ -148,24 +252,94 @@
         "alt": "Meat patties with brown gravy and potatoes"
       },
       "ingredients": [
-        { "ingredient_id": "beef_ground", "amount": 500, "unit": "g", "group": "patties" },
-        { "ingredient_id": "onion_yellow", "amount": 1, "unit": "st", "group": "patties" },
-        { "ingredient_id": "egg_large", "amount": 1, "unit": "st", "group": "patties" },
-        { "ingredient_id": "breadcrumbs", "amount": 1, "unit": "dl", "group": "patties" },
-        { "ingredient_id": "milk_whole", "amount": 1, "unit": "dl", "group": "patties" },
-        { "ingredient_id": "salt_fine", "amount": 1, "unit": "tsk", "group": "patties" },
-        { "ingredient_id": "black_pepper", "amount": 2, "unit": "krm", "group": "patties" },
-        { "ingredient_id": "allspice_ground", "amount": 1, "unit": "krm", "group": "patties" },
-        { "ingredient_id": "butter", "amount": 30, "unit": "g", "group": "frying" },
-        { "ingredient_id": "butter", "amount": 30, "unit": "g", "group": "gravy" },
-        { "ingredient_id": "wheat_flour_allpurpose", "amount": 2, "unit": "msk", "group": "gravy" },
-        { "ingredient_id": "water", "amount": 5, "unit": "dl", "group": "gravy" },
-        { "ingredient_id": "cream_36", "amount": 1, "unit": "dl", "group": "gravy" }
+        {
+          "ingredient_id": "beef_ground",
+          "amount": 500,
+          "unit": "g",
+          "group": "patties"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "patties"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 1,
+          "unit": "st",
+          "group": "patties"
+        },
+        {
+          "ingredient_id": "breadcrumbs",
+          "amount": 1,
+          "unit": "dl",
+          "group": "patties"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 1,
+          "unit": "dl",
+          "group": "patties"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "patties"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "krm",
+          "group": "patties"
+        },
+        {
+          "ingredient_id": "allspice_ground",
+          "amount": 1,
+          "unit": "krm",
+          "group": "patties"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 30,
+          "unit": "g",
+          "group": "frying"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 30,
+          "unit": "g",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 2,
+          "unit": "msk",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 5,
+          "unit": "dl",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "cream_36",
+          "amount": 1,
+          "unit": "dl",
+          "group": "gravy"
+        }
       ],
       "steps": [
         {
           "order": 1,
-          "title": { "sv": "Blötlägg ströbröd", "no": "Bløtlegg strøbrødet", "da": "Læg raspen i blød", "en": "Soak the breadcrumbs" },
+          "title": {
+            "sv": "Blötlägg ströbröd",
+            "no": "Bløtlegg strøbrødet",
+            "da": "Læg raspen i blød",
+            "en": "Soak the breadcrumbs"
+          },
           "text": {
             "sv": "Blanda ströbröd och mjölk i en liten skål. Låt stå i 5 minuter så ströbrödet sväller.",
             "no": "Bland strøbrød og melk i en liten bolle. La stå i 5 minutter så strøbrødet får trukket.",
@@ -176,7 +350,12 @@
         },
         {
           "order": 2,
-          "title": { "sv": "Blanda färsen", "no": "Bland deigen", "da": "Bland farsen", "en": "Mix the meat" },
+          "title": {
+            "sv": "Blanda färsen",
+            "no": "Bland deigen",
+            "da": "Bland farsen",
+            "en": "Mix the meat"
+          },
           "text": {
             "sv": "Finhacka löken. Blanda färs, ägg, den uppblötta ströbrödsblandningen, lök, salt, peppar och kryddpeppar. Arbeta ihop färsen ordentligt.",
             "no": "Finhakk løken. Bland kjøttdeig, egg, den bløtlagte strøbrødsblandingen, løk, salt, pepper og allehånde. Arbeid farsen godt sammen.",
@@ -187,7 +366,12 @@
         },
         {
           "order": 3,
-          "title": { "sv": "Forma och stek", "no": "Form og stek", "da": "Form og steg", "en": "Shape and fry" },
+          "title": {
+            "sv": "Forma och stek",
+            "no": "Form og stek",
+            "da": "Form og steg",
+            "en": "Shape and fry"
+          },
           "text": {
             "sv": "Forma färsen till 12 platta kakor. Smält smör i en stekpanna på medelvärme. Stek kakorna 3–4 minuter per sida tills de är genomstekta och har fin färg.",
             "no": "Form farsen til 12 flate kaker. Smelt smør i en stekepanne på middels varme. Stek kakene i 3–4 minutter på hver side til de er gjennomstekte og har fin farge.",
@@ -198,7 +382,12 @@
         },
         {
           "order": 4,
-          "title": { "sv": "Gör såsen", "no": "Lag sausen", "da": "Lav sovsen", "en": "Make the gravy" },
+          "title": {
+            "sv": "Gör såsen",
+            "no": "Lag sausen",
+            "da": "Lav sovsen",
+            "en": "Make the gravy"
+          },
           "text": {
             "sv": "Ta upp kakorna och håll varma. Smält smöret i samma panna, tillsätt mjölet och rör runt i 1 minut. Vispa ner vattnet lite i taget, låt koka upp. Rör i grädden och låt sjuda i 5 minuter. Smaka av med salt och peppar.",
             "no": "Ta opp kakene og hold dem varme. Smelt smøret i samme panne, tilsett melet og rør i 1 minutt. Visp i vannet litt etter litt, la det koke opp. Rør inn fløten og la småkoke i 5 minutter. Smak til med salt og pepper.",
@@ -209,7 +398,12 @@
         },
         {
           "order": 5,
-          "title": { "sv": "Servera", "no": "Server", "da": "Server", "en": "Serve" },
+          "title": {
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Server",
+            "en": "Serve"
+          },
           "text": {
             "sv": "Lägg tillbaka kakorna i såsen och låt dem bli genomvarma. Servera med kokt potatis, gröna ärter och lingonsylt.",
             "no": "Legg kakene tilbake i sausen og la dem bli gjennomvarme. Server med kokte poteter, grønne erter og tyttebærsyltetøy.",
@@ -246,7 +440,12 @@
       "time_cook_minutes": 20,
       "oven": null,
       "yeast_type": null,
-      "tags": ["dinner", "classic", "danish", "weeknight"],
+      "tags": [
+        "dinner",
+        "classic",
+        "danish",
+        "weeknight"
+      ],
       "hero_image": {
         "unsplash_id": "1529042410759-befb1204b468",
         "photographer": "Emiliano Vittoriosi",
@@ -254,21 +453,76 @@
         "alt": "Danish meatballs with potatoes"
       },
       "ingredients": [
-        { "ingredient_id": "pork_ground", "amount": 400, "unit": "g", "group": "meat" },
-        { "ingredient_id": "beef_ground", "amount": 100, "unit": "g", "group": "meat" },
-        { "ingredient_id": "onion_yellow", "amount": 1, "unit": "st", "group": "meat" },
-        { "ingredient_id": "egg_large", "amount": 1, "unit": "st", "group": "meat" },
-        { "ingredient_id": "wheat_flour_allpurpose", "amount": 2, "unit": "msk", "group": "meat" },
-        { "ingredient_id": "breadcrumbs", "amount": 2, "unit": "msk", "group": "meat" },
-        { "ingredient_id": "milk_whole", "amount": 1, "unit": "dl", "group": "meat" },
-        { "ingredient_id": "salt_fine", "amount": 1, "unit": "tsk", "group": "meat" },
-        { "ingredient_id": "black_pepper", "amount": 2, "unit": "krm", "group": "meat" },
-        { "ingredient_id": "butter", "amount": 50, "unit": "g", "group": "frying" }
+        {
+          "ingredient_id": "pork_ground",
+          "amount": 400,
+          "unit": "g",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "beef_ground",
+          "amount": 100,
+          "unit": "g",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 1,
+          "unit": "st",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 2,
+          "unit": "msk",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "breadcrumbs",
+          "amount": 2,
+          "unit": "msk",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 1,
+          "unit": "dl",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "krm",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 50,
+          "unit": "g",
+          "group": "frying"
+        }
       ],
       "steps": [
         {
           "order": 1,
-          "title": { "sv": "Blanda färsen", "no": "Bland farsen", "da": "Rør farsen", "en": "Mix the meat" },
+          "title": {
+            "sv": "Blanda färsen",
+            "no": "Bland farsen",
+            "da": "Rør farsen",
+            "en": "Mix the meat"
+          },
           "text": {
             "sv": "Riv löken fint. Blanda köttfärsen med lök, ägg, mjöl, ströbröd, mjölk, salt och peppar. Arbeta ihop ordentligt tills färsen är smidig.",
             "no": "Riv løken fint. Bland kjøttdeigen med løk, egg, mel, strøbrød, melk, salt og pepper. Arbeid godt sammen til farsen er smidig.",
@@ -279,7 +533,12 @@
         },
         {
           "order": 2,
-          "title": { "sv": "Låt vila", "no": "La farsen hvile", "da": "Lad farsen hvile", "en": "Rest the meat" },
+          "title": {
+            "sv": "Låt vila",
+            "no": "La farsen hvile",
+            "da": "Lad farsen hvile",
+            "en": "Rest the meat"
+          },
           "text": {
             "sv": "Låt färsen vila i kylskåpet i 30 minuter så den blir fastare och lättare att forma.",
             "no": "La farsen hvile i kjøleskapet i 30 minutter så den blir fastere og lettere å forme.",
@@ -290,7 +549,12 @@
         },
         {
           "order": 3,
-          "title": { "sv": "Forma frikadeller", "no": "Form frikadellene", "da": "Form frikadellerne", "en": "Shape the frikadeller" },
+          "title": {
+            "sv": "Forma frikadeller",
+            "no": "Form frikadellene",
+            "da": "Form frikadellerne",
+            "en": "Shape the frikadeller"
+          },
           "text": {
             "sv": "Doppa en matsked i vatten. Forma frikadeller med hjälp av skeden och din andra hand — traditionellt ovala, lite plattare än bollar.",
             "no": "Dypp en spiseskje i vann. Form frikadellene med skjeen og den andre hånden — tradisjonelt ovale, litt flatere enn boller.",
@@ -301,7 +565,12 @@
         },
         {
           "order": 4,
-          "title": { "sv": "Stek", "no": "Stek", "da": "Steg", "en": "Pan-fry" },
+          "title": {
+            "sv": "Stek",
+            "no": "Stek",
+            "da": "Steg",
+            "en": "Pan-fry"
+          },
           "text": {
             "sv": "Smält smöret i en stekpanna på medelvärme. Stek frikadellerna 5–6 minuter per sida tills de är gyllene och genomstekta. Gör i omgångar så pannan inte blir för full.",
             "no": "Smelt smøret i en stekepanne på middels varme. Stek frikadellene 5–6 minutter på hver side til de er gylne og gjennomstekte. Stek i porsjoner for ikke å overfylle pannen.",
@@ -338,7 +607,11 @@
       "time_cook_minutes": 8,
       "oven": null,
       "yeast_type": null,
-      "tags": ["breakfast", "quick", "nordic"],
+      "tags": [
+        "breakfast",
+        "quick",
+        "nordic"
+      ],
       "hero_image": {
         "unsplash_id": "1517686469429-8bdb88b9f907",
         "photographer": "Melissa Belanger",
@@ -346,15 +619,40 @@
         "alt": "Bowl of oat porridge"
       },
       "ingredients": [
-        { "ingredient_id": "water", "amount": 4, "unit": "dl", "group": "porridge" },
-        { "ingredient_id": "milk_whole", "amount": 2, "unit": "dl", "group": "porridge" },
-        { "ingredient_id": "rolled_oats", "amount": 2, "unit": "dl", "group": "porridge" },
-        { "ingredient_id": "salt_fine", "amount": 0.25, "unit": "tsk", "group": "porridge" }
+        {
+          "ingredient_id": "water",
+          "amount": 4,
+          "unit": "dl",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 2,
+          "unit": "dl",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "rolled_oats",
+          "amount": 2,
+          "unit": "dl",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.25,
+          "unit": "tsk",
+          "group": "porridge"
+        }
       ],
       "steps": [
         {
           "order": 1,
-          "title": { "sv": "Koka upp", "no": "Kok opp", "da": "Kog op", "en": "Bring to a boil" },
+          "title": {
+            "sv": "Koka upp",
+            "no": "Kok opp",
+            "da": "Kog op",
+            "en": "Bring to a boil"
+          },
           "text": {
             "sv": "Koka upp vatten, mjölk och salt i en kastrull.",
             "no": "Kok opp vann, melk og salt i en kjele.",
@@ -365,7 +663,12 @@
         },
         {
           "order": 2,
-          "title": { "sv": "Tillsätt havregryn", "no": "Tilsett havregryn", "da": "Tilsæt havregryn", "en": "Add the oats" },
+          "title": {
+            "sv": "Tillsätt havregryn",
+            "no": "Tilsett havregryn",
+            "da": "Tilsæt havregryn",
+            "en": "Add the oats"
+          },
           "text": {
             "sv": "Rör ner 2 dl havregryn och sänk värmen. Låt koka under omrörning i 5–7 minuter tills gröten är krämig.",
             "no": "Rør inn 2 dl havregryn og senk varmen. La småkoke under omrøring i 5–7 minutter til grøten er kremete.",
@@ -376,7 +679,12 @@
         },
         {
           "order": 3,
-          "title": { "sv": "Servera", "no": "Server", "da": "Server", "en": "Serve" },
+          "title": {
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Server",
+            "en": "Serve"
+          },
           "text": {
             "sv": "Servera med mjölk, sylt, kanel eller brunt socker.",
             "no": "Server med melk, syltetøy, kanel eller brunt sukker.",
@@ -413,7 +721,12 @@
       "time_cook_minutes": 0,
       "oven": null,
       "yeast_type": null,
-      "tags": ["fika", "no_bake", "classic", "swedish"],
+      "tags": [
+        "fika",
+        "no_bake",
+        "classic",
+        "swedish"
+      ],
       "hero_image": {
         "unsplash_id": "1548907040-4baa42d10919",
         "photographer": "Louis Hansel",
@@ -421,17 +734,52 @@
         "alt": "Chocolate oat balls coated in pearl sugar"
       },
       "ingredients": [
-        { "ingredient_id": "butter", "amount": 100, "unit": "g", "group": "balls" },
-        { "ingredient_id": "sugar_granulated", "amount": 1, "unit": "dl", "group": "balls" },
-        { "ingredient_id": "cocoa_powder", "amount": 3, "unit": "msk", "group": "balls" },
-        { "ingredient_id": "rolled_oats", "amount": 3, "unit": "dl", "group": "balls" },
-        { "ingredient_id": "coffee_brewed", "amount": 2, "unit": "msk", "group": "balls" },
-        { "ingredient_id": "pearl_sugar", "amount": 1, "unit": "dl", "group": "coating" }
+        {
+          "ingredient_id": "butter",
+          "amount": 100,
+          "unit": "g",
+          "group": "balls"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "dl",
+          "group": "balls"
+        },
+        {
+          "ingredient_id": "cocoa_powder",
+          "amount": 3,
+          "unit": "msk",
+          "group": "balls"
+        },
+        {
+          "ingredient_id": "rolled_oats",
+          "amount": 3,
+          "unit": "dl",
+          "group": "balls"
+        },
+        {
+          "ingredient_id": "coffee_brewed",
+          "amount": 2,
+          "unit": "msk",
+          "group": "balls"
+        },
+        {
+          "ingredient_id": "pearl_sugar",
+          "amount": 1,
+          "unit": "dl",
+          "group": "coating"
+        }
       ],
       "steps": [
         {
           "order": 1,
-          "title": { "sv": "Blanda", "no": "Bland", "da": "Bland", "en": "Mix" },
+          "title": {
+            "sv": "Blanda",
+            "no": "Bland",
+            "da": "Bland",
+            "en": "Mix"
+          },
           "text": {
             "sv": "Rör mjukt smör med socker tills det blir luftigt. Tillsätt kakao, havregryn och kallt kaffe. Blanda väl.",
             "no": "Rør mykt smør med sukker til det blir luftig. Tilsett kakao, havregryn og kald kaffe. Bland godt.",
@@ -442,7 +790,12 @@
         },
         {
           "order": 2,
-          "title": { "sv": "Forma bollar", "no": "Form kuler", "da": "Form kugler", "en": "Shape balls" },
+          "title": {
+            "sv": "Forma bollar",
+            "no": "Form kuler",
+            "da": "Form kugler",
+            "en": "Shape balls"
+          },
           "text": {
             "sv": "Rulla smeten till cirka 20 bollar. Rulla dem i pärlsocker.",
             "no": "Rull deigen til ca 20 kuler. Rull dem i perlesukker.",
@@ -453,7 +806,12 @@
         },
         {
           "order": 3,
-          "title": { "sv": "Kyl", "no": "Avkjøl", "da": "Afkøl", "en": "Chill" },
+          "title": {
+            "sv": "Kyl",
+            "no": "Avkjøl",
+            "da": "Afkøl",
+            "en": "Chill"
+          },
           "text": {
             "sv": "Kyl i kylskåpet i minst 30 minuter innan servering.",
             "no": "Avkjøl i kjøleskapet i minst 30 minutter før servering.",
@@ -461,6 +819,512 @@
             "en": "Refrigerate at least 30 minutes before serving."
           },
           "timer_seconds": 1800
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "kottbullar_hagdahl",
+      "locale_of_authorship": "sv",
+      "category": "family_meal",
+      "added_at": "2026-04-23",
+      "title": {
+        "sv": "Köttbullar efter Hagdahl",
+        "no": "Kjøttkaker etter Hagdahl",
+        "da": "Kødboller efter Hagdahl",
+        "en": "Hagdahl's Swedish meatballs"
+      },
+      "description": {
+        "sv": "Charles Emil Hagdahls köttbullar från 1879 skiljer sig från dagens version på ett iögonfallande sätt: han kryddade med ingefära och peppar, inte kryddpeppar. Kombinationen ger en värmande, lätt blommig smak som ligger närmare 1800-talets borgerliga svenska kök än den moderna IKEA-versionen. Servera som Hagdahl skulle ha gjort — med en fin stekesky, kokt potatis och en klick gelé.",
+        "no": "Charles Emil Hagdahls kjøttkaker fra 1879 skiller seg fra dagens oppskrift på en påfallende måte: han krydret med ingefær og pepper, ikke allehånde. Kombinasjonen gir en varm, lett blomsteraktig smak som ligger nærmere 1800-tallets borgerlige svenske kjøkken enn den moderne IKEA-versjonen. Server slik Hagdahl ville ha gjort det — med en fin stekesjy, kokte poteter og en skje gele.",
+        "da": "Charles Emil Hagdahls kødboller fra 1879 adskiller sig fra nutidens udgave på en tydelig måde: han krydrede med ingefær og peber, ikke allehånde. Kombinationen giver en varm, let blomstret smag der ligger tættere på 1800-tallets borgerlige svenske køkken end den moderne IKEA-version. Server som Hagdahl ville have gjort det — med en fin stegesky, kogte kartofler og en skefuld gele.",
+        "en": "Charles Emil Hagdahl's meatballs from 1879 differ from today's recipe in one striking way: he seasoned with ginger and pepper, not allspice. The combination gives a warm, faintly floral flavor much closer to the 19th-century bourgeois Swedish kitchen than the modern IKEA version. Serve the way Hagdahl would have — with a glossy pan sauce, boiled potatoes, and a spoonful of jelly."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 20,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 25,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "historical",
+        "swedish",
+        "classic"
+      ],
+      "source": "Charles Emil Hagdahl, Kok-konsten (1879)",
+      "ingredients": [
+        {
+          "ingredient_id": "beef_ground",
+          "amount": 400,
+          "unit": "g",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "pork_ground",
+          "amount": 100,
+          "unit": "g",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "breadcrumbs",
+          "amount": 2,
+          "unit": "msk",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 1,
+          "unit": "dl",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 1,
+          "unit": "st",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1.5,
+          "unit": "tsk",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "krm",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "ginger_ground",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "meat"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 40,
+          "unit": "g",
+          "group": "frying"
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 1,
+          "unit": "msk",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 2,
+          "unit": "dl",
+          "group": "gravy"
+        },
+        {
+          "ingredient_id": "cream_36",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "gravy"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "sv": "Blötlägg ströbröd",
+            "no": "Bløtlegg strøbrødet",
+            "da": "Læg raspen i blød",
+            "en": "Soak the breadcrumbs"
+          },
+          "text": {
+            "sv": "Blanda ströbröd och mjölk i en liten skål och låt svälla i 5 minuter. Finhacka löken och fräs den mjuk i en klick smör i en stekpanna. Låt löken svalna.",
+            "no": "Bland strøbrød og melk i en liten bolle og la trekke i 5 minutter. Finhakk løken og stek den myk i en klatt smør i en stekepanne. La løken avkjøles.",
+            "da": "Bland rasp og mælk i en lille skål og lad trække i 5 minutter. Hak løget fint og lad det svitse blødt i lidt smør på en pande. Lad løget køle ned.",
+            "en": "Mix the breadcrumbs and milk in a small bowl and let soak 5 minutes. Finely chop the onion and sweat it in a little butter until soft and translucent. Let cool."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "order": 2,
+          "title": {
+            "sv": "Arbeta smeten",
+            "no": "Bland farsen",
+            "da": "Rør farsen",
+            "en": "Mix the meat"
+          },
+          "text": {
+            "sv": "Blanda nöt- och fläskfärs, den svalnade löken, den uppblötta ströbrödsblandningen, ägget, salt, peppar och ingefära. Arbeta smeten ordentligt tills den är sammanhängande. Provstek en liten klick i pannan för att kontrollera smaken.",
+            "no": "Bland kjøttdeig, svinekjøttdeig, den avkjølte løken, den bløtlagte strøbrødsblandingen, egget, salt, pepper og ingefær. Arbeid farsen godt sammen til den henger sammen. Stek en liten prøve for å sjekke smaken.",
+            "da": "Bland hakket oksekød, hakket svinekød, det afkølte løg, den udblødte raspblanding, ægget, salt, peber og ingefær. Rør farsen godt sammen til den hænger sammen. Steg en lille prøve for at tjekke smagen.",
+            "en": "Combine the ground beef, ground pork, cooled onion, soaked breadcrumb mixture, egg, salt, pepper, and ginger. Work thoroughly until cohesive. Fry a small test patty to check seasoning."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "sv": "Rulla och stek",
+            "no": "Rull og stek",
+            "da": "Form og steg",
+            "en": "Shape and fry"
+          },
+          "text": {
+            "sv": "Rulla smeten till jämna bullar om cirka 30 g styck (blir ca 20 bullar). Smält smöret i en stekpanna på medelvärme och stek bullarna i omgångar 5–6 minuter per omgång tills de är gyllenbruna runt om och genomstekta.",
+            "no": "Rull farsen til jevne kuler på ca 30 g hver (ca 20 kaker). Smelt smøret i en stekepanne på middels varme og stek kakene i porsjoner 5–6 minutter per porsjon til de er gyllenbrune rundt og gjennomstekte.",
+            "da": "Rul farsen til ensartede boller på ca 30 g hver (ca 20 boller). Smelt smørret på en pande ved middelvarme og steg bollerne i hold 5–6 minutter per hold til de er gyldenbrune og gennemstegte.",
+            "en": "Roll the mixture into even balls of about 30 g each (roughly 20 balls). Melt the butter in a skillet over medium heat and fry in batches for 5–6 minutes per batch, until deeply browned and cooked through."
+          },
+          "timer_seconds": 360
+        },
+        {
+          "order": 4,
+          "title": {
+            "sv": "Gör skyn",
+            "no": "Lag sausen",
+            "da": "Lav sovsen",
+            "en": "Make the gravy"
+          },
+          "text": {
+            "sv": "Ta upp bullarna och håll varma. Vispa ner mjölet i pannan med stekfettet och rör 1 minut. Häll i vattnet lite i taget under vispning, koka upp. Tillsätt grädden och låt sjuda 3 minuter. Smaka av med salt och peppar.",
+            "no": "Ta opp kakene og hold dem varme. Visp melet i pannen med stekefettet og rør i 1 minutt. Hell i vannet litt etter litt under visping og kok opp. Tilsett fløten og la småkoke i 3 minutter. Smak til med salt og pepper.",
+            "da": "Tag bollerne op og hold dem varme. Pisk melet i panden med stegefedtet og rør i 1 minut. Hæld vandet i lidt ad gangen under piskning og kog op. Tilsæt fløden og lad småsimre i 3 minutter. Smag til med salt og peber.",
+            "en": "Remove the meatballs and keep warm. Whisk the flour into the pan fat and stir 1 minute. Pour in the water a little at a time while whisking, then bring to a boil. Add the cream and simmer 3 minutes. Season with salt and pepper."
+          },
+          "timer_seconds": 180
+        },
+        {
+          "order": 5,
+          "title": {
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Server",
+            "en": "Serve"
+          },
+          "text": {
+            "sv": "Lägg tillbaka köttbullarna i skyn, värm igenom och servera med kokt mandelpotatis, gröna ärter och en klick lingonsylt eller ripsgelé — så som en sekellång tradition bjuder.",
+            "no": "Legg kjøttkakene tilbake i sjyen, varm gjennom og server med kokte mandelpoteter, grønne erter og en klatt tyttebærsyltetøy eller ripsgelé — slik en hundreårig tradisjon tilsier.",
+            "da": "Læg kødbollerne tilbage i sovsen, varm igennem og server med kogte kartofler, grønne ærter og en skefuld tyttebærsyltetøj eller ribsgelé — som en århundredgammel tradition foreskriver.",
+            "en": "Return the meatballs to the gravy, heat through, and serve with boiled potatoes, green peas, and a spoonful of lingonberry jam or redcurrant jelly — as a century-old tradition prescribes."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "sukkerbrunede_kartofler_classic",
+      "locale_of_authorship": "da",
+      "category": "side",
+      "added_at": "2026-04-23",
+      "title": {
+        "sv": "Danska sockerbrynta potatisar",
+        "no": "Danske sukkerbrunede poteter",
+        "da": "Sukkerbrunede kartofler",
+        "en": "Danish caramelized potatoes"
+      },
+      "description": {
+        "da": "De små, glinsende sukkerbrunede kartofler er fast inventar på det danske julebord — ingen julefrokost uden. Opskriften er Frøken Jensens originale: kog små kartofler, brun sukker i en tør pande til karamel, rør smør i og lad kartoflerne rulle sig gyldne i glasuren. Det lyder enkelt fordi det er det, men teknikken — at lade sukkeret brune uden at røre — er hvad der gør forskellen på gyldent og brændt.",
+        "no": "De små, glinsende sukkerbrunede potetene er fast inventar på det danske julebordet — ingen julefrokost uten. Oppskriften er Frøken Jensens originale: kok små poteter, brun sukker i en tørr panne til karamell, rør smør i og la potetene rulle seg gylne i glasuren. Det høres enkelt ut fordi det er det, men teknikken — å la sukkeret brune uten å røre — er det som avgjør forskjellen på gyllent og brent.",
+        "sv": "De små, glänsande sockerbrynta potatisarna är fast inventarium på det danska julbordet — ingen jul utan. Receptet är Fröken Jensens original: koka små potatisar, bryn socker i en torr panna till karamell, rör i smör och låt potatisen rulla sig gyllene i glasyren. Det låter enkelt för att det är det, men tekniken — att låta sockret brynas utan att röra — är det som avgör skillnaden mellan gyllene och bränt.",
+        "en": "These small, glossy caramel-coated potatoes are fixed on every Danish Christmas table — no proper julefrokost without them. The recipe is Frøken Jensen's original: boil small potatoes, caramelize sugar in a dry pan until amber, stir in butter, and roll the potatoes in the glaze until golden. It sounds simple because it is — but the technique of letting the sugar brown without stirring is what separates golden from burnt."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 5,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 25,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "side",
+        "historical",
+        "danish",
+        "christmas",
+        "classic"
+      ],
+      "source": "Frøken Jensens Kogebog (1901)",
+      "ingredients": [
+        {
+          "ingredient_id": "potato",
+          "amount": 800,
+          "unit": "g",
+          "group": "potatoes",
+          "note_locale": {
+            "da": "små, helst nye",
+            "sv": "små, helst nypotatis",
+            "no": "små, helst nypoteter",
+            "en": "small, preferably new"
+          }
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 75,
+          "unit": "g",
+          "group": "glaze"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 75,
+          "unit": "g",
+          "group": "glaze"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "krm",
+          "group": "glaze"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "da": "Kog kartoflerne",
+            "sv": "Koka potatisen",
+            "no": "Kok potetene",
+            "en": "Boil the potatoes"
+          },
+          "text": {
+            "da": "Kog de små kartofler i letsaltet vand i ca 15 minutter til de er netop møre. Hæld vandet fra og pil dem mens de stadig er varme — skindet glider af helt af sig selv. Læg dem til side.",
+            "sv": "Koka potatisen i lättsaltat vatten i ca 15 minuter tills de är precis mjuka. Häll av vattnet och skala dem medan de är varma — skalet glider av av sig själv. Lägg åt sidan.",
+            "no": "Kok de små potetene i lettsaltet vann i ca 15 minutter til de akkurat er møre. Hell av vannet og skrell dem mens de ennå er varme — skallet glir av av seg selv. Legg til side.",
+            "en": "Boil the small potatoes in lightly salted water for about 15 minutes until just tender. Drain and peel while still warm — the skin slips off on its own. Set aside."
+          },
+          "timer_seconds": 900
+        },
+        {
+          "order": 2,
+          "title": {
+            "da": "Karamelliser sukkeret",
+            "sv": "Karamellisera sockret",
+            "no": "Karamelliser sukkeret",
+            "en": "Caramelize the sugar"
+          },
+          "text": {
+            "da": "Drys sukkeret i en bred, tør pande over middelvarme. Lad det smelte uden at røre — bare ryst panden lidt hvis det fordeler sig ujævnt. Når sukkeret er ravfarvet og dufter af karamel, er det klar.",
+            "sv": "Strö sockret i en bred, torr stekpanna på medelvärme. Låt det smälta utan att röra — skaka bara pannan lite om det smälter ojämnt. När sockret är bärnstensfärgat och doftar karamell är det klart.",
+            "no": "Dryss sukkeret i en bred, tørr panne på middels varme. La det smelte uten å røre — rist bare i pannen hvis det fordeles ujevnt. Når sukkeret er ravfarget og dufter karamell, er det klart.",
+            "en": "Sprinkle the sugar in a wide, dry pan over medium heat. Let it melt without stirring — just swirl the pan if it melts unevenly. When the sugar is amber and smells of caramel, it is ready."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "da": "Tilsæt smør",
+            "sv": "Tillsätt smör",
+            "no": "Tilsett smør",
+            "en": "Add the butter"
+          },
+          "text": {
+            "da": "Rør smørret i den varme karamel — det bobler op og bliver til en glat glasur. Pas på stænk.",
+            "sv": "Rör smöret i den varma karamellen — det bubblar upp och blir till en slät glasyr. Akta stänk.",
+            "no": "Rør smøret inn i den varme karamellen — det bobler opp og blir til en glatt glasur. Vokt deg for sprut.",
+            "en": "Stir the butter into the hot caramel — it will bubble up and turn into a smooth glaze. Watch for splatters."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "da": "Glaser kartoflerne",
+            "sv": "Glasera potatisen",
+            "no": "Glaser potetene",
+            "en": "Glaze the potatoes"
+          },
+          "text": {
+            "da": "Læg de pillede kartofler i panden. Skru ned til lav varme og vend dem forsigtigt men jævnligt i glasuren i 8–10 minutter, til de er helt belagte og glinser over det hele. Et lille drys salt til sidst løfter sødmen.",
+            "sv": "Lägg de skalade potatisarna i pannan. Sänk värmen och vänd dem försiktigt men regelbundet i glasyren i 8–10 minuter, tills de är helt täckta och glänser över hela. En nypa salt på slutet lyfter sötman.",
+            "no": "Legg de skrelte potetene i pannen. Skru ned til lav varme og vend dem forsiktig men jevnlig i glasuren i 8–10 minutter, til de er helt dekket og glinser over hele. Et lite drys salt til slutt løfter sødmen.",
+            "en": "Add the peeled potatoes to the pan. Reduce the heat to low and gently but constantly turn them in the glaze for 8–10 minutes, until fully coated and glossy all over. A tiny pinch of salt at the end lifts the sweetness."
+          },
+          "timer_seconds": 540
+        },
+        {
+          "order": 5,
+          "title": {
+            "da": "Servér",
+            "sv": "Servera",
+            "no": "Server",
+            "en": "Serve"
+          },
+          "text": {
+            "da": "Server straks som tilbehør til flæskesteg, and eller som en uundværlig del af julefrokosten.",
+            "sv": "Servera direkt som tillbehör till fläskstek, anka eller som en oumbärlig del av julbordet.",
+            "no": "Server straks som tilbehør til svinesteik, and eller som en uunnværlig del av julebordet.",
+            "en": "Serve immediately alongside roast pork, duck, or as an essential part of a Christmas spread."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "rommegrot_classic",
+      "locale_of_authorship": "no",
+      "category": "family_meal",
+      "added_at": "2026-04-23",
+      "title": {
+        "no": "Rømmegrøt",
+        "sv": "Rømmegrøt",
+        "da": "Rømmegrød",
+        "en": "Norwegian rømmegrøt"
+      },
+      "description": {
+        "no": "Rømmegrøt er norsk folketradisjon i reinform: en rik grøt kokt av rømme, hvetemel og melk, som skilles under kokingen slik at smøret flyter opp og kan skummes av til servering. Det er stas-kosten man serverer til bryllup, 17. mai og høytidsstunder, og det smaker av nøttaktig mel, syrlig rømme og et sjenerøst dryss kanel og sukker på toppen. Hemmeligheten er tålmodighet — rømmen må koke lenge nok til at smørfettet virkelig skiller seg ut.",
+        "sv": "Rømmegrøt är norsk folktradition i renaste form: en fet gröt kokt på gräddfil, vetemjöl och mjölk som skiljer sig under koket så att smörfettet stiger upp och kan skummas av till serveringen. Det är högtidsmaten man serverar på bröllop, nationaldagar och festtillfällen, och smaken är av nötig mjöl, syrlig grädde och ett generöst strö av kanel och socker ovanpå. Hemligheten är tålamod — gräddfilen måste koka tillräckligt länge för att smörfettet verkligen ska skilja sig ut.",
+        "da": "Rømmegrød er norsk folketradition i ren form: en fed grød kogt af cremefraiche, hvedemel og mælk, som skiller sig under kogningen så smørret flyder op og kan skummes af til serveringen. Det er festmad man serverer til bryllupper, nationaldagen og højtidsstunder, og smagen er af nøddeagtigt mel, syrlig fløde og et generøst drys kanel og sukker ovenpå. Hemmeligheden er tålmodighed — fløden skal koge længe nok til at smørfedtet virkelig skiller sig ud.",
+        "en": "Rømmegrøt is Norwegian folk tradition in its purest form: a rich porridge cooked from sour cream, wheat flour, and milk that separates during the boil, so butter rises and is skimmed off to serve alongside. It is the celebration food for weddings, Constitution Day, and holidays, with a flavor of nutty flour, tangy cream, and a generous sprinkle of cinnamon and sugar on top. The secret is patience — the cream has to boil long enough for the butter to really break out."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 5,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 25,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "norwegian",
+        "traditional",
+        "festive",
+        "porridge",
+        "historical"
+      ],
+      "source": "Tradisjonell norsk folkerett",
+      "ingredients": [
+        {
+          "ingredient_id": "sour_cream",
+          "amount": 5,
+          "unit": "dl",
+          "group": "porridge",
+          "note_locale": {
+            "no": "helst seterrømme eller rømme 35%",
+            "da": "helst 35% cremefraiche",
+            "sv": "helst fetast möjliga gräddfil",
+            "en": "preferably the highest fat content available"
+          }
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 1.5,
+          "unit": "dl",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 3,
+          "unit": "dl",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "cinnamon_ground",
+          "amount": 2,
+          "unit": "tsk",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 2,
+          "unit": "msk",
+          "group": "topping"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "no": "Kok rømmen",
+            "sv": "Koka gräddfilen",
+            "da": "Kog fløden",
+            "en": "Boil the cream"
+          },
+          "text": {
+            "no": "Hell rømmen i en vid, tykkbunnet gryte og kok opp under omrøring. Skru ned til middels varme og la det småkoke under omrøring i ca 10 minutter, til små gule smørperler begynner å stige til overflaten.",
+            "sv": "Häll gräddfilen i en vid, tjockbottnad gryta och koka upp under omrörning. Sänk till medelvärme och låt det sjuda under omrörning i ca 10 minuter, tills små gula smörpärlor börjar stiga upp till ytan.",
+            "da": "Hæld cremefraichen i en bred, tykbundet gryde og kog op under omrøring. Skru ned til middelvarme og lad det småsimre under omrøring i ca 10 minutter, til små gule smørperler begynder at stige til overfladen.",
+            "en": "Pour the sour cream into a wide, heavy-bottomed pot and bring to a boil, stirring. Reduce to medium heat and simmer, stirring, for about 10 minutes, until small yellow beads of butter start to rise to the surface."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 2,
+          "title": {
+            "no": "Sikt inn halvparten av melet",
+            "sv": "Sikta i halva mjölet",
+            "da": "Sigt halvdelen af melet i",
+            "en": "Sift in half the flour"
+          },
+          "text": {
+            "no": "Sikt halvparten av hvetemelet over rømmen under kraftig visping slik at du ikke får klumper. La koke under omrøring i 2 minutter. Nå vil smøret for alvor slå seg ut — du ser gule pøler på toppen.",
+            "sv": "Sikta hälften av vetemjölet över gräddfilen under kraftig vispning så att det inte blir klumpar. Låt koka under omrörning i 2 minuter. Nu kommer smöret på allvar att skilja sig ut — du ser gula pölar på ytan.",
+            "da": "Sigt halvdelen af hvedemelet over fløden under kraftig piskning så det ikke bliver klumpet. Lad koge under omrøring i 2 minutter. Nu skiller smørret sig for alvor ud — du ser gule pytter på toppen.",
+            "en": "Sift half the flour over the cream while whisking vigorously to prevent lumps. Let cook, stirring, for 2 minutes. The butter now really breaks out — you will see yellow pools on the surface."
+          },
+          "timer_seconds": 120
+        },
+        {
+          "order": 3,
+          "title": {
+            "no": "Skum av smøret",
+            "sv": "Skumma av smöret",
+            "da": "Skum smørret af",
+            "en": "Skim off the butter"
+          },
+          "text": {
+            "no": "Bruk en skje og fjern det smeltede smøret som ligger på toppen. Sett det til side i en liten bolle — det skal helles over grøten ved servering.",
+            "sv": "Använd en sked och ta bort det smälta smöret som ligger på toppen. Ställ åt sidan i en liten skål — det ska hällas över gröten vid servering.",
+            "da": "Brug en ske og fjern det smeltede smør der ligger på toppen. Sæt det til side i en lille skål — det skal hældes over grøden ved servering.",
+            "en": "Use a spoon to lift off the melted butter that has collected on top. Set aside in a small bowl — it will be poured over the porridge at serving."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "no": "Sikt inn resten av melet og spe med melk",
+            "sv": "Sikta i resten av mjölet och späd med mjölk",
+            "da": "Sigt resten af melet i og spæd med mælk",
+            "en": "Sift in the rest of the flour and thin with milk"
+          },
+          "text": {
+            "no": "Sikt inn resten av hvetemelet mens du visper. Spe med melken litt etter litt til grøten har en seig, tykk konsistens — som en rik havregrøt. La småkoke under visping i 5–8 minutter. Smak til med salt.",
+            "sv": "Sikta i resten av vetemjölet medan du vispar. Späd med mjölken lite i taget tills gröten har en seg, tjock konsistens — som en fet havregrynsgröt. Låt sjuda under vispning i 5–8 minuter. Smaka av med salt.",
+            "da": "Sigt resten af hvedemelet i mens du pisker. Spæd med mælken lidt ad gangen til grøden har en sej, tyk konsistens — som en fed havregrød. Lad småsimre under piskning i 5–8 minutter. Smag til med salt.",
+            "en": "Sift in the remaining flour while whisking. Thin with milk, a little at a time, until the porridge has a thick, chewy consistency — like rich oat porridge. Simmer, whisking, for 5–8 minutes. Season with salt."
+          },
+          "timer_seconds": 420
+        },
+        {
+          "order": 5,
+          "title": {
+            "no": "Server",
+            "sv": "Servera",
+            "da": "Servér",
+            "en": "Serve"
+          },
+          "text": {
+            "no": "Øs grøten opp i varme boller. Hell det avskummede smøret over hver porsjon, dryss rikelig med kanel og sukker, og server straks. Tradisjonelt følges den av spekemat eller flatbrød.",
+            "sv": "Ös upp gröten i varma skålar. Häll det avskummade smöret över varje portion, strö rikligt med kanel och socker, och servera genast. Traditionellt serveras den med spekmat eller tunnbröd.",
+            "da": "Øs grøden op i varme skåle. Hæld det skummede smør over hver portion, drys rigeligt med kanel og sukker, og servér straks. Traditionelt ledsages den af spegepølse eller fladbrød.",
+            "en": "Ladle the porridge into warm bowls. Pour the skimmed butter over each portion, dust generously with cinnamon and sugar, and serve immediately. Traditionally accompanied by cured meats or flatbread."
+          },
+          "timer_seconds": null
         }
       ],
       "verified_by": "author",

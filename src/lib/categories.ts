@@ -9,6 +9,7 @@ export const CATEGORY_IDS = [
   "bread_bakery",
   "family_meal",
   "dinner",
+  "side",
   "sweet",
   "party",
 ] as const;
@@ -39,6 +40,12 @@ export const CATEGORY_NAMES: Record<CategoryId, Record<AppLocale, string>> = {
     no: "Middag",
     da: "Aftensmad",
     en: "Dinner",
+  },
+  side: {
+    sv: "Tillbehör",
+    no: "Tilbehør",
+    da: "Tilbehør",
+    en: "Sides",
   },
   sweet: {
     sv: "Sötsaker",
