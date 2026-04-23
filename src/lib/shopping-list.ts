@@ -134,9 +134,9 @@ type ShoppingListContextValue = {
   recipeIds: string[]; // derived — kept for the header indicator count
   hasRecipe: (id: string) => boolean;
   getServings: (id: string) => number | undefined;
-  addRecipe: (id: string) => void;
+  addRecipe: (id: string, servings?: number) => void;
   removeRecipe: (id: string) => void;
-  toggleRecipe: (id: string) => void;
+  toggleRecipe: (id: string, servings?: number) => void;
   setServings: (id: string, servings: number) => void;
   clearRecipes: () => void;
   checked: Set<string>;
@@ -230,11 +230,12 @@ export function ShoppingListProvider({ children }: { children: ReactNode }) {
     [items]
   );
 
-  const addRecipe = useCallback((id: string) => {
+  const addRecipe = useCallback((id: string, servings?: number) => {
     setItems((prev) => {
       if (prev.some((i) => i.recipeId === id)) return prev;
       const recipe = RECIPES.find((r) => r.id === id);
-      return [...prev, { recipeId: id, servings: recipe?.servings ?? 1 }];
+      const initial = Math.max(1, Math.round(servings ?? recipe?.servings ?? 1));
+      return [...prev, { recipeId: id, servings: initial }];
     });
   }, []);
 
@@ -242,13 +243,14 @@ export function ShoppingListProvider({ children }: { children: ReactNode }) {
     setItems((prev) => prev.filter((i) => i.recipeId !== id));
   }, []);
 
-  const toggleRecipe = useCallback((id: string) => {
+  const toggleRecipe = useCallback((id: string, servings?: number) => {
     setItems((prev) => {
       if (prev.some((i) => i.recipeId === id)) {
         return prev.filter((i) => i.recipeId !== id);
       }
       const recipe = RECIPES.find((r) => r.id === id);
-      return [...prev, { recipeId: id, servings: recipe?.servings ?? 1 }];
+      const initial = Math.max(1, Math.round(servings ?? recipe?.servings ?? 1));
+      return [...prev, { recipeId: id, servings: initial }];
     });
   }, []);
 
