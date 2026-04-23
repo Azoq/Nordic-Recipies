@@ -1329,6 +1329,1237 @@
       ],
       "verified_by": "author",
       "verified_at": "2026-04-23"
+    },
+    {
+      "id": "hasselback_potatis",
+      "locale_of_authorship": "sv",
+      "category": "side",
+      "added_at": "2026-04-23",
+      "title": {
+        "sv": "Hasselbackspotatis",
+        "no": "Hasselbackpoteter",
+        "da": "Hasselbackkartofler",
+        "en": "Hasselback potatoes"
+      },
+      "description": {
+        "sv": "Hasselbackspotatis är en svensk klassiker från 1950-talet, uppfunnen på restaurang Hasselbacken i Stockholm. Potatisarna skärs i smala skivor som fjädrar ut i ugnen och blir knapriga på topparna medan insidan stannar krämigt mjuk. Det geniala är att en helt vanlig ugnsbakad potatis förvandlas till något festligt med bara en kniv och lite smör.",
+        "no": "Hasselbackpoteter er en svensk klassiker fra 1950-tallet, oppfunnet på restauranten Hasselbacken i Stockholm. Potetene skjæres i smale skiver som spretter ut i ovnen og blir sprø på toppene mens innsiden holder seg kremaktig myk. Det geniale er at en helt vanlig ovnsbakt potet forvandles til noe festlig bare med en kniv og litt smør.",
+        "da": "Hasselbackkartofler er en svensk klassiker fra 1950'erne, opfundet på restauranten Hasselbacken i Stockholm. Kartoflerne skæres i smalle skiver der fjedrer ud i ovnen og bliver sprøde på toppene mens det indre bliver cremet blødt. Det geniale er at en helt almindelig ovnbagt kartoffel forvandles til noget festligt med bare en kniv og lidt smør.",
+        "en": "Hasselback potatoes are a 1950s Swedish classic, invented at Hasselbacken restaurant in Stockholm. The potatoes are sliced thinly but not all the way through, so they fan out in the oven — crisp on top, creamy inside. The genius is how an ordinary baked potato becomes something festive with just a knife and a little butter."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 50,
+      "oven": {
+        "type": "conventional",
+        "temp_c": 225,
+        "fan_temp_c": 205
+      },
+      "yeast_type": null,
+      "tags": [
+        "side",
+        "classic",
+        "swedish"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "potato",
+          "amount": 1000,
+          "unit": "g",
+          "group": "base",
+          "note_locale": {
+            "sv": "medelstora, fasta",
+            "no": "mellomstore, faste",
+            "da": "mellemstore, faste",
+            "en": "medium, firm"
+          }
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 60,
+          "unit": "g",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "oil_neutral",
+          "amount": 2,
+          "unit": "msk",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "base"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "krm",
+          "group": "base"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "sv": "Skär potatisen",
+            "no": "Skjær potetene",
+            "da": "Skær kartoflerne",
+            "en": "Slice the potatoes"
+          },
+          "text": {
+            "sv": "Skala potatisen om du vill. Lägg varje potatis mellan två ätpinnar eller i en matsked så kniven stoppas innan den går igenom. Skär tunna skivor, 2–3 mm, tvärs över potatisen.",
+            "no": "Skrell potetene om du vil. Legg hver potet mellom to spisepinner eller i en spiseskje så kniven stopper før den går gjennom. Skjær tynne skiver, 2–3 mm, tvers over poteten.",
+            "da": "Skræl kartoflerne hvis du vil. Læg hver kartoffel mellem to spisepinde eller i en spiseske, så kniven stopper inden den går igennem. Skær tynde skiver, 2–3 mm, på tværs af kartoflen.",
+            "en": "Peel the potatoes if you like. Rest each potato between two chopsticks or in a large spoon so the knife stops before it cuts through. Slice thinly, 2–3 mm, across the length."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "sv": "Pensla och krydda",
+            "no": "Pensle og krydre",
+            "da": "Pensl og krydr",
+            "en": "Brush and season"
+          },
+          "text": {
+            "sv": "Lägg potatisarna i en ugnsform. Smält smöret och blanda med oljan, pensla noggrant mellan skivorna och över ytan. Strö salt och peppar.",
+            "no": "Legg potetene i en ildfast form. Smelt smøret og bland med oljen, pensle grundig mellom skivene og over overflaten. Strø på salt og pepper.",
+            "da": "Læg kartoflerne i et ovnfast fad. Smelt smørret og bland med olien, pensl grundigt mellem skiverne og over overfladen. Drys med salt og peber.",
+            "en": "Arrange the potatoes in a baking dish. Melt the butter with the oil and brush generously between the slices and over the tops. Season with salt and pepper."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "sv": "Grädda",
+            "no": "Stek i ovn",
+            "da": "Bag",
+            "en": "Roast"
+          },
+          "text": {
+            "sv": "Grädda i 225°C (varmluft 205°C) mitt i ugnen i 45–55 minuter. Efter 25 minuter, pensla igen med smöret som samlats i formen för att skivorna ska öppna sig och bli knapriga.",
+            "no": "Stek ved 225°C (varmluft 205°C) midt i ovnen i 45–55 minutter. Etter 25 minutter, pensle igjen med smøret som har samlet seg i formen så skivene åpner seg og blir sprø.",
+            "da": "Bag ved 225°C (varmluft 205°C) midt i ovnen i 45–55 minutter. Efter 25 minutter penses igen med smørret der er samlet i fadet, så skiverne åbner sig og bliver sprøde.",
+            "en": "Bake at 225°C (fan 205°C / 435°F) on the middle rack for 45–55 minutes. After 25 minutes, brush again with the butter that has pooled in the dish so the slices fan open and crisp."
+          },
+          "timer_seconds": 2700
+        },
+        {
+          "order": 4,
+          "title": {
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér",
+            "en": "Serve"
+          },
+          "text": {
+            "sv": "Servera direkt, gärna till grillat kött, kyckling eller som en stjärna på julbordet. Ett drag flingsalt på toppen strax innan servering lyfter smaken.",
+            "no": "Server straks, gjerne til grillet kjøtt, kylling eller som en stjerne på julebordet. Et dryss flaksalt på toppen rett før servering løfter smaken.",
+            "da": "Server straks, gerne til grillet kød, kylling eller som en stjerne på julebordet. Et drys flagesalt på toppen lige inden servering løfter smagen.",
+            "en": "Serve right away, perfect with grilled meat, roast chicken, or as a showpiece on a holiday spread. A pinch of flaky salt just before serving lifts the flavor."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "yorkshire_pudding",
+      "locale_of_authorship": "en",
+      "category": "side",
+      "added_at": "2026-04-23",
+      "title": {
+        "en": "Yorkshire pudding",
+        "sv": "Yorkshirepudding",
+        "no": "Yorkshirepudding",
+        "da": "Yorkshirepudding"
+      },
+      "description": {
+        "en": "Yorkshire pudding is the crisp, golden, hollow-topped popover that anchors every proper English Sunday roast. A thin batter of flour, eggs, and milk is poured into a pan of screaming-hot fat, and within 20 minutes the edges climb into dramatic puffs that collapse just enough to cradle gravy. The secret is heat — everything must be ripping hot before the batter hits the pan.",
+        "sv": "Yorkshirepudding är de krispiga, gyllene popovers med ihålig topp som hör till varje brittisk söndagsstek. En tunn smet av mjöl, ägg och mjölk hälls i en panna med rykande het fett, och på 20 minuter klättrar kanterna upp i dramatiska vågor som sjunker just tillräckligt för att hålla skyn. Hemligheten är värme — allt måste vara glödhett innan smeten möter pannan.",
+        "no": "Yorkshirepudding er de sprø, gyldne popovers med hul topp som hører til hver britisk søndagsstek. En tynn røre av mel, egg og melk helles i en form med rykende varmt fett, og på 20 minutter klatrer kantene opp i dramatiske bølger som synker akkurat nok til å holde sjyen. Hemmeligheten er varme — alt må være glovarmt før røren møter formen.",
+        "da": "Yorkshirepudding er de sprøde, gyldne popovers med hul top der hører til hver britisk søndagssteg. En tynd dej af mel, æg og mælk hældes i en form med rygende varmt fedt, og på 20 minutter klatrer kanterne op i dramatiske bølger der synker netop nok til at kunne rumme sovsen. Hemmeligheden er varme — alt skal være glohedt før dejen møder formen."
+      },
+      "servings": 6,
+      "servings_unit": "pieces",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 30,
+      "time_cook_minutes": 25,
+      "oven": {
+        "type": "conventional",
+        "temp_c": 230,
+        "fan_temp_c": 210
+      },
+      "yeast_type": null,
+      "tags": [
+        "side",
+        "british",
+        "classic",
+        "sunday_roast"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 140,
+          "unit": "g",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 4,
+          "unit": "st",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 2,
+          "unit": "dl",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "oil_neutral",
+          "amount": 4,
+          "unit": "msk",
+          "group": "pan"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Make the batter",
+            "sv": "Blanda smeten",
+            "no": "Bland røren",
+            "da": "Bland dejen"
+          },
+          "text": {
+            "en": "Whisk the eggs with the milk and salt. Sift in the flour gradually, whisking, until smooth. Rest the batter 30 minutes at room temperature — a rested batter rises taller.",
+            "sv": "Vispa ihop ägg, mjölk och salt. Sikta ner mjölet gradvis under vispning tills smeten är slät. Låt vila 30 minuter i rumstemperatur — en vilad smet reser sig högre.",
+            "no": "Visp sammen egg, melk og salt. Sikt i melet gradvis mens du visper til røren er glatt. La hvile 30 minutter i romtemperatur — en hvilt røre hever seg høyere.",
+            "da": "Pisk æg, mælk og salt sammen. Sigt melet i gradvist under piskning til dejen er glat. Lad hvile 30 minutter ved stuetemperatur — en hvilet dej hæver sig højere."
+          },
+          "timer_seconds": 1800
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Screaming-hot pan",
+            "sv": "Glödhet form",
+            "no": "Glovarm form",
+            "da": "Glohedt fad"
+          },
+          "text": {
+            "en": "Put about ½ tbsp oil into each of 6 wells of a muffin tin (or a 6-well Yorkshire pudding tin). Place in the 230°C oven for 15 minutes — the oil must smoke slightly.",
+            "sv": "Häll ½ msk olja i varje av 6 fack i en muffinsform (eller en Yorkshire-form). Ställ in i 230°C ugn 15 minuter — oljan ska ryka lite.",
+            "no": "Hell ½ ss olje i hver av 6 hull i en muffinsform (eller en Yorkshire-form). Sett inn i 230°C ovnen i 15 minutter — oljen skal ryke lett.",
+            "da": "Hæld ½ spsk olie i hver af 6 huller i en muffinform (eller en Yorkshire-form). Sæt i 230°C ovn i 15 minutter — olien skal ryge let."
+          },
+          "timer_seconds": 900
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Pour and bake",
+            "sv": "Häll och grädda",
+            "no": "Hell og stek",
+            "da": "Hæld og bag"
+          },
+          "text": {
+            "en": "Quickly pour the batter into the hot wells until two-thirds full. Return to the oven and bake 20–25 minutes without opening the door until deeply puffed and crisp.",
+            "sv": "Häll smeten i de heta facken snabbt tills två tredjedelar fulla. Sätt tillbaka och grädda 20–25 minuter utan att öppna luckan tills de är höjda och knapriga.",
+            "no": "Hell røren raskt i de varme formene til to tredjedeler fulle. Sett tilbake og stek 20–25 minutter uten å åpne døren til de er dypt hevet og sprø.",
+            "da": "Hæld dejen hurtigt i de varme huller til to tredjedele fulde. Sæt tilbage og bag 20–25 minutter uden at åbne lågen til de er dybt hævede og sprøde."
+          },
+          "timer_seconds": 1500
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Serve at once",
+            "sv": "Servera direkt",
+            "no": "Server straks",
+            "da": "Servér straks"
+          },
+          "text": {
+            "en": "Serve within minutes of leaving the oven. They will sag slightly — that is correct, and it makes a natural hollow for gravy. Serve with roast beef, gravy, and horseradish.",
+            "sv": "Servera inom minuter efter ugnen. De sjunker lite — det är så det ska vara, och det ger ett naturligt hålrum för skyn. Servera till rostbiff, sås och pepparrot.",
+            "no": "Server innen minutter etter ovnen. De synker litt — slik skal det være, og det gir et naturlig hulrom for sjyen. Server til roastbiff, saus og pepperrot.",
+            "da": "Servér inden for få minutter efter ovnen. De synker lidt — sådan skal det være, og det giver et naturligt hulrum til sovsen. Servér til oksesteg, sovs og peberrod."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "pancakes_nordic",
+      "locale_of_authorship": "sv",
+      "category": "breakfast",
+      "added_at": "2026-04-23",
+      "title": {
+        "sv": "Svenska pannkakor",
+        "no": "Norske pannekaker",
+        "da": "Danske pandekager",
+        "en": "Nordic pancakes"
+      },
+      "description": {
+        "sv": "De nordiska pannkakorna är tunnare än amerikanska, tjockare än franska crêpes — en gyllene, lätt spröd rand med en silkig mitt. Recept kan hittas i varje hushåll, men grunden är alltid densamma: mjölk, mjöl, ägg, en klick smör och en nypa salt. Servera med sylt och grädde, eller med socker och citron som i Danmark.",
+        "no": "De nordiske pannekakene er tynnere enn amerikanske, tykkere enn franske crêpes — en gyllen, lett sprø kant med en silkemyk midte. Oppskrifter finnes i hver husholdning, men grunnen er alltid den samme: melk, mel, egg, en klatt smør og en klype salt. Server med syltetøy og fløte, eller med sukker og sitron som i Danmark.",
+        "da": "De nordiske pandekager er tyndere end amerikanske, tykkere end franske crêpes — en gylden, let sprød kant med en silkeblød midte. Opskrifter findes i hver husholdning, men grunden er altid den samme: mælk, mel, æg, en klat smør og en knivspids salt. Server med syltetøj og flødeskum, eller med sukker og citron som i Danmark.",
+        "en": "Nordic pancakes sit between the thickness of American flapjacks and the thinness of French crêpes — a golden, slightly crisp edge around a silky middle. Every household has its own recipe, but the base is always the same: milk, flour, eggs, a little butter, and a pinch of salt. Serve with jam and whipped cream, or with sugar and lemon the Danish way."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 30,
+      "time_cook_minutes": 20,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "breakfast",
+        "classic",
+        "nordic",
+        "sweet"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 3,
+          "unit": "dl",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 6,
+          "unit": "dl",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 3,
+          "unit": "st",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "msk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 30,
+          "unit": "g",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 20,
+          "unit": "g",
+          "group": "frying"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "sv": "Blanda smeten",
+            "no": "Bland røren",
+            "da": "Bland dejen",
+            "en": "Make the batter"
+          },
+          "text": {
+            "sv": "Vispa ihop ägg, socker och salt. Vispa i halva mjölken, sedan mjölet lite i taget tills smeten är slät. Spät med resten av mjölken. Smält smöret och vispa i. Låt vila 30 minuter.",
+            "no": "Visp sammen egg, sukker og salt. Visp inn halvparten av melken, deretter melet litt etter litt til røren er glatt. Spe med resten av melken. Smelt smøret og visp inn. La hvile 30 minutter.",
+            "da": "Pisk æg, sukker og salt sammen. Pisk halvdelen af mælken i, derefter melet lidt ad gangen til dejen er glat. Spæd med resten af mælken. Smelt smørret og pisk i. Lad hvile 30 minutter.",
+            "en": "Whisk the eggs with sugar and salt. Whisk in half the milk, then the flour gradually until smooth. Thin with the rest of the milk. Melt the butter and whisk in. Rest 30 minutes."
+          },
+          "timer_seconds": 1800
+        },
+        {
+          "order": 2,
+          "title": {
+            "sv": "Värm pannan",
+            "no": "Varm pannen",
+            "da": "Varm panden",
+            "en": "Heat the pan"
+          },
+          "text": {
+            "sv": "Värm en stor stekpanna (26–28 cm) på medelvärme. Smörj med en liten klick smör mellan varje pannkaka.",
+            "no": "Varm en stor stekepanne (26–28 cm) på middels varme. Smør med en liten klatt smør mellom hver pannekake.",
+            "da": "Varm en stor pande (26–28 cm) ved middelvarme. Smør med en lille klat smør mellem hver pandekage.",
+            "en": "Heat a large (26–28 cm / 10–11 inch) non-stick pan over medium heat. Grease with a small dab of butter between each pancake."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "sv": "Stek pannkakorna",
+            "no": "Stek pannekakene",
+            "da": "Steg pandekagerne",
+            "en": "Cook the pancakes"
+          },
+          "text": {
+            "sv": "Häll en slev smet i pannan och rulla ut så den täcker jämnt. Stek 1–2 minuter tills kanten släpper och undersidan är gyllen, vänd och stek 30 sekunder till.",
+            "no": "Hell en øse røre i pannen og vrikk den ut så den dekker jevnt. Stek 1–2 minutter til kanten slipper og undersiden er gyllen, vend og stek 30 sekunder til.",
+            "da": "Hæld en øse dej i panden og vrik den ud så den dækker jævnt. Steg 1–2 minutter til kanten slipper og undersiden er gylden, vend og steg 30 sekunder mere.",
+            "en": "Pour a ladle of batter into the pan and swirl to coat evenly. Cook 1–2 minutes until the edge lifts and the underside is golden, then flip and cook 30 seconds more."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér",
+            "en": "Serve"
+          },
+          "text": {
+            "sv": "Stapla pannkakorna på ett varmt fat under en bakduk medan du steker resten. Servera med sylt, socker, grädde — eller med bacon och lönnsirap om du känner dig djärv.",
+            "no": "Stable pannekakene på et varmt fat under et kjøkkenhåndkle mens du steker resten. Server med syltetøy, sukker, fløte — eller med bacon og lønnesirup hvis du føler deg dristig.",
+            "da": "Stabl pandekagerne på et varmt fad under et viskestykke mens du steger resten. Servér med syltetøj, sukker, flødeskum — eller med bacon og ahornsirup hvis du føler dig dristig.",
+            "en": "Stack the pancakes on a warm plate under a tea towel while you cook the rest. Serve with jam, sugar, cream — or with bacon and maple syrup if you are feeling bold."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "banana_bread_classic",
+      "locale_of_authorship": "en",
+      "category": "bread_bakery",
+      "added_at": "2026-04-23",
+      "title": {
+        "en": "Classic banana bread",
+        "sv": "Bananbröd",
+        "no": "Bananbrød",
+        "da": "Banankage"
+      },
+      "description": {
+        "en": "Banana bread is the loaf you make when the fruit bowl is past saving. The riper the bananas — speckled, black, nearly liquid — the deeper the flavor and the moister the crumb. This is a single-bowl recipe: mash, stir, pour, bake. The warm slice with butter is a small weekday victory.",
+        "sv": "Bananbröd är brödet du bakar när bananerna i fruktskålen inte längre är räddningsbara. Ju mer mogna — fläckiga, svarta, nästan flytande — desto djupare smak och saftigare inkråm. Det här är ett enbunkerecept: mosa, rör, häll, grädda. En varm skiva med smör är en liten vardagsseger.",
+        "no": "Bananbrød er brødet du baker når bananene i fruktskålen ikke lenger kan reddes. Jo modnere — prikkete, svarte, nesten flytende — desto dypere smak og saftigere innmat. Dette er en ett-boller oppskrift: mos, rør, hell, stek. En varm skive med smør er en liten hverdagsseier.",
+        "da": "Banankage er kagen du bager når bananerne i frugtskålen ikke længere kan reddes. Jo mere modne — plettede, sorte, næsten flydende — desto dybere smag og saftigere krumme. Det her er en én-skåls-opskrift: mos, rør, hæld, bag. Et lunt stykke med smør er en lille hverdagssejr."
+      },
+      "servings": 10,
+      "servings_unit": "pieces",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 55,
+      "oven": {
+        "type": "conventional",
+        "temp_c": 175,
+        "fan_temp_c": 160
+      },
+      "yeast_type": null,
+      "tags": [
+        "bread_bakery",
+        "classic",
+        "quick_bread"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "banana",
+          "amount": 3,
+          "unit": "st",
+          "group": "batter",
+          "note_locale": {
+            "en": "very ripe",
+            "sv": "mycket mogna",
+            "no": "meget modne",
+            "da": "meget modne"
+          }
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 100,
+          "unit": "g",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1.5,
+          "unit": "dl",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 2,
+          "unit": "st",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 3,
+          "unit": "dl",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "baking_powder",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "cinnamon_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "batter"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Prep",
+            "sv": "Förberedelse",
+            "no": "Forberedelse",
+            "da": "Forberedelse"
+          },
+          "text": {
+            "en": "Preheat oven to 175°C (350°F). Line a loaf tin (ca 22×10 cm) with parchment. Melt the butter and let cool slightly.",
+            "sv": "Värm ugnen till 175°C. Klä en brödform (ca 22×10 cm) med bakplåtspapper. Smält smöret och låt svalna lätt.",
+            "no": "Forvarm ovnen til 175°C. Kle en brødform (ca 22×10 cm) med bakepapir. Smelt smøret og la det avkjøles lett.",
+            "da": "Forvarm ovnen til 175°C. Beklæd en franskbrødsform (ca 22×10 cm) med bagepapir. Smelt smørret og lad det afkøle lidt."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Mash and mix",
+            "sv": "Mosa och blanda",
+            "no": "Mos og bland",
+            "da": "Mos og bland"
+          },
+          "text": {
+            "en": "Mash the bananas in a large bowl until mostly smooth. Whisk in the butter, sugar, and eggs until combined.",
+            "sv": "Mosa bananerna i en stor skål till en nästan slät massa. Vispa i smör, socker och ägg tills jämnt.",
+            "no": "Mos bananene i en stor bolle til en nesten glatt masse. Visp inn smør, sukker og egg til jevnt.",
+            "da": "Mos bananerne i en stor skål til en næsten glat masse. Pisk smør, sukker og æg i til ensartet."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Fold in the dry",
+            "sv": "Rör i de torra",
+            "no": "Rør i de tørre",
+            "da": "Rør i det tørre"
+          },
+          "text": {
+            "en": "Sift together flour, baking powder, salt, and cinnamon. Fold into the wet mixture with a spatula just until no streaks remain — do not overmix.",
+            "sv": "Sikta ihop mjöl, bakpulver, salt och kanel. Vänd ner i den våta smeten med en slickepott precis tills inga mjölränder syns — rör inte för mycket.",
+            "no": "Sikt sammen mel, bakepulver, salt og kanel. Vend inn i den våte røren med en slikkepott akkurat til ingen melstreker er synlige — ikke rør for mye.",
+            "da": "Sigt mel, bagepulver, salt og kanel sammen. Vend i den våde dej med en dejskraber netop til ingen melstriber er synlige — rør ikke for meget."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Bake",
+            "sv": "Grädda",
+            "no": "Stek",
+            "da": "Bag"
+          },
+          "text": {
+            "en": "Pour into the tin and bake 50–60 minutes until a skewer comes out clean. Rest 10 minutes before turning out. Slice when still slightly warm for the best aroma.",
+            "sv": "Häll i formen och grädda 50–60 minuter tills en sticka kommer ut ren. Vila 10 minuter innan du stjälper upp. Skiva medan den är lätt varm för bästa doft.",
+            "no": "Hell i formen og stek 50–60 minutter til en pinne kommer ut ren. Hvil 10 minutter før du tar den ut. Skjær mens den er lett varm for best aroma.",
+            "da": "Hæld i formen og bag 50–60 minutter til en strikkepind kommer ren ud. Lad hvile 10 minutter før du vender den ud. Skær mens den er let lun for bedste duft."
+          },
+          "timer_seconds": 3300
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "risgrot_classic",
+      "locale_of_authorship": "no",
+      "category": "breakfast",
+      "added_at": "2026-04-23",
+      "title": {
+        "no": "Risgrøt",
+        "sv": "Risgrynsgröt",
+        "da": "Risengrød",
+        "en": "Nordic rice porridge"
+      },
+      "description": {
+        "no": "Risgrøt er fellesnordisk trøstekost og julemat i ett: rundkornet ris kokt sakte i melk til den blir kremet og mild. I Norge serveres den gjerne med sukker, kanel og en klatt smør som smelter i midten — den såkalte \"smørøye\". Julen hører selvfølgelig til, med den obligatoriske mandel gjemt i fatet til den heldige som får presanggave.",
+        "sv": "Risgrynsgröt är allnordisk tröstmat och julfoder i ett: rundkornigt ris långsamt kokt i mjölk tills det blir krämigt och mjukt. I Sverige serveras den med socker, kanel och en klick smör som smälter i mitten. Julen hör självklart till, med den obligatoriska mandeln gömd i skålen till den lycklige som får en liten gåva.",
+        "da": "Risengrød er fællesnordisk trøstemad og julemad i ét: rundkornet ris langsomt kogt i mælk til det bliver cremet og blødt. I Danmark serveres den med sukker, kanel og en klat smør der smelter i midten — det berømte \"smørhul\". Juletraditionen hører selvfølgelig til, med den obligatoriske mandel gemt i skålen til den heldige der får en mandelgave.",
+        "en": "Rice porridge is pan-Nordic comfort food and Christmas staple in one: short-grain rice cooked slowly in milk until creamy and soft. It is traditionally served with sugar, cinnamon, and a knob of butter melting in the middle — the \"butter eye.\" The Christmas version hides a single almond in the pot; whoever finds it wins a small gift."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 5,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 45,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "breakfast",
+        "classic",
+        "nordic",
+        "christmas"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "rice_white",
+          "amount": 2,
+          "unit": "dl",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 2,
+          "unit": "dl",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 8,
+          "unit": "dl",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "porridge"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 20,
+          "unit": "g",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "cinnamon_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 2,
+          "unit": "msk",
+          "group": "topping"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "no": "Start med ris og vann",
+            "sv": "Starta med ris och vatten",
+            "da": "Start med ris og vand",
+            "en": "Start with rice and water"
+          },
+          "text": {
+            "no": "Kok opp vannet i en tykkbunnet gryte. Tilsett risen og la koke på svak varme i 10 minutter til vannet er absorbert.",
+            "sv": "Koka upp vattnet i en tjockbottnad gryta. Tillsätt riset och låt koka på svag värme i 10 minuter tills vattnet är absorberat.",
+            "da": "Kog vandet op i en tykbundet gryde. Tilsæt risen og lad koge ved svag varme i 10 minutter til vandet er optaget.",
+            "en": "Bring the water to a boil in a heavy pot. Add the rice and simmer gently 10 minutes until the water is absorbed."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 2,
+          "title": {
+            "no": "Tilsett melk",
+            "sv": "Häll i mjölk",
+            "da": "Hæld mælk i",
+            "en": "Add the milk"
+          },
+          "text": {
+            "no": "Hell i melken og tilsett salt. Kok opp under omrøring, skru ned til lav varme, og la småkoke under lokk i 30–35 minutter. Rør av og til så det ikke brenner fast i bunnen.",
+            "sv": "Häll i mjölken och tillsätt salt. Koka upp under omrörning, sänk till låg värme och låt småkoka under lock 30–35 minuter. Rör då och då så det inte bränner fast.",
+            "da": "Hæld mælken i og tilsæt salt. Kog op under omrøring, skru ned til lav varme, og lad småsimre under låg i 30–35 minutter. Rør en gang imellem så det ikke brænder fast.",
+            "en": "Pour in the milk and add the salt. Bring to a boil, stirring, then reduce to low heat and simmer covered for 30–35 minutes. Stir occasionally so it does not catch on the bottom."
+          },
+          "timer_seconds": 1950
+        },
+        {
+          "order": 3,
+          "title": {
+            "no": "Sjekk konsistens",
+            "sv": "Kontrollera konsistens",
+            "da": "Tjek konsistens",
+            "en": "Check consistency"
+          },
+          "text": {
+            "no": "Risen skal være mykt kokt og grøten kremaktig tykk. Er den for tykk, spe med litt mer melk. Smak til med mer salt om nødvendig.",
+            "sv": "Riset ska vara mjukkokt och gröten krämigt tjock. Är den för tjock, spät med lite mer mjölk. Smaka av med mer salt om det behövs.",
+            "da": "Risen skal være blødkogt og grøden cremet tyk. Er den for tyk, spæd med lidt mere mælk. Smag til med mere salt om nødvendigt.",
+            "en": "The rice should be soft and the porridge creamy-thick. If it is too thick, thin with a splash more milk. Adjust salt to taste."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "no": "Server med smørøye",
+            "sv": "Servera med smörklick",
+            "da": "Servér med smørhul",
+            "en": "Serve with the butter eye"
+          },
+          "text": {
+            "no": "Øs grøten i dype boller. Lag en liten fordypning i midten og legg en klatt smør i — den smelter til \"smørøyet\". Dryss med kanel og sukker på toppen. Server straks.",
+            "sv": "Ös upp gröten i djupa skålar. Gör en liten grop i mitten och lägg en klick smör i — den smälter och bildar \"smörögat\". Strö kanel och socker ovanpå. Servera direkt.",
+            "da": "Øs grøden op i dybe tallerkener. Lav en lille fordybning i midten og læg en klat smør — den smelter og danner \"smørhullet\". Drys med kanel og sukker. Servér straks.",
+            "en": "Ladle the porridge into deep bowls. Make a small well in the middle and drop in a knob of butter to melt into the \"butter eye.\" Sprinkle with cinnamon and sugar. Serve at once."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "aebleskiver_classic",
+      "locale_of_authorship": "da",
+      "category": "sweet",
+      "added_at": "2026-04-23",
+      "title": {
+        "da": "Æbleskiver",
+        "sv": "Äppelskivor (danska)",
+        "no": "Eplestykker (danske)",
+        "en": "Danish æbleskiver"
+      },
+      "description": {
+        "da": "Æbleskiver er små sfæriske danske pandekager — sprøde udenpå, bløde indeni, med traditionelt en lille bid æble gemt i midten. De bages i en særlig pande med runde huller, som man vender med en strikkepind mens de steger. Ingen december er komplet uden æbleskiver med gløgg, og den rigtige måde er med flormelis og syltetøj ved siden af.",
+        "sv": "Äppelskivor är små sfäriska danska pannkakor — krispiga utanpå, mjuka inuti, med traditionellt en liten bit äpple gömd i mitten. De bakas i en speciell panna med runda hål som man vänder med en sticka medan de steker. Ingen december är fullständig utan äppelskivor med glögg, och det rätta sättet är med florsocker och sylt vid sidan av.",
+        "no": "Eplestykker er små sfæriske danske pannekaker — sprø utenpå, myke inni, med tradisjonelt en liten bit eple gjemt i midten. De stekes i en spesiell panne med runde hull som man vender med en strikkepinne mens de steker. Ingen desember er komplett uten eplestykker med gløgg, og den rette måten er med melis og syltetøy ved siden av.",
+        "en": "Æbleskiver are small spherical Danish pancakes — crisp outside, soft within, traditionally with a small piece of apple hidden in the middle. They are cooked in a special cast-iron pan with round hollows and turned with a knitting needle as they brown. No Danish December is complete without them, served with gløgg, icing sugar, and jam."
+      },
+      "servings": 24,
+      "servings_unit": "pieces",
+      "time_prep_minutes": 15,
+      "time_rest_minutes": 30,
+      "time_cook_minutes": 25,
+      "oven": null,
+      "yeast_type": "fresh",
+      "tags": [
+        "sweet",
+        "christmas",
+        "danish",
+        "classic"
+      ],
+      "source": null,
+      "ingredients": [
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 5,
+          "unit": "dl",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 5,
+          "unit": "dl",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 3,
+          "unit": "st",
+          "group": "batter",
+          "note_locale": {
+            "da": "delte (separerede)",
+            "sv": "delade (separerade)",
+            "no": "delte (separerte)",
+            "en": "separated"
+          }
+        },
+        {
+          "ingredient_id": "yeast_fresh",
+          "amount": 25,
+          "unit": "g",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 2,
+          "unit": "msk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "cardamom_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 50,
+          "unit": "g",
+          "group": "batter"
+        },
+        {
+          "ingredient_id": "apple",
+          "amount": 1,
+          "unit": "st",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 30,
+          "unit": "g",
+          "group": "frying"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "da": "Rør dejen",
+            "sv": "Blanda smeten",
+            "no": "Bland røren",
+            "en": "Make the batter"
+          },
+          "text": {
+            "da": "Opløs gæren i lunken mælk. Pisk æggeblommerne i sammen med sukker, salt og kardemomme. Rør melet i lidt ad gangen til en tyk, glat dej. Smelt smørret og pisk i. Lad hæve tildækket 30 minutter.",
+            "sv": "Lös upp jästen i ljumma mjölken. Vispa i äggulorna med socker, salt och kardemumma. Rör i mjölet lite i taget till en tjock, slät smet. Smält smöret och vispa i. Låt jäsa täckt 30 minuter.",
+            "no": "Løs gjæren i lunken melk. Visp inn eggeplommene med sukker, salt og kardemomme. Rør melet i litt etter litt til en tykk, glatt røre. Smelt smøret og visp i. La heve tildekket 30 minutter.",
+            "en": "Dissolve the yeast in lukewarm milk. Whisk in the egg yolks with sugar, salt, and cardamom. Stir in the flour gradually to a thick, smooth batter. Melt the butter and whisk in. Cover and let rise 30 minutes."
+          },
+          "timer_seconds": 1800
+        },
+        {
+          "order": 2,
+          "title": {
+            "da": "Vend æggehvider i",
+            "sv": "Vänd i äggvitorna",
+            "no": "Vend inn eggehvitene",
+            "en": "Fold in the whites"
+          },
+          "text": {
+            "da": "Pisk æggehviderne stive. Vend dem forsigtigt i dejen med en dejskraber. Skær æblet i små tern.",
+            "sv": "Vispa äggvitorna styva. Vänd försiktigt ner dem i smeten med en slickepott. Skär äpplet i små tärningar.",
+            "no": "Pisk eggehvitene stive. Vend dem forsiktig inn i røren med en slikkepott. Skjær eplet i små terninger.",
+            "en": "Whip the egg whites to stiff peaks. Fold gently into the batter with a spatula. Dice the apple small."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "da": "Varm panden",
+            "sv": "Värm pannan",
+            "no": "Varm pannen",
+            "en": "Heat the pan"
+          },
+          "text": {
+            "da": "Varm æbleskivepanden på middelvarme. Læg en lille klat smør i hver fordybning.",
+            "sv": "Värm äppelskivepannan på medelvärme. Lägg en liten klick smör i varje fördjupning.",
+            "no": "Varm eplestykkepannen på middels varme. Legg en liten klatt smør i hver fordypning.",
+            "en": "Heat the æbleskiver pan over medium heat. Drop a small nub of butter into each hollow."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "da": "Fyld og vend",
+            "sv": "Fyll och vänd",
+            "no": "Fyll og vend",
+            "en": "Fill and turn"
+          },
+          "text": {
+            "da": "Fyld dejen i hver fordybning til tre fjerdedele. Læg et lille stykke æble i midten. Når kanten er bagt (2 minutter), vend med en strikkepind så den ubagte dej løber ned. Gentag et par gange mens kuglen færdiggør sig til en perfekt sfære.",
+            "sv": "Fyll smet i varje fördjupning till tre fjärdedelar. Lägg en liten bit äpple i mitten. När kanten bakat (2 minuter), vänd med en sticka så ogräddad smet rinner ner. Upprepa några gånger tills kulan avslutas som en perfekt sfär.",
+            "no": "Fyll røren i hver fordypning til tre fjerdedeler. Legg et lite stykke eple i midten. Når kanten er stekt (2 minutter), vend med en strikkepinne så ustekt røre renner ned. Gjenta et par ganger mens kulen fullfører seg selv til en perfekt sfære.",
+            "en": "Fill each hollow three-quarters full with batter. Drop a piece of apple in each. When the edges set (about 2 minutes), turn with a knitting needle or skewer so the raw batter flows down. Repeat a few turns as the ball completes itself into a perfect sphere."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 5,
+          "title": {
+            "da": "Servér",
+            "sv": "Servera",
+            "no": "Server",
+            "en": "Serve"
+          },
+          "text": {
+            "da": "Servér æbleskiverne straks, dyppet i flormelis og hindbærsyltetøj. Obligatorisk gløgg ved siden af.",
+            "sv": "Servera äppelskivorna direkt, doppade i florsocker och hallonsylt. Glögg bredvid är obligatoriskt.",
+            "no": "Server eplestykkene straks, dyppet i melis og bringebærsyltetøy. Gløgg ved siden av er obligatorisk.",
+            "en": "Serve straight away, dusted with icing sugar and alongside raspberry jam. Gløgg (mulled wine) is the mandatory accompaniment."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "stegt_flaesk_persillesovs",
+      "locale_of_authorship": "da",
+      "category": "family_meal",
+      "added_at": "2026-04-23",
+      "title": {
+        "da": "Stegt flæsk med persillesovs",
+        "sv": "Stekt fläsk med persiljesås",
+        "no": "Stekt flesk med persillesaus",
+        "en": "Danish crispy pork belly with parsley sauce"
+      },
+      "description": {
+        "da": "Stegt flæsk med persillesovs blev i 2014 kåret til Danmarks nationalret — og med god grund. Sprødt stegt fedt flæsk, kogte kartofler, og en mild fløjlsblød persillesovs der binder det hele sammen. Det er bondekost på sit bedste: få ingredienser, ren smag, total trøst. En tradition fra 1800-tallet der stadig rammer dybt hver gang.",
+        "sv": "Stekt fläsk med persiljesås röstades 2014 till Danmarks nationalrätt — och med rätta. Krispigt stekt sidfläsk, kokt potatis, och en mild sammetsmjuk persiljesås som binder ihop allt. Det är bondkost i sin bästa form: få ingredienser, ren smak, total tröst. En 1800-talstradition som fortfarande träffar rätt varje gång.",
+        "no": "Stekt flesk med persillesaus ble i 2014 kåret til Danmarks nasjonalrett — og med god grunn. Sprøtt stekt svinebryst, kokte poteter og en mild fløyelsmyk persillesaus som binder alt sammen. Det er bondekost på sitt beste: få ingredienser, ren smak, total trøst. En 1800-tallstradisjon som fortsatt treffer dypt hver gang.",
+        "en": "In 2014 Danes voted stegt flæsk med persillesovs their national dish — and rightly so. Crisp slices of pork belly, boiled potatoes, and a velvety parsley sauce that ties it all together. This is farmhouse cooking at its finest: few ingredients, clean flavor, total comfort. A 19th-century tradition that still delivers every time."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 15,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 30,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "classic",
+        "danish",
+        "national_dish"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "pork_belly",
+          "amount": 800,
+          "unit": "g",
+          "group": "flaesk",
+          "note_locale": {
+            "da": "i skiver, ca 1 cm tykke",
+            "sv": "i skivor, ca 1 cm tjocka",
+            "no": "i skiver, ca 1 cm tykke",
+            "en": "sliced about 1 cm thick"
+          }
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "flaesk"
+        },
+        {
+          "ingredient_id": "potato",
+          "amount": 800,
+          "unit": "g",
+          "group": "potatoes"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "potatoes"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 50,
+          "unit": "g",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 3,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "milk_whole",
+          "amount": 5,
+          "unit": "dl",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "parsley_fresh",
+          "amount": 1,
+          "unit": "dl",
+          "group": "sauce",
+          "note_locale": {
+            "da": "finthakket",
+            "sv": "finhackad",
+            "no": "finhakket",
+            "en": "finely chopped"
+          }
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "krm",
+          "group": "sauce"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "da": "Kog kartoflerne",
+            "sv": "Koka potatisen",
+            "no": "Kok potetene",
+            "en": "Boil the potatoes"
+          },
+          "text": {
+            "da": "Skræl kartoflerne og kog dem i letsaltet vand i ca 20 minutter til de er møre.",
+            "sv": "Skala potatisen och koka i lättsaltat vatten i ca 20 minuter tills de är mjuka.",
+            "no": "Skrell potetene og kok dem i lettsaltet vann i ca 20 minutter til de er møre.",
+            "en": "Peel the potatoes and boil in lightly salted water for about 20 minutes until tender."
+          },
+          "timer_seconds": 1200
+        },
+        {
+          "order": 2,
+          "title": {
+            "da": "Steg flæsket",
+            "sv": "Stek fläsket",
+            "no": "Stek flesket",
+            "en": "Fry the pork belly"
+          },
+          "text": {
+            "da": "Læg fleskskiverne på en tør pande over middelvarme — fedtet smelter og brunes af sig selv. Drys let med salt. Steg 8–10 minutter per side til de er gyldent sprøde. Læg til afdrypning på fedtsugende papir.",
+            "sv": "Lägg fläsksivorna i en torr stekpanna på medelvärme — fettet smälter och bryns av sig självt. Salta lätt. Stek 8–10 minuter per sida tills gyllene och knapriga. Lägg på hushållspapper för att droppa av.",
+            "no": "Legg fleskskivene i en tørr panne på middels varme — fettet smelter og brunes av seg selv. Dryss lett med salt. Stek 8–10 minutter per side til de er gyllent sprø. Legg på tørkepapir til avrenning.",
+            "en": "Lay the pork belly slices in a dry skillet over medium heat — the fat will render and brown on its own. Season lightly with salt. Fry 8–10 minutes per side until golden and crisp. Drain briefly on paper towel."
+          },
+          "timer_seconds": 960
+        },
+        {
+          "order": 3,
+          "title": {
+            "da": "Lav persillesovsen",
+            "sv": "Gör persiljesåsen",
+            "no": "Lag persillesausen",
+            "en": "Make the parsley sauce"
+          },
+          "text": {
+            "da": "Smelt smørret i en gryde. Pisk melet i og rør 1 minut — det skal ikke tage farve. Spæd med mælken lidt ad gangen under kraftig piskning. Lad simre 5 minutter til glat og cremet. Tilsæt persille, salt og peber.",
+            "sv": "Smält smöret i en kastrull. Vispa i mjölet och rör 1 minut — det ska inte ta färg. Spät med mjölken lite i taget under kraftig vispning. Låt sjuda 5 minuter till slät och krämig. Tillsätt persilja, salt och peppar.",
+            "no": "Smelt smøret i en kjele. Visp i melet og rør 1 minutt — det skal ikke ta farge. Spe med melken litt etter litt under kraftig visping. La småkoke 5 minutter til glatt og kremet. Tilsett persille, salt og pepper.",
+            "en": "Melt the butter in a saucepan. Whisk in the flour and cook 1 minute without letting it color. Pour in the milk a little at a time while whisking vigorously. Simmer 5 minutes until smooth and creamy. Stir in the parsley, salt, and pepper."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "order": 4,
+          "title": {
+            "da": "Anret og servér",
+            "sv": "Lägg upp och servera",
+            "no": "Anrett og server",
+            "en": "Plate and serve"
+          },
+          "text": {
+            "da": "Anret sprødt flæsk, kogte kartofler og en god klat persillesovs på hver tallerken. Tilbyd ekstra sovs ved bordet. Nydes med et glas øl.",
+            "sv": "Lägg upp krispigt fläsk, kokt potatis och en rejäl klick persiljesås på varje tallrik. Erbjud extra sås vid bordet. Avnjuts med ett glas öl.",
+            "no": "Anrett sprøtt flesk, kokte poteter og en god klatt persillesaus på hver tallerken. Tilby ekstra saus ved bordet. Nytes med et glass øl.",
+            "en": "Plate the crisp pork, boiled potatoes, and a generous ladle of parsley sauce. Offer extra sauce at the table. Best eaten with a cold beer."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
+    },
+    {
+      "id": "farikal_classic",
+      "locale_of_authorship": "no",
+      "category": "family_meal",
+      "added_at": "2026-04-23",
+      "title": {
+        "no": "Fårikål",
+        "sv": "Fårikål (norsk lamm- och kålgryta)",
+        "da": "Fårikål (norsk lamme- og kålgryde)",
+        "en": "Norwegian fårikål (lamb and cabbage stew)"
+      },
+      "description": {
+        "no": "Fårikål er Norges nasjonalrett og selve symbolet på norsk høst. Det er tilberedningen i all sin enkelhet som imponerer: lammekjøtt, hodekål, helt pepperkorn, salt, vann. Ingen stekning, ingen bruning — bare lag på lag i gryten og langtidskoking i to timer til kjøttet faller fra beinet. Kålens sødme, lammets dybde og pepperens bitt blir til noe som er større enn ingrediensene.",
+        "sv": "Fårikål är Norges nationalrätt och själva symbolen för norsk höst. Det är tillredningen i all sin enkelhet som imponerar: lammkött, vitkål, hela pepparkorn, salt, vatten. Ingen stekning, ingen brynning — bara lager på lager i grytan och långkokning i två timmar tills köttet faller från benet. Kålens sötma, lammets djup och pepparens bett blir till något större än summan av ingredienserna.",
+        "da": "Fårikål er Norges nationalret og selve symbolet på norsk efterår. Det er tilberedningen i al sin enkelhed der imponerer: lammekød, hvidkål, hele peberkorn, salt, vand. Ingen stegning, ingen bruning — bare lag på lag i gryden og langtidskogning i to timer til kødet falder af benet. Kålens sødme, lammets dybde og peberens bid bliver til noget større end summen af ingredienserne.",
+        "en": "Fårikål is Norway's national dish and the very symbol of Norwegian autumn. What impresses is the simplicity of the method: lamb, white cabbage, whole peppercorns, salt, water. No searing, no browning — just layer it all in the pot and slow-cook for two hours until the meat falls from the bone. The sweetness of cabbage, depth of lamb, and bite of pepper become something greater than the sum of their parts."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 15,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 120,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "classic",
+        "norwegian",
+        "national_dish"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "lamb_shoulder",
+          "amount": 1500,
+          "unit": "g",
+          "group": "stew",
+          "note_locale": {
+            "no": "i store terninger med ben",
+            "sv": "i stora bitar med ben",
+            "da": "i store stykker med ben",
+            "en": "large bone-in pieces"
+          }
+        },
+        {
+          "ingredient_id": "cabbage_white",
+          "amount": 1500,
+          "unit": "g",
+          "group": "stew",
+          "note_locale": {
+            "no": "i store båter",
+            "sv": "i stora klyftor",
+            "da": "i store både",
+            "en": "cut into large wedges"
+          }
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 2,
+          "unit": "msk",
+          "group": "stew",
+          "note_locale": {
+            "no": "helst hele, knust lett",
+            "sv": "helst hela, lätt krossade",
+            "da": "helst hele, let knuste",
+            "en": "whole, lightly crushed"
+          }
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "msk",
+          "group": "stew"
+        },
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 2,
+          "unit": "msk",
+          "group": "stew"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 5,
+          "unit": "dl",
+          "group": "stew"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "no": "Legg i lag",
+            "sv": "Skikta",
+            "da": "Læg i lag",
+            "en": "Layer the pot"
+          },
+          "text": {
+            "no": "Legg en stor gryte klar. Legg først et lag kjøtt i bunnen, deretter et lag kål. Dryss over litt mel, salt og knuste pepperkorn. Fortsett å legge lagvis til alt er brukt opp — avslutt med kål.",
+            "sv": "Ta fram en stor gryta. Lägg först ett lager kött i botten, sedan ett lager kål. Strö över lite mjöl, salt och krossade pepparkorn. Fortsätt skikta tills allt är slut — avsluta med kål.",
+            "da": "Find en stor gryde frem. Læg først et lag kød i bunden, så et lag kål. Drys med lidt mel, salt og knuste peberkorn. Fortsæt at lægge i lag til alt er brugt — slut med kål.",
+            "en": "Use a large heavy pot. Layer meat on the bottom, then cabbage on top. Sprinkle with flour, salt, and crushed peppercorns. Continue layering until everything is used — finish with cabbage."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "no": "Tilsett vann",
+            "sv": "Tillsätt vatten",
+            "da": "Tilsæt vand",
+            "en": "Add the water"
+          },
+          "text": {
+            "no": "Hell vannet over. Det skal ikke dekke kålen helt — kålen gir fra seg væske under kokingen og vannet stiger av seg selv.",
+            "sv": "Häll över vattnet. Det ska inte täcka kålen helt — kålen avger vätska under kokningen och nivån stiger av sig själv.",
+            "da": "Hæld vandet over. Det skal ikke dække kålen helt — kålen afgiver væske under kogningen og vandstanden stiger af sig selv.",
+            "en": "Pour in the water. It should not cover the cabbage fully — the cabbage releases plenty of liquid as it cooks, and the level rises on its own."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "no": "Langkok",
+            "sv": "Långkoka",
+            "da": "Langtidskog",
+            "en": "Slow-cook"
+          },
+          "text": {
+            "no": "Kok opp, skru ned til lav varme og la putre under lokk i 2 timer. Du kan åpne lokket halvveis og snu litt i gryten, men ikke rør for mye — kål og kjøtt skal bli i sine lag.",
+            "sv": "Koka upp, sänk till låg värme och låt puttra under lock i 2 timmar. Du kan öppna locket halvvägs och vända lite, men rör inte för mycket — kål och kött ska stanna i sina lager.",
+            "da": "Kog op, skru ned til lav varme og lad simre under låg i 2 timer. Du kan åbne låget halvvejs og vende lidt, men rør ikke for meget — kål og kød skal blive i deres lag.",
+            "en": "Bring to a boil, reduce to low heat, and simmer covered for 2 hours. You can lift the lid halfway and turn lightly, but do not overmix — the meat and cabbage should stay in their layers."
+          },
+          "timer_seconds": 7200
+        },
+        {
+          "order": 4,
+          "title": {
+            "no": "Server",
+            "sv": "Servera",
+            "da": "Servér",
+            "en": "Serve"
+          },
+          "text": {
+            "no": "Øs fårikålen i dype boller med rikelig av kraften. Server med kokte poteter. Resten blir alltid bedre dagen etter — varm opp forsiktig.",
+            "sv": "Ös upp fårikålen i djupa skålar med rikligt av sin sky. Servera med kokt potatis. Resten blir alltid bättre dagen efter — värm försiktigt.",
+            "da": "Øs fårikålen op i dybe skåle med rigelig sky. Servér med kogte kartofler. Resten bliver altid bedre dagen efter — varm forsigtigt op.",
+            "en": "Ladle the fårikål into deep bowls with plenty of its own broth. Serve with boiled potatoes. Leftovers are famously better the next day — reheat gently."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-23"
     }
   ]
 }

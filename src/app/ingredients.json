@@ -451,7 +451,8 @@
         "carbs_g": 27.7,
         "fiber_g": 0.2,
         "salt_g": 26
-      }
+      },
+      "density_g_per_ml": 0.9
     },
     {
       "id": "potato",
@@ -845,6 +846,176 @@
         "carbs_g": 71.6,
         "fiber_g": 14.1,
         "salt_g": 0.07
+      }
+    },
+    {
+      "id": "banana",
+      "category": "fruit",
+      "names": {
+        "sv": "banan",
+        "no": "banan",
+        "da": "banan",
+        "en": "banana"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 89,
+        "protein_g": 1.1,
+        "fat_g": 0.3,
+        "carbs_g": 22.8,
+        "fiber_g": 2.6,
+        "salt_g": 0.002
+      }
+    },
+    {
+      "id": "apple",
+      "category": "fruit",
+      "names": {
+        "sv": "äpple",
+        "no": "eple",
+        "da": "æble",
+        "en": "apple"
+      },
+      "default_unit_by_locale": {
+        "sv": "st",
+        "no": "stk",
+        "da": "stk",
+        "en": "whole"
+      },
+      "nutrition_per_100g": {
+        "kcal": 52,
+        "protein_g": 0.3,
+        "fat_g": 0.2,
+        "carbs_g": 13.8,
+        "fiber_g": 2.4,
+        "salt_g": 0.001
+      }
+    },
+    {
+      "id": "rice_white",
+      "category": "pantry",
+      "names": {
+        "sv": "ris (vitt, kortkornigt)",
+        "no": "ris (hvit, kortkornet)",
+        "da": "ris (hvid, kortkornet)",
+        "en": "white rice (short-grain)"
+      },
+      "density_g_per_ml": 0.75,
+      "default_unit_by_locale": {
+        "sv": "dl",
+        "no": "dl",
+        "da": "dl",
+        "en": "cup"
+      },
+      "nutrition_per_100g": {
+        "kcal": 358,
+        "protein_g": 6.5,
+        "fat_g": 0.7,
+        "carbs_g": 79.3,
+        "fiber_g": 1.4,
+        "salt_g": 0.005
+      }
+    },
+    {
+      "id": "pork_belly",
+      "category": "meat",
+      "names": {
+        "sv": "fläsk (sidfläsk)",
+        "no": "ribbe (svin)",
+        "da": "svinebryst i skiver",
+        "en": "pork belly slices"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 518,
+        "protein_g": 9.3,
+        "fat_g": 53,
+        "carbs_g": 0,
+        "fiber_g": 0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "parsley_fresh",
+      "category": "vegetable",
+      "names": {
+        "sv": "persilja (färsk)",
+        "no": "persille (fersk)",
+        "da": "persille (frisk)",
+        "en": "fresh parsley"
+      },
+      "default_unit_by_locale": {
+        "sv": "dl",
+        "no": "dl",
+        "da": "dl",
+        "en": "cup"
+      },
+      "density_g_per_ml": 0.22,
+      "nutrition_per_100g": {
+        "kcal": 36,
+        "protein_g": 3,
+        "fat_g": 0.8,
+        "carbs_g": 6.3,
+        "fiber_g": 3.3,
+        "salt_g": 0.14
+      }
+    },
+    {
+      "id": "lamb_shoulder",
+      "category": "meat",
+      "names": {
+        "sv": "lammbog (med ben)",
+        "no": "lammebog (med ben)",
+        "da": "lammebov (med ben)",
+        "en": "lamb shoulder (bone-in)"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 282,
+        "protein_g": 17,
+        "fat_g": 23.8,
+        "carbs_g": 0,
+        "fiber_g": 0,
+        "salt_g": 0.17
+      }
+    },
+    {
+      "id": "cabbage_white",
+      "category": "vegetable",
+      "names": {
+        "sv": "vitkål",
+        "no": "hodekål",
+        "da": "hvidkål",
+        "en": "white cabbage"
+      },
+      "default_unit_by_locale": {
+        "sv": "g",
+        "no": "g",
+        "da": "g",
+        "en": "lb"
+      },
+      "nutrition_per_100g": {
+        "kcal": 25,
+        "protein_g": 1.3,
+        "fat_g": 0.1,
+        "carbs_g": 5.8,
+        "fiber_g": 2.5,
+        "salt_g": 0.018
       }
     }
   ]
