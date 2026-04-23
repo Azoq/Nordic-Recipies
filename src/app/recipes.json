@@ -4038,6 +4038,1673 @@
       ],
       "verified_by": "author",
       "verified_at": "2026-04-24"
+    },
+    {
+      "id": "pho_bo_beef",
+      "locale_of_authorship": "en",
+      "category": "dinner",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Pho bò (Vietnamese beef noodle soup)",
+        "sv": "Pho bò (vietnamesisk nötköttsoppa)",
+        "no": "Pho bò (vietnamesisk oksesuppe)",
+        "da": "Pho bò (vietnamesisk oksesuppe)"
+      },
+      "description": {
+        "en": "Pho is Vietnam in a bowl: a clear aromatic broth perfumed with star anise, cinnamon, and charred ginger, poured over rice noodles and raw beef that cooks in seconds from the heat. At the table you pile in fresh herbs, lime, and chili to taste. The authentic broth takes many hours; this home version builds flavor fast with good stock and careful toasting of aromatics.",
+        "sv": "Pho är Vietnam i en skål: en klar aromatisk buljong parfymerad med stjärnanis, kanel och kolad ingefära, hälld över risnudlar och rått nötkött som tillagas på sekunder av värmen. Vid bordet staplar du i färska örter, lime och chili efter smak. Den äkta buljongen tar många timmar; denna hemmaversion bygger smak snabbt med bra buljong och noggrann rostning av aromer.",
+        "no": "Pho er Vietnam i en skål: en klar aromatisk kraft parfymert med stjerneanis, kanel og karamellisert ingefær, helt over risnudler og råt biffkjøtt som tilberedes på sekunder av varmen. Ved bordet topper du med friske urter, lime og chili etter smak. Den autentiske kraften tar mange timer; denne hjemmeversjonen bygger smak raskt med god kraft og nøye risting av aromaer.",
+        "da": "Pho er Vietnam i en skål: en klar aromatisk bouillon parfumeret med stjerneanis, kanel og karameliseret ingefær, hældt over risnudler og råt oksekød der tilberedes på sekunder af varmen. Ved bordet topper du med friske urter, lime og chili efter smag. Den autentiske bouillon tager mange timer; denne hjemmeversion bygger smag hurtigt med god bouillon og omhyggelig ristning af aromaer."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 15,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 45,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "vietnamese",
+        "soup",
+        "noodles"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "beef_sirloin",
+          "amount": 400,
+          "unit": "g",
+          "group": "beef",
+          "note_locale": {
+            "en": "sliced paper-thin",
+            "sv": "pappersskuret tunt",
+            "no": "papirtynt skåret",
+            "da": "papirtyndt skåret"
+          }
+        },
+        {
+          "ingredient_id": "rice_noodles",
+          "amount": 300,
+          "unit": "g",
+          "group": "noodles"
+        },
+        {
+          "ingredient_id": "beef_stock",
+          "amount": 15,
+          "unit": "dl",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "ginger_fresh",
+          "amount": 50,
+          "unit": "g",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "star_anise",
+          "amount": 3,
+          "unit": "st",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "cinnamon_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "fish_sauce",
+          "amount": 3,
+          "unit": "msk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "cilantro_fresh",
+          "amount": 1,
+          "unit": "dl",
+          "group": "garnish"
+        },
+        {
+          "ingredient_id": "spring_onion",
+          "amount": 3,
+          "unit": "st",
+          "group": "garnish"
+        },
+        {
+          "ingredient_id": "basil_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "garnish"
+        },
+        {
+          "ingredient_id": "lime",
+          "amount": 1,
+          "unit": "st",
+          "group": "garnish"
+        },
+        {
+          "ingredient_id": "chili_red_fresh",
+          "amount": 1,
+          "unit": "st",
+          "group": "garnish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Char the aromatics",
+            "sv": "Rosta aromerna",
+            "no": "Rist aromaene",
+            "da": "Rist aromaerne"
+          },
+          "text": {
+            "en": "Halve the onion and the ginger (unpeeled). Char them directly over a gas flame or under a broiler until blackened in spots — this is the signature pho flavor.",
+            "sv": "Dela löken och ingefäran (oskalad) på mitten. Rosta dem direkt över gaslåga eller under ugnsgrill tills de är svarta på kanterna — detta är pho-signaturen.",
+            "no": "Del løken og ingefæren (uskrellet) på midten. Rist dem direkte over gassflamme eller under grillelementet til de er svarte i flekker — dette er phos signaturen.",
+            "da": "Del løget og ingefæren (uskrællet) på midten. Rist dem direkte over gasflamme eller under grillelementet til de er sorte i pletter — det her er phos signatur."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Simmer the broth",
+            "sv": "Sjud buljongen",
+            "no": "Småkok kraften",
+            "da": "Småsimr bouillonen"
+          },
+          "text": {
+            "en": "Toast star anise and cinnamon in a dry pot 30 seconds until fragrant. Pour in stock, add charred onion and ginger, fish sauce, sugar, and salt. Simmer uncovered 30 minutes to marry the flavors. Strain and return to pot.",
+            "sv": "Rosta stjärnanis och kanel i en torr kastrull 30 sekunder tills de doftar. Häll i buljongen, tillsätt rostad lök och ingefära, fisksås, socker och salt. Sjud utan lock 30 minuter för att smakerna ska gifta sig. Sila och häll tillbaka.",
+            "no": "Rist stjerneanis og kanel i en tørr kjele 30 sekunder til de dufter. Hell i kraften, tilsett ristet løk og ingefær, fiskesaus, sukker og salt. La småkoke uten lokk 30 minutter så smakene gifter seg. Sil og hell tilbake.",
+            "da": "Rist stjerneanis og kanel i en tør gryde 30 sekunder til de dufter. Hæld bouillonen i, tilsæt ristet løg og ingefær, fiskesauce, sukker og salt. Lad småsimre uden låg 30 minutter så smagene gifter sig. Si og hæld tilbage."
+          },
+          "timer_seconds": 1800
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Prep garnish and noodles",
+            "sv": "Förbered garnering och nudlar",
+            "no": "Forbered pynt og nudler",
+            "da": "Forbered pynt og nudler"
+          },
+          "text": {
+            "en": "Soak rice noodles in hot water per the package, usually 6–8 minutes, until tender but still firm. Drain. Chop cilantro and spring onion. Slice chili and lime.",
+            "sv": "Lägg risnudlarna i hett vatten enligt paketets anvisning, vanligtvis 6–8 minuter, tills mjuka men fortfarande fasta. Häll av. Hacka koriander och salladslök. Skiva chili och lime.",
+            "no": "Bløtlegg risnudlene i varmt vann etter pakningen, vanligvis 6–8 minutter, til myke men fortsatt faste. Hell av. Hakk koriander og vårløk. Skiver chili og lime.",
+            "da": "Læg risnudlerne i varmt vand efter pakken, normalt 6–8 minutter, til bløde men stadig faste. Hæld af. Hak koriander og forårsløg. Skær chili og lime i skiver."
+          },
+          "timer_seconds": 420
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Assemble",
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér"
+          },
+          "text": {
+            "en": "Divide noodles between 4 deep bowls. Lay raw beef slices on top — they must be thin so the hot broth cooks them. Ladle screaming-hot broth over: the beef turns from red to gray-pink in seconds.",
+            "sv": "Dela nudlarna mellan 4 djupa skålar. Lägg tunna rå nötbitar ovanpå — de måste vara tunna så den heta buljongen tillagar dem. Slev rykande het buljong över: köttet går från rött till gråpink på sekunder.",
+            "no": "Fordel nudlene mellom 4 dype boller. Legg rå okskjøttskiver oppå — de må være tynne så den varme kraften tilbereder dem. Øs rykende varm kraft over: kjøttet går fra rødt til gråpink på sekunder.",
+            "da": "Fordel nudlerne mellem 4 dybe skåle. Læg rå oksekødsskiver ovenpå — de skal være tynde så den varme bouillon tilbereder dem. Øs rygende varm bouillon over: kødet går fra rødt til grå-pink på sekunder."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Top and serve",
+            "sv": "Toppa och servera",
+            "no": "Topp og server",
+            "da": "Top og servér"
+          },
+          "text": {
+            "en": "Scatter herbs, spring onion, and chili over each bowl. Squeeze lime to taste. Offer extra fish sauce, chili, and hoisin sauce at the table for each diner to season their own.",
+            "sv": "Strö örter, salladslök och chili över varje skål. Krama lime efter smak. Erbjud extra fisksås, chili och hoisinsås vid bordet så varje gäst kan krydda sin egen.",
+            "no": "Dryss urter, vårløk og chili over hver bolle. Klem lime etter smak. Tilby ekstra fiskesaus, chili og hoisinsaus ved bordet så hver gjest kan krydre sin egen.",
+            "da": "Drys urter, forårsløg og chili over hver skål. Pres lime efter smag. Tilbyd ekstra fiskesauce, chili og hoisinsovs ved bordet så hver gæst kan krydre sin egen."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "butter_chicken",
+      "locale_of_authorship": "en",
+      "category": "dinner",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Butter chicken (Murgh Makhani)",
+        "sv": "Butter chicken",
+        "no": "Butter chicken",
+        "da": "Butter chicken"
+      },
+      "description": {
+        "en": "Butter chicken was invented in 1950s Delhi when leftover tandoori chicken was rescued in a tomato-cream sauce. The result is a rich, slightly sweet, deeply fragrant curry — the gateway dish for anyone new to Indian food. Yogurt tenderizes the chicken overnight; garam masala and a generous amount of butter do the heavy lifting on flavor. Serve over rice with naan to scoop.",
+        "sv": "Butter chicken uppfanns i 1950-talets Delhi när kvarvarande tandoorikyckling räddades i en tomatgräddsås. Resultatet är en rik, lätt söt, djupt aromatisk curry — introduktionsrätten för alla som är nya till indisk mat. Yoghurt möranar kycklingen över natten; garam masala och en generös mängd smör bär smaken. Servera över ris med naan att ösa med.",
+        "no": "Butter chicken ble oppfunnet i 1950-tallets Delhi da tandoorikylling-rester ble reddet i en tomatfløtesaus. Resultatet er en rik, lett søt, dypt aromatisk karri — inngangsretten for alle som er nye til indisk mat. Yoghurt mørner kyllingen over natten; garam masala og en sjenerøs mengde smør bærer smaken. Server over ris med naan å øse med.",
+        "da": "Butter chicken blev opfundet i 1950'ernes Delhi da tandoorikylling-rester blev reddet i en tomatflødesovs. Resultatet er en fyldig, let sød, dybt aromatisk karry — indgangsretten for alle nye til indisk mad. Yoghurt mørner kyllingen over natten; garam masala og en gavmild mængde smør bærer smagen. Servér over ris med naan at øse med."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 20,
+      "time_rest_minutes": 240,
+      "time_cook_minutes": 30,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "indian",
+        "curry",
+        "classic"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "chicken_thigh",
+          "amount": 700,
+          "unit": "g",
+          "group": "marinade",
+          "note_locale": {
+            "en": "cut into bite-size pieces",
+            "sv": "i tuggbitar",
+            "no": "i munnfulle",
+            "da": "i mundrette stykker"
+          }
+        },
+        {
+          "ingredient_id": "yogurt_greek",
+          "amount": 1.5,
+          "unit": "dl",
+          "group": "marinade"
+        },
+        {
+          "ingredient_id": "garam_masala",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "marinade"
+        },
+        {
+          "ingredient_id": "turmeric_ground",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "marinade"
+        },
+        {
+          "ingredient_id": "paprika_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "marinade"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "marinade"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 60,
+          "unit": "g",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "onion_yellow",
+          "amount": 1,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 4,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "ginger_fresh",
+          "amount": 30,
+          "unit": "g",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "tomato_paste",
+          "amount": 2,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "tomato_canned",
+          "amount": 400,
+          "unit": "g",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "garam_masala",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "cumin_ground",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "cream_36",
+          "amount": 2,
+          "unit": "dl",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "cilantro_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Marinate the chicken",
+            "sv": "Marinera kycklingen",
+            "no": "Marinér kyllingen",
+            "da": "Marinér kyllingen"
+          },
+          "text": {
+            "en": "Mix chicken with yogurt, garam masala, turmeric, paprika, and salt. Cover and refrigerate at least 4 hours, ideally overnight — yogurt tenderizes and flavor penetrates deeply.",
+            "sv": "Blanda kyckling med yoghurt, garam masala, gurkmeja, paprika och salt. Täck och ställ i kylen minst 4 timmar, helst över natten — yoghurt möranar och smaken tränger djupt in.",
+            "no": "Bland kylling med yoghurt, garam masala, gurkemeie, paprika og salt. Dekk til og sett i kjøleskapet minst 4 timer, helst over natten — yoghurt mørner og smaken trenger dypt inn.",
+            "da": "Bland kylling med yoghurt, garam masala, gurkemeje, paprika og salt. Dæk til og sæt i køleskabet mindst 4 timer, ideelt over natten — yoghurt mørner og smagen trænger dybt ind."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Sear the chicken",
+            "sv": "Stek kycklingen",
+            "no": "Brun kyllingen",
+            "da": "Brun kyllingen"
+          },
+          "text": {
+            "en": "Heat half the butter in a large pan over medium-high heat. Sear the marinated chicken in batches 3 minutes per side until charred in spots. Remove and set aside.",
+            "sv": "Värm hälften av smöret i en stor panna på hög medelvärme. Stek den marinerade kycklingen i omgångar 3 minuter per sida tills den är bränd i fläckar. Ta upp och ställ åt sidan.",
+            "no": "Varm halvparten av smøret i en stor panne på middels høy varme. Brun den marinerte kyllingen i porsjoner 3 minutter per side til den er brunet i flekker. Ta opp og sett til side.",
+            "da": "Varm halvdelen af smørret i en stor pande ved middelhøj varme. Brun den marinerede kylling i hold 3 minutter per side til den er brændt i pletter. Tag op og sæt til side."
+          },
+          "timer_seconds": 360
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Build the sauce",
+            "sv": "Bygg såsen",
+            "no": "Bygg sausen",
+            "da": "Byg sovsen"
+          },
+          "text": {
+            "en": "Melt the rest of the butter in the same pan. Cook finely chopped onion 5 minutes. Add grated garlic, grated ginger, tomato paste, garam masala, and cumin; cook 1 minute. Pour in canned tomatoes, bring to a simmer 10 minutes until thick.",
+            "sv": "Smält resten av smöret i samma panna. Fräs finhackad lök 5 minuter. Tillsätt riven vitlök, riven ingefära, tomatpuré, garam masala och spiskummin; stek 1 minut. Häll i krossade tomater, låt sjuda 10 minuter tills tjock.",
+            "no": "Smelt resten av smøret i samme panne. Stek finhakket løk 5 minutter. Tilsett revet hvitløk, revet ingefær, tomatpuré, garam masala og spisskummen; stek 1 minutt. Hell i hermetiske tomater, la småkoke 10 minutter til tykk.",
+            "da": "Smelt resten af smørret i samme pande. Svits finthakket løg 5 minutter. Tilsæt revet hvidløg, revet ingefær, tomatpuré, garam masala og spidskommen; steg 1 minut. Hæld flåede tomater i, lad småsimre 10 minutter til tyk."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Blend and enrich",
+            "sv": "Mixa och berika",
+            "no": "Miks og berik",
+            "da": "Blend og berig"
+          },
+          "text": {
+            "en": "Blend the sauce until silky smooth (use a stick blender). Stir in cream and sugar. Return the chicken with any juices, simmer 10 minutes until chicken is cooked through and sauce is velvety.",
+            "sv": "Mixa såsen slät (med stavmixer). Rör i grädden och sockret. Lägg tillbaka kycklingen med eventuell köttsaft, låt sjuda 10 minuter tills kycklingen är genomstekt och såsen sammetslen.",
+            "no": "Miks sausen silkemyk (bruk stavmikser). Rør inn fløten og sukkeret. Legg kyllingen tilbake med eventuell kjøttsaft, la småkoke 10 minutter til kyllingen er gjennomstekt og sausen fløyelsmyk.",
+            "da": "Blend sovsen silkeblød (brug stavblender). Rør fløden og sukkeret i. Læg kyllingen tilbage med eventuel kødsaft, lad småsimre 10 minutter til kyllingen er gennemstegt og sovsen fløjlsblød."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Finish and serve",
+            "sv": "Avsluta och servera",
+            "no": "Avslutt og server",
+            "da": "Afslut og servér"
+          },
+          "text": {
+            "en": "Taste for salt and sweetness — add more if needed. Scatter with chopped cilantro. Serve with basmati rice and fresh naan for scooping.",
+            "sv": "Smaka av med salt och sötma — tillsätt mer vid behov. Strö över hackad koriander. Servera med basmatiris och färsk naan att ösa med.",
+            "no": "Smak til med salt og sødme — tilsett mer om nødvendig. Dryss over hakket koriander. Server med basmatiris og fersk naan til å øse med.",
+            "da": "Smag til med salt og sødme — tilsæt mere om nødvendigt. Drys med hakket koriander. Servér med basmatiris og frisk naan til at øse med."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "pad_krapow_gai",
+      "locale_of_authorship": "en",
+      "category": "dinner",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Pad Krapow Gai (Thai holy basil chicken)",
+        "sv": "Pad krapow gai (thai basilikakyckling)",
+        "no": "Pad krapow gai (thai basilikumkylling)",
+        "da": "Pad krapow gai (thai basilikumkylling)"
+      },
+      "description": {
+        "en": "Pad krapow is Thailand's ultimate fast food: ground meat stir-fried with garlic and chili, doused in fish sauce, oyster sauce and a shower of holy basil at the last second. Served over rice with a crispy fried egg on top. Done in 10 minutes, packed with umami, spicy enough to make you sweat. Holy basil is ideal but sweet basil works — use it fresh, never dried.",
+        "sv": "Pad krapow är Thailands ultimata snabbmat: köttfärs wokad med vitlök och chili, doppad i fisksås, ostronsås och en skur av helig basilika i sista sekunden. Serveras över ris med ett krispigt stekt ägg på toppen. Klar på 10 minuter, fylld av umami, kryddad nog att få dig att svettas. Helig basilika är idealisk men söt basilika fungerar — använd den färsk, aldrig torkad.",
+        "no": "Pad krapow er Thailands ultimate hurtigmat: kjøttdeig wokket med hvitløk og chili, dynket i fiskesaus, østerssaus og en dusj hellig basilikum i siste sekund. Serveres over ris med et sprøtt stekt egg på toppen. Ferdig på 10 minutter, full av umami, sterk nok til å få deg til å svette. Hellig basilikum er ideell men søt basilikum fungerer — bruk den fersk, aldri tørket.",
+        "da": "Pad krapow er Thailands ultimative hurtigmad: hakket kød wokket med hvidløg og chili, druknet i fiskesauce, østerssovs og en byge af hellig basilikum i sidste sekund. Serveres over ris med et sprødt stegt æg på toppen. Færdig på 10 minutter, fuld af umami, stærk nok til at få dig til at svede. Hellig basilikum er ideel men sød basilikum virker — brug den frisk, aldrig tørret."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 10,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 15,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "thai",
+        "quick",
+        "spicy"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "chicken_ground",
+          "amount": 500,
+          "unit": "g",
+          "group": "stirfry"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 5,
+          "unit": "st",
+          "group": "stirfry"
+        },
+        {
+          "ingredient_id": "chili_red_fresh",
+          "amount": 2,
+          "unit": "st",
+          "group": "stirfry"
+        },
+        {
+          "ingredient_id": "oil_neutral",
+          "amount": 2,
+          "unit": "msk",
+          "group": "stirfry"
+        },
+        {
+          "ingredient_id": "soy_sauce",
+          "amount": 2,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "fish_sauce",
+          "amount": 1,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "oyster_sauce",
+          "amount": 2,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "basil_fresh",
+          "amount": 2,
+          "unit": "dl",
+          "group": "finish",
+          "note_locale": {
+            "en": "Thai holy basil if possible",
+            "sv": "thailändsk helig basilika om möjligt",
+            "no": "thai hellig basilikum om mulig",
+            "da": "thai hellig basilikum hvis muligt"
+          }
+        },
+        {
+          "ingredient_id": "rice_white",
+          "amount": 3,
+          "unit": "dl",
+          "group": "rice"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 6,
+          "unit": "dl",
+          "group": "rice"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 4,
+          "unit": "st",
+          "group": "egg"
+        },
+        {
+          "ingredient_id": "oil_neutral",
+          "amount": 3,
+          "unit": "msk",
+          "group": "egg"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Cook the rice",
+            "sv": "Koka riset",
+            "no": "Kok risen",
+            "da": "Kog risen"
+          },
+          "text": {
+            "en": "Rinse the rice and combine with water in a small pot. Bring to a boil, reduce to low, cover and simmer 15 minutes. Rest covered 5 minutes.",
+            "sv": "Skölj riset och lägg i en liten kastrull med vattnet. Koka upp, sänk till låg värme, lägg på lock och sjud 15 minuter. Vila under lock 5 minuter.",
+            "no": "Skyll risen og ha i en liten kjele med vannet. Kok opp, skru ned til lav varme, legg på lokk og la småkoke 15 minutter. Hvil med lokk 5 minutter.",
+            "da": "Skyl risen og kom i en lille gryde med vandet. Kog op, skru ned til lav varme, læg låg på og lad småsimre 15 minutter. Hvil under låg 5 minutter."
+          },
+          "timer_seconds": 900
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Pound the garlic and chili",
+            "sv": "Mortla vitlök och chili",
+            "no": "Mortel hvitløk og chili",
+            "da": "Knus hvidløg og chili"
+          },
+          "text": {
+            "en": "In a mortar, pound the garlic and chili with a pinch of salt to a rough paste — or finely chop if no mortar. Traditional cooks insist on pounding: it releases the oils differently than a knife does.",
+            "sv": "Mortla vitlök och chili med en nypa salt till en grov pasta — eller finhacka om du saknar mortel. Traditionella kockar insisterar på att mortla: det frigör oljorna annorlunda än en kniv.",
+            "no": "Mortel hvitløk og chili med en klype salt til en grov pasta — eller finhakk om du mangler mortel. Tradisjonelle kokker insisterer på å mortele: det frigjør oljene annerledes enn en kniv.",
+            "da": "Knus hvidløg og chili i en morter med en knivspids salt til en grov pasta — eller hak fint hvis ingen morter. Traditionelle kokke insisterer på at knuse: det frigiver olierne anderledes end en kniv."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Fry the eggs",
+            "sv": "Stek äggen",
+            "no": "Stek eggene",
+            "da": "Steg æggene"
+          },
+          "text": {
+            "en": "In a small pan, heat the oil until smoking. Crack each egg into the hot oil one at a time — edges fry crispy and lacy. Remove with slotted spoon and keep warm.",
+            "sv": "I en liten panna, värm oljan tills den ryker. Slå i ett ägg i taget i den heta oljan — kanterna steks krispiga och spetsmönstrade. Ta upp med hålslev och håll varma.",
+            "no": "I en liten panne, varm oljen til den ryker. Knekk ett egg om gangen i den varme oljen — kantene stekes sprø og blondelignende. Ta opp med hullsleiv og hold varme.",
+            "da": "I en lille pande, varm olien til den ryger. Slå et æg ad gangen i den varme olie — kanterne steges sprøde og blondeagtige. Tag op med hulske og hold varme."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Stir-fry",
+            "sv": "Woka",
+            "no": "Wok",
+            "da": "Wok"
+          },
+          "text": {
+            "en": "Heat the 2 tbsp oil in a wok or large pan over high heat. Add the garlic-chili paste, fry 15 seconds. Add the ground chicken, break up with a spatula, stir-fry 4 minutes until cooked.",
+            "sv": "Värm 2 msk olja i en wok eller stor panna på hög värme. Tillsätt vitlöks-chilipastan, stek 15 sekunder. Tillsätt kycklingfärsen, bryt upp med stekspade, woka 4 minuter tills genomstekt.",
+            "no": "Varm 2 ss olje i en wok eller stor panne på høy varme. Tilsett hvitløk-chilipastaen, stek 15 sekunder. Tilsett kyllingdeigen, bryt opp med stekespade, wok 4 minutter til gjennomstekt.",
+            "da": "Varm 2 spsk olie i en wok eller stor pande ved høj varme. Tilsæt hvidløg-chilipastaen, steg 15 sekunder. Tilsæt hakket kylling, bryd op med spatel, wok 4 minutter til gennemstegt."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Sauce and basil",
+            "sv": "Sås och basilika",
+            "no": "Saus og basilikum",
+            "da": "Sovs og basilikum"
+          },
+          "text": {
+            "en": "Add soy sauce, fish sauce, oyster sauce, sugar, and a splash of water. Stir-fry 1 minute to reduce slightly. Turn off the heat and fold in the basil — it should just wilt, not cook. Serve over rice, crowned with a crispy egg.",
+            "sv": "Tillsätt sojasås, fisksås, ostronsås, socker och en skvätt vatten. Woka 1 minut för att reducera lätt. Stäng av värmen och vänd i basilikan — den ska bara vissna, inte tillagas. Servera över ris, krönt med ett krispigt ägg.",
+            "no": "Tilsett soyasaus, fiskesaus, østerssaus, sukker og en skvett vann. Wok 1 minutt for å redusere lett. Skru av varmen og vend inn basilikumen — den skal bare visne, ikke tilberedes. Server over ris, kronet med et sprøtt egg.",
+            "da": "Tilsæt sojasovs, fiskesauce, østerssovs, sukker og et skvæt vand. Wok 1 minut for at reducere let. Sluk varmen og vend basilikum i — den skal bare visne, ikke tilberedes. Servér over ris, kronet med et sprødt æg."
+          },
+          "timer_seconds": 60
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "ramen_crispy_chicken",
+      "locale_of_authorship": "en",
+      "category": "dinner",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Ramen with crispy chicken",
+        "sv": "Ramen med krispig kyckling",
+        "no": "Ramen med sprø kylling",
+        "da": "Ramen med sprød kylling"
+      },
+      "description": {
+        "en": "A shortcut home ramen that still tastes like it took hours: a miso-soy broth built on chicken stock with deep umami from garlic, ginger, and sesame oil, topped with crispy pan-fried chicken and a soft-boiled egg. Spring onion and a drizzle of chili oil finish it. Real ramen shops simmer broth for a day; this version nails 80% of the flavor in 30 minutes.",
+        "sv": "En genväg till hemgjord ramen som ändå smakar timmar: en miso-sojabuljong byggd på kycklingbuljong med djup umami från vitlök, ingefära och sesamolja, toppad med krispigt stekt kyckling och ett löskokt ägg. Salladslök och en skvätt chiliolja avslutar. Äkta ramenbarer sjuder buljong i ett dygn; den här versionen träffar 80% av smaken på 30 minuter.",
+        "no": "En snarvei til hjemmelaget ramen som fortsatt smaker av timer: en miso-soyakraft bygget på kyllingkraft med dyp umami fra hvitløk, ingefær og sesamolje, toppet med sprø pannestekt kylling og et bløtkokt egg. Vårløk og en skvett chiliolje avslutter. Ekte ramenbarer koker kraft i et døgn; denne versjonen treffer 80% av smaken på 30 minutter.",
+        "da": "En genvej til hjemmelavet ramen der stadig smager af timer: en miso-soja-bouillon bygget på kyllingekraft med dyb umami fra hvidløg, ingefær og sesamolie, toppet med sprød pandestegt kylling og et blødkogt æg. Forårsløg og et skvæt chiliolie afslutter. Ægte ramenbarer simrer bouillon i et døgn; denne version rammer 80% af smagen på 30 minutter."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 15,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 30,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "japanese",
+        "soup",
+        "noodles"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "chicken_thigh",
+          "amount": 500,
+          "unit": "g",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "black_pepper",
+          "amount": 3,
+          "unit": "krm",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "oil_neutral",
+          "amount": 2,
+          "unit": "msk",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "beef_stock",
+          "amount": 12,
+          "unit": "dl",
+          "group": "broth",
+          "note_locale": {
+            "en": "chicken stock also fine",
+            "sv": "kycklingbuljong funkar också",
+            "no": "kyllingkraft fungerer også",
+            "da": "kyllingebouillon virker også"
+          }
+        },
+        {
+          "ingredient_id": "miso_paste",
+          "amount": 3,
+          "unit": "msk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "soy_sauce",
+          "amount": 3,
+          "unit": "msk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "sesame_oil",
+          "amount": 1,
+          "unit": "msk",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 3,
+          "unit": "st",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "ginger_fresh",
+          "amount": 20,
+          "unit": "g",
+          "group": "broth"
+        },
+        {
+          "ingredient_id": "ramen_noodles",
+          "amount": 400,
+          "unit": "g",
+          "group": "noodles"
+        },
+        {
+          "ingredient_id": "egg_large",
+          "amount": 4,
+          "unit": "st",
+          "group": "topping"
+        },
+        {
+          "ingredient_id": "spring_onion",
+          "amount": 3,
+          "unit": "st",
+          "group": "topping"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Crisp the chicken",
+            "sv": "Stek kycklingen krispig",
+            "no": "Stek kyllingen sprø",
+            "da": "Steg kyllingen sprød"
+          },
+          "text": {
+            "en": "Pat chicken thighs dry and season with salt and pepper. Heat oil in a skillet over medium-high. Sear skin-side first (or the prettier side) 6 minutes until deep golden. Flip, cook 4 minutes more. Rest and slice.",
+            "sv": "Torka kycklinglåren torra och krydda med salt och peppar. Värm olja i en stekpanna på hög medelvärme. Stek skinnsidan (eller den finaste sidan) först 6 minuter tills djupt gyllene. Vänd, stek 4 minuter till. Vila och skiva.",
+            "no": "Tørk kyllinglårene tørre og krydre med salt og pepper. Varm olje i en stekepanne på middels høy varme. Brun skinnsiden (eller pene siden) først 6 minutter til dypt gyllen. Vend, stek 4 minutter til. Hvil og skjær.",
+            "da": "Dup kyllingelårene tørre og krydr med salt og peber. Varm olie i en pande ved middelhøj varme. Brun skindsiden (eller pæneste side) først 6 minutter til dybt gylden. Vend, steg 4 minutter mere. Hvil og skær."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Soft-boil the eggs",
+            "sv": "Löskoka äggen",
+            "no": "Bløtkok eggene",
+            "da": "Blødkog æggene"
+          },
+          "text": {
+            "en": "Bring a small pot of water to a boil. Lower eggs in carefully, cook exactly 6 minutes 30 seconds for jammy yolks. Move to ice water. Peel when cool.",
+            "sv": "Koka upp en liten kastrull vatten. Sänk ner äggen försiktigt, koka exakt 6 minuter 30 sekunder för rinnande gulor. Flytta till isvatten. Skala när kalla.",
+            "no": "Kok opp en liten kjele vann. Senk eggene forsiktig ned, kok nøyaktig 6 minutter 30 sekunder for flytende plommer. Flytt til isvann. Skrell når kalde.",
+            "da": "Kog en lille gryde vand op. Sænk æggene forsigtigt ned, kog præcis 6 minutter 30 sekunder for flydende blommer. Flyt til isvand. Pil når afkølede."
+          },
+          "timer_seconds": 390
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Build the broth",
+            "sv": "Bygg buljongen",
+            "no": "Bygg kraften",
+            "da": "Byg bouillonen"
+          },
+          "text": {
+            "en": "In a large pot, warm stock. Whisk in miso, soy sauce, sesame oil, grated garlic, and grated ginger. Taste — it should be deeply salty-savory. Simmer 5 minutes, do not boil hard (miso dulls when boiled).",
+            "sv": "Värm buljongen i en stor kastrull. Vispa i miso, sojasås, sesamolja, riven vitlök och riven ingefära. Smaka — den ska vara djupt salt-umami. Sjud 5 minuter, koka inte kraftigt (miso tappar smak vid hårt kok).",
+            "no": "Varm kraften i en stor kjele. Visp i miso, soyasaus, sesamolje, revet hvitløk og revet ingefær. Smak — den skal være dypt salt-umami. La småkoke 5 minutter, ikke koke kraftig (miso mister smak ved kraftig kok).",
+            "da": "Varm bouillonen i en stor gryde. Pisk miso, sojasovs, sesamolie, revet hvidløg og revet ingefær i. Smag — den skal være dybt salt-umami. Lad småsimre 5 minutter, kog ikke kraftigt (miso mister smag ved kraftig kogning)."
+          },
+          "timer_seconds": 300
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Cook the noodles",
+            "sv": "Koka nudlarna",
+            "no": "Kok nudlene",
+            "da": "Kog nudlerne"
+          },
+          "text": {
+            "en": "Bring a separate pot of water to a boil. Cook ramen noodles per package, usually 3–4 minutes. Do not cook in the broth — it gets cloudy and starchy.",
+            "sv": "Koka upp en separat kastrull vatten. Koka ramennudlarna enligt paket, vanligtvis 3–4 minuter. Koka inte i buljongen — den blir grumlig och stärkelsemjölig.",
+            "no": "Kok opp en separat kjele vann. Kok ramennudlene etter pakning, vanligvis 3–4 minutter. Ikke kok i kraften — den blir grumset og stivelsesaktig.",
+            "da": "Kog en separat gryde vand op. Kog ramennudlerne efter pakken, normalt 3–4 minutter. Kog ikke i bouillonen — den bliver grumset og stivelsesagtig."
+          },
+          "timer_seconds": 180
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Assemble",
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér"
+          },
+          "text": {
+            "en": "Drain noodles and divide among 4 deep bowls. Pour hot broth over. Top with sliced chicken, halved soft-boiled egg, and chopped spring onion. Drizzle with chili oil if you like. Slurp loudly — it is encouraged.",
+            "sv": "Häll av nudlarna och dela mellan 4 djupa skålar. Häll het buljong över. Toppa med skivad kyckling, halverat löskokt ägg och hackad salladslök. Droppa chiliolja om du vill. Sörpla högt — det är uppmuntrat.",
+            "no": "Hell av nudlene og fordel i 4 dype boller. Hell varm kraft over. Topp med skåret kylling, halvert bløtkokt egg og hakket vårløk. Drypp chiliolje om du vil. Slurp høyt — det er oppmuntret.",
+            "da": "Hæld nudlerne af og fordel i 4 dybe skåle. Hæld varm bouillon over. Top med skåret kylling, halveret blødkogt æg og hakket forårsløg. Dryp chiliolie hvis du vil. Slurp højlydt — det er tilskyndet."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "spring_rolls_coconut_shrimp",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Fresh spring rolls with coconut shrimp",
+        "sv": "Färska vårrullar med kokosräkor",
+        "no": "Ferske vårruller med kokosrekker",
+        "da": "Friske forårsruller med kokosrejer"
+      },
+      "description": {
+        "en": "Fresh (not fried) spring rolls are Vietnamese summer food: rice paper wrapped around bright herbs, cool rice noodles, lettuce, and sweet shrimp simmered briefly in coconut milk. The peanut-based dipping sauce ties everything together. Rolling takes practice — the first one is always ugly and you eat it standing at the counter.",
+        "sv": "Färska (ostekta) vårrullar är vietnamesisk sommarmat: rispapper svept om ljusa örter, svala risnudlar, sallad och söta räkor kort sjudna i kokosmjölk. Den jordnötsbaserade dippsåsen binder ihop allt. Rullningen kräver övning — den första blir alltid ful och du äter den stående vid bänken.",
+        "no": "Ferske (ustekt) vårruller er vietnamesisk sommermat: rispapir surret rundt lyse urter, kalde risnudler, salat og søte reker kort småkokt i kokosmelk. Den peanøttbaserte dippen binder alt sammen. Rullingen krever øvelse — den første blir alltid stygg og du spiser den stående ved benken.",
+        "da": "Friske (usteg) forårsruller er vietnamesisk sommermad: rispapir viklet om lyse urter, kolde risnudler, salat og søde rejer kort simret i kokosmælk. Den peanutbuttersovs binder alt sammen. Rulningen kræver øvelse — den første bliver altid grim og du spiser den stående ved bordet."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 25,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 10,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "vietnamese",
+        "fresh",
+        "light"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "shrimp_raw",
+          "amount": 300,
+          "unit": "g",
+          "group": "shrimp"
+        },
+        {
+          "ingredient_id": "coconut_milk",
+          "amount": 1,
+          "unit": "dl",
+          "group": "shrimp"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 0.5,
+          "unit": "tsk",
+          "group": "shrimp"
+        },
+        {
+          "ingredient_id": "rice_paper",
+          "amount": 8,
+          "unit": "st",
+          "group": "rolls"
+        },
+        {
+          "ingredient_id": "rice_noodles",
+          "amount": 100,
+          "unit": "g",
+          "group": "rolls"
+        },
+        {
+          "ingredient_id": "cilantro_fresh",
+          "amount": 1,
+          "unit": "dl",
+          "group": "rolls"
+        },
+        {
+          "ingredient_id": "basil_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "rolls"
+        },
+        {
+          "ingredient_id": "peanut_butter",
+          "amount": 3,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "soy_sauce",
+          "amount": 2,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "rice_vinegar",
+          "amount": 1,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "lime",
+          "amount": 1,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "chili_red_fresh",
+          "amount": 1,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 1,
+          "unit": "st",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 3,
+          "unit": "msk",
+          "group": "sauce"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Poach the shrimp",
+            "sv": "Pochera räkorna",
+            "no": "Posjer rekene",
+            "da": "Pocher rejerne"
+          },
+          "text": {
+            "en": "Combine coconut milk and salt in a small pot, bring to a gentle simmer. Add shrimp and cook 2–3 minutes until pink and just opaque. Drain and slice lengthwise.",
+            "sv": "Blanda kokosmjölk och salt i en liten kastrull, koka upp försiktigt. Tillsätt räkorna och låt sjuda 2–3 minuter tills rosa och precis genomkokta. Häll av och skär på längden.",
+            "no": "Bland kokosmelk og salt i en liten kjele, kok forsiktig opp. Tilsett rekene og la småkoke 2–3 minutter til rosa og akkurat gjennomkokte. Hell av og skjær på langs.",
+            "da": "Bland kokosmælk og salt i en lille gryde, kog forsigtigt op. Tilsæt rejerne og lad småsimre 2–3 minutter til rosa og lige gennemkogte. Hæld af og skær på langs."
+          },
+          "timer_seconds": 180
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Prep the noodles and herbs",
+            "sv": "Förbered nudlarna och örterna",
+            "no": "Forbered nudlene og urtene",
+            "da": "Forbered nudlerne og urterne"
+          },
+          "text": {
+            "en": "Soak rice noodles in boiling water 3 minutes, drain, rinse cold. Pick whole cilantro leaves. Set everything out mise en place-style on the counter.",
+            "sv": "Blötlägg risnudlarna i kokande vatten 3 minuter, häll av, skölj kalla. Plocka hela korianderblad. Ställ fram allt mise en place-style på bänken.",
+            "no": "Bløtlegg risnudlene i kokende vann 3 minutter, hell av, skyll kalde. Plukk hele korianderblad. Sett frem alt mise en place-stil på benken.",
+            "da": "Læg risnudlerne i kogende vand 3 minutter, hæld af, skyl kolde. Pluk hele korianderblade. Sæt alt frem mise en place-stil på bordet."
+          },
+          "timer_seconds": 180
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Make the peanut sauce",
+            "sv": "Gör jordnötssåsen",
+            "no": "Lag peanøttsausen",
+            "da": "Lav peanutsovsen"
+          },
+          "text": {
+            "en": "Whisk peanut butter, soy sauce, rice vinegar, sugar, lime juice, minced garlic, minced chili, and water in a small bowl. The sauce should be pourable — add splashes of water if too thick.",
+            "sv": "Vispa ihop jordnötssmör, sojasås, risvinäger, socker, limesaft, pressad vitlök, hackad chili och vatten i en liten skål. Såsen ska vara hällbar — späd med vatten om för tjock.",
+            "no": "Visp sammen peanøttsmør, soyasaus, riseddik, sukker, limesaft, presset hvitløk, hakket chili og vann i en liten bolle. Sausen skal være hellbar — spe med vann om for tykk.",
+            "da": "Pisk peanutbutter, sojasovs, riseddike, sukker, limesaft, presset hvidløg, hakket chili og vand i en lille skål sammen. Sovsen skal være hældbar — spæd med vand hvis for tyk."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Roll",
+            "sv": "Rulla",
+            "no": "Rull",
+            "da": "Rul"
+          },
+          "text": {
+            "en": "Dip one rice paper sheet in a shallow dish of warm water for 10 seconds until pliable. Lay on a damp towel. Place herbs, noodles, lettuce (if using), and 3 shrimp halves in the middle. Fold bottom over, then sides, then roll tightly. Repeat — the first will be ugly; by the fifth you will be a pro.",
+            "sv": "Doppa ett rispappersark i en flat skål med varmt vatten 10 sekunder tills mjukt. Lägg på en fuktig duk. Placera örter, nudlar, sallad (om du använder) och 3 räkhalvor i mitten. Vik undersidan över, sedan sidorna, rulla sedan hårt. Upprepa — den första blir ful; vid den femte är du proffs.",
+            "no": "Dypp et rispapirark i en flat skål med varmt vann 10 sekunder til mykt. Legg på et fuktig håndkle. Plasser urter, nudler, salat (hvis du bruker) og 3 rekhalvdeler i midten. Fold undersiden over, så sidene, rull deretter stramt. Gjenta — den første blir stygg; ved den femte er du proff.",
+            "da": "Dyp et rispapirark i en flad skål med varmt vand 10 sekunder til blødt. Læg på et fugtigt viskestykke. Placer urter, nudler, salat (hvis du bruger) og 3 rejehalvdele i midten. Fold undersiden over, så siderne, rul derefter stramt. Gentag — den første bliver grim; ved den femte er du proff."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Serve",
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér"
+          },
+          "text": {
+            "en": "Serve the rolls whole or cut in half on the diagonal with the dipping sauce alongside. Eat within the hour — rice paper stiffens as it sits.",
+            "sv": "Servera rullarna hela eller diagonalt halverade med dippsåsen vid sidan. Ät inom en timme — rispappret blir styvt när det står.",
+            "no": "Server rullene hele eller diagonalt halvert med dippen ved siden. Spis innen en time — rispapir stivner når det står.",
+            "da": "Servér rullerne hele eller diagonalt halverede med sovsen ved siden. Spis inden for en time — rispapir stivner når det står."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "chow_mein_chicken",
+      "locale_of_authorship": "en",
+      "category": "dinner",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Chicken chow mein",
+        "sv": "Chow mein med kyckling",
+        "no": "Chow mein med kylling",
+        "da": "Chow mein med kylling"
+      },
+      "description": {
+        "en": "Chow mein means \"stir-fried noodles\" — the classic Cantonese way to turn a handful of vegetables and a bit of protein into a fast, balanced dinner. The noodles need to see proper heat: a wok gets you the slightly charred edges and smoky note (wok hei) that make takeaway chow mein what it is. Oyster sauce is non-negotiable for the savory-sweet depth.",
+        "sv": "Chow mein betyder \"wokade nudlar\" — det klassiska kantonesiska sättet att förvandla en handfull grönsaker och lite protein till en snabb, balanserad middag. Nudlarna behöver riktig värme: en wok ger dig de lätt brända kanterna och rökig ton (wok hei) som gör takeaway-chow mein till det den är. Ostronsås är obligatorisk för det salt-söta djupet.",
+        "no": "Chow mein betyr \"wokede nudler\" — den klassiske kantonesiske måten å gjøre en håndfull grønnsaker og litt protein til en rask, balansert middag på. Nudlene trenger skikkelig varme: en wok gir deg de lett brunede kantene og røkfylte tonen (wok hei) som gjør takeaway-chow mein til det den er. Østerssaus er obligatorisk for den salt-søte dybden.",
+        "da": "Chow mein betyder \"wokede nudler\" — den klassiske kantonesiske måde at forvandle en håndfuld grøntsager og lidt protein til en hurtig, balanceret middag. Nudlerne skal have ordentlig varme: en wok giver dig de let brunede kanter og røgede tone (wok hei) der gør takeaway-chow mein til det den er. Østerssovs er obligatorisk for den salt-søde dybde."
+      },
+      "servings": 4,
+      "servings_unit": "portions",
+      "time_prep_minutes": 15,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 15,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "dinner",
+        "chinese",
+        "quick",
+        "noodles"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "chicken_breast",
+          "amount": 400,
+          "unit": "g",
+          "group": "chicken",
+          "note_locale": {
+            "en": "sliced thin",
+            "sv": "tunt skivat",
+            "no": "tynt skåret",
+            "da": "tyndt skåret"
+          }
+        },
+        {
+          "ingredient_id": "soy_sauce",
+          "amount": 1,
+          "unit": "msk",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "sesame_oil",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "chicken"
+        },
+        {
+          "ingredient_id": "ramen_noodles",
+          "amount": 400,
+          "unit": "g",
+          "group": "noodles"
+        },
+        {
+          "ingredient_id": "oil_neutral",
+          "amount": 3,
+          "unit": "msk",
+          "group": "wok"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 3,
+          "unit": "st",
+          "group": "wok"
+        },
+        {
+          "ingredient_id": "ginger_fresh",
+          "amount": 15,
+          "unit": "g",
+          "group": "wok"
+        },
+        {
+          "ingredient_id": "cabbage_white",
+          "amount": 200,
+          "unit": "g",
+          "group": "vegetables",
+          "note_locale": {
+            "en": "thinly shredded",
+            "sv": "tunt strimlad",
+            "no": "tynt strimlet",
+            "da": "tyndt snittet"
+          }
+        },
+        {
+          "ingredient_id": "carrot",
+          "amount": 2,
+          "unit": "st",
+          "group": "vegetables",
+          "note_locale": {
+            "en": "julienned",
+            "sv": "i strimlor",
+            "no": "i strimler",
+            "da": "i strimler"
+          }
+        },
+        {
+          "ingredient_id": "spring_onion",
+          "amount": 4,
+          "unit": "st",
+          "group": "vegetables"
+        },
+        {
+          "ingredient_id": "soy_sauce",
+          "amount": 3,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "oyster_sauce",
+          "amount": 3,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "sesame_oil",
+          "amount": 1,
+          "unit": "msk",
+          "group": "sauce"
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "sauce"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Marinate and prep",
+            "sv": "Marinera och förbered",
+            "no": "Marinér og forbered",
+            "da": "Marinér og forbered"
+          },
+          "text": {
+            "en": "Toss sliced chicken with soy sauce and sesame oil; rest 10 minutes while you prep vegetables. Slice garlic, grate ginger, cut spring onions into batons.",
+            "sv": "Blanda skivad kyckling med sojasås och sesamolja; låt vila 10 minuter medan du förbereder grönsakerna. Skiva vitlök, riv ingefära, skär salladslöken i stavar.",
+            "no": "Bland skåret kylling med soyasaus og sesamolje; la hvile 10 minutter mens du forbereder grønnsakene. Skiver hvitløk, riv ingefær, skjær vårløken i staver.",
+            "da": "Bland skåret kylling med sojasovs og sesamolie; lad hvile 10 minutter mens du forbereder grøntsagerne. Skær hvidløg, riv ingefær, skær forårsløget i stænger."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Cook the noodles",
+            "sv": "Koka nudlarna",
+            "no": "Kok nudlene",
+            "da": "Kog nudlerne"
+          },
+          "text": {
+            "en": "Cook ramen noodles per package, usually 3 minutes. Drain and toss with a splash of oil so they do not stick.",
+            "sv": "Koka ramennudlarna enligt paket, vanligtvis 3 minuter. Häll av och blanda med en skvätt olja så de inte klibbar.",
+            "no": "Kok ramennudlene etter pakning, vanligvis 3 minutter. Hell av og bland med en skvett olje så de ikke klistrer.",
+            "da": "Kog ramennudlerne efter pakken, normalt 3 minutter. Hæld af og bland med et skvæt olie så de ikke klistrer."
+          },
+          "timer_seconds": 180
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Stir-fry chicken",
+            "sv": "Woka kycklingen",
+            "no": "Wok kyllingen",
+            "da": "Wok kyllingen"
+          },
+          "text": {
+            "en": "Heat a wok or large pan over the highest heat until smoking. Add 2 tbsp oil, then chicken in a single layer. Let sear 90 seconds without stirring, then toss and cook 2 more minutes. Remove.",
+            "sv": "Värm en wok eller stor panna på högsta värme tills den ryker. Tillsätt 2 msk olja, sedan kycklingen i ett lager. Låt stekas 90 sekunder utan omrörning, vänd och stek 2 minuter till. Ta upp.",
+            "no": "Varm en wok eller stor panne på høyeste varme til den ryker. Tilsett 2 ss olje, så kyllingen i ett lag. La steke 90 sekunder uten omrøring, vend og stek 2 minutter til. Ta opp.",
+            "da": "Varm en wok eller stor pande ved højeste varme til den ryger. Tilsæt 2 spsk olie, så kyllingen i ét lag. Lad stege 90 sekunder uden omrøring, vend og steg 2 minutter mere. Tag op."
+          },
+          "timer_seconds": 210
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Stir-fry vegetables and combine",
+            "sv": "Woka grönsakerna och kombinera",
+            "no": "Wok grønnsakene og kombinér",
+            "da": "Wok grøntsagerne og kombinér"
+          },
+          "text": {
+            "en": "Add remaining oil, garlic, and ginger — stir 15 seconds. Add cabbage, carrot, and half the spring onions; stir-fry 2 minutes. Return chicken, add noodles and the sauce mixture. Toss constantly 2 minutes until the sauce coats everything evenly.",
+            "sv": "Tillsätt resten av oljan, vitlök och ingefära — woka 15 sekunder. Tillsätt kål, morötter och hälften av salladslöken; woka 2 minuter. Lägg tillbaka kycklingen, tillsätt nudlarna och såsblandningen. Vänd hela tiden 2 minuter tills såsen täcker allt jämnt.",
+            "no": "Tilsett resten av oljen, hvitløk og ingefær — wok 15 sekunder. Tilsett kål, gulrøtter og halvparten av vårløken; wok 2 minutter. Legg kyllingen tilbake, tilsett nudlene og sausblandingen. Vend konstant 2 minutter til sausen dekker alt jevnt.",
+            "da": "Tilsæt resten af olien, hvidløg og ingefær — wok 15 sekunder. Tilsæt kål, gulerødder og halvdelen af forårsløget; wok 2 minutter. Læg kyllingen tilbage, tilsæt nudlerne og sovsblandingen. Vend konstant 2 minutter til sovsen dækker alt jævnt."
+          },
+          "timer_seconds": 240
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Serve",
+            "sv": "Servera",
+            "no": "Server",
+            "da": "Servér"
+          },
+          "text": {
+            "en": "Pile into bowls, scatter with remaining spring onion. Eat immediately while the noodles still have their just-wokked chew.",
+            "sv": "Stapla upp i skålar, strö över resten av salladslöken. Ät genast medan nudlarna fortfarande har sitt wokade tugg.",
+            "no": "Fordel i boller, dryss resten av vårløken over. Spis straks mens nudlene fortsatt har sitt wok-fasthet.",
+            "da": "Fordel i skåle, drys resten af forårsløget over. Spis straks mens nudlerne stadig har deres wok-fasthed."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "gyoza_pork_fried",
+      "locale_of_authorship": "en",
+      "category": "family_meal",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Fried pork gyoza with dipping sauce",
+        "sv": "Stekta fläskgyoza med dippsås",
+        "no": "Stekte svinegyoza med dippsaus",
+        "da": "Stegte svinegyoza med dippsovs"
+      },
+      "description": {
+        "en": "Gyoza are Japanese pan-fried dumplings — crisp golden base, soft steamed top, juicy pork-and-cabbage filling. The classic technique uses a single pan: fry the bottoms, add water and cover to steam, then let the last bit of water evaporate for crispness. Folding the pleats takes practice but uglier dumplings taste just as good.",
+        "sv": "Gyoza är japanska stekta dumplings — krispig gyllene botten, mjuk ångad topp, saftig fläsk-och-kålfyllning. Den klassiska tekniken använder en enda panna: stek botten, tillsätt vatten och lägg på lock för att ånga, låt sedan den sista vätskan förånga för krispighet. Att vika bollarna kräver övning men fulare dumplings smakar lika bra.",
+        "no": "Gyoza er japanske pannestekte dumplings — sprø gyllen bunn, myk dampet topp, saftig svine-og-kålfylling. Den klassiske teknikken bruker én panne: brun bunnene, tilsett vann og legg på lokk for å dampe, la deretter det siste vannet fordampe for sprøhet. Å brette plissene krever øvelse, men styggere dumplings smaker like godt.",
+        "da": "Gyoza er japanske pandestegte dumplings — sprød gylden bund, blød dampet top, saftig svin-og-kålfyld. Den klassiske teknik bruger én pande: brun bundene, tilsæt vand og læg låg på for at dampe, lad så det sidste vand fordampe for sprødhed. At folde plisseringerne kræver øvelse, men grimmere dumplings smager lige så godt."
+      },
+      "servings": 4,
+      "servings_unit": "pieces",
+      "time_prep_minutes": 30,
+      "time_rest_minutes": 0,
+      "time_cook_minutes": 15,
+      "oven": null,
+      "yeast_type": null,
+      "tags": [
+        "family_meal",
+        "japanese",
+        "dumplings",
+        "dinner"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "pork_ground",
+          "amount": 300,
+          "unit": "g",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "cabbage_white",
+          "amount": 200,
+          "unit": "g",
+          "group": "filling",
+          "note_locale": {
+            "en": "finely chopped",
+            "sv": "finhackad",
+            "no": "finhakket",
+            "da": "finthakket"
+          }
+        },
+        {
+          "ingredient_id": "spring_onion",
+          "amount": 2,
+          "unit": "st",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 2,
+          "unit": "st",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "ginger_fresh",
+          "amount": 15,
+          "unit": "g",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "soy_sauce",
+          "amount": 1,
+          "unit": "msk",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "sesame_oil",
+          "amount": 1,
+          "unit": "msk",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "filling"
+        },
+        {
+          "ingredient_id": "gyoza_wrappers",
+          "amount": 24,
+          "unit": "st",
+          "group": "assembly"
+        },
+        {
+          "ingredient_id": "oil_neutral",
+          "amount": 2,
+          "unit": "msk",
+          "group": "fry"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 1,
+          "unit": "dl",
+          "group": "fry"
+        },
+        {
+          "ingredient_id": "soy_sauce",
+          "amount": 3,
+          "unit": "msk",
+          "group": "dip"
+        },
+        {
+          "ingredient_id": "rice_vinegar",
+          "amount": 2,
+          "unit": "msk",
+          "group": "dip"
+        },
+        {
+          "ingredient_id": "sesame_oil",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "dip"
+        },
+        {
+          "ingredient_id": "chili_red_fresh",
+          "amount": 0.5,
+          "unit": "st",
+          "group": "dip"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Salt the cabbage",
+            "sv": "Salta kålen",
+            "no": "Salt kålen",
+            "da": "Salt kålen"
+          },
+          "text": {
+            "en": "Toss finely chopped cabbage with the 1 tsp salt in a colander. Let sit 10 minutes, then squeeze out as much water as you can — this prevents soggy filling.",
+            "sv": "Blanda finhackad kål med 1 tsk salt i ett durkslag. Låt stå 10 minuter, krama sedan ur så mycket vatten som möjligt — detta förhindrar blöt fyllning.",
+            "no": "Bland finhakket kål med 1 ts salt i et dørslag. La stå 10 minutter, klem deretter ut så mye vann som mulig — dette hindrer bløt fylling.",
+            "da": "Bland finthakket kål med 1 tsk salt i et dørslag. Lad stå 10 minutter, klem derefter så meget vand ud som muligt — det forhindrer blødt fyld."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Mix the filling",
+            "sv": "Blanda fyllningen",
+            "no": "Bland fyllet",
+            "da": "Bland fyldet"
+          },
+          "text": {
+            "en": "Mix ground pork, squeezed cabbage, finely chopped spring onion, grated garlic, grated ginger, soy sauce, and sesame oil. Combine thoroughly until sticky.",
+            "sv": "Blanda fläskfärs, urkramad kål, finhackad salladslök, riven vitlök, riven ingefära, sojasås och sesamolja. Blanda ordentligt tills klibbigt.",
+            "no": "Bland svinedeig, utklemt kål, finhakket vårløk, revet hvitløk, revet ingefær, soyasaus og sesamolje. Bland grundig til klebrig.",
+            "da": "Bland svinehak, udklemt kål, finthakket forårsløg, revet hvidløg, revet ingefær, sojasovs og sesamolie. Bland grundigt til klistret."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Fill and fold",
+            "sv": "Fyll och vik",
+            "no": "Fyll og brett",
+            "da": "Fyld og fold"
+          },
+          "text": {
+            "en": "Place 1 tsp filling in the center of a wrapper. Wet the edge with water. Fold over and pinch the top center. Make 4–5 pleats along one side, pressing each against the flat edge. Repeat with remaining wrappers.",
+            "sv": "Lägg 1 tsk fyllning i mitten av ett skinn. Fukta kanten med vatten. Vik över och nyp ihop mittens topp. Gör 4–5 plisseringar längs en sida, tryck varje mot den platta kanten. Upprepa med resten.",
+            "no": "Legg 1 ts fyll i midten av en skinn. Fukt kanten med vann. Brett over og knip sammen på toppen. Lag 4–5 plisséer langs den ene siden, trykk hver mot den flate kanten. Gjenta med resten.",
+            "da": "Læg 1 tsk fyld i midten af en plade. Fugt kanten med vand. Fold over og klem toppen sammen. Lav 4–5 plisseringer langs den ene side, tryk hver mod den flade kant. Gentag med resten."
+          },
+          "timer_seconds": null
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Fry-steam-crisp",
+            "sv": "Stek-ånga-krispa",
+            "no": "Stek-damp-sprø",
+            "da": "Steg-damp-sprød"
+          },
+          "text": {
+            "en": "Heat oil in a non-stick pan over medium-high. Arrange gyoza flat-side down, cook 2 minutes until golden on the base. Pour in water carefully — it will steam violently — cover immediately. Steam 6 minutes until wrappers are translucent and water is mostly gone. Uncover, let the last water evaporate so bottoms re-crisp.",
+            "sv": "Värm olja i en non-stick panna på hög medelvärme. Lägg gyozan platt sida ner, stek 2 minuter tills gyllene på botten. Häll försiktigt i vatten — det ångar våldsamt — lägg omedelbart på lock. Ånga 6 minuter tills skinnen är genomskinliga och vattnet mestadels borta. Ta av locket, låt sista vattnet förånga så botten blir krispig igen.",
+            "no": "Varm olje i en non-stick panne på middels høy varme. Legg gyoza flat side ned, stek 2 minutter til gyllen på bunnen. Hell forsiktig i vann — det damper voldsomt — legg umiddelbart på lokk. Damp 6 minutter til skinnet er gjennomsiktig og vannet mesteparten borte. Ta av lokket, la det siste vannet fordampe så bunnene sprø igjen.",
+            "da": "Varm olie i en non-stick pande ved middelhøj varme. Læg gyozaerne flad side ned, steg 2 minutter til gyldne på bunden. Hæld forsigtigt vand i — det damper voldsomt — læg straks låg på. Damp 6 minutter til skindene er gennemsigtige og vandet for det meste væk. Tag låget af, lad det sidste vand fordampe så bundene bliver sprøde igen."
+          },
+          "timer_seconds": 480
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Serve with dipping sauce",
+            "sv": "Servera med dippsås",
+            "no": "Server med dippsaus",
+            "da": "Servér med dippsovs"
+          },
+          "text": {
+            "en": "Whisk dipping sauce ingredients together in a small bowl. Slide gyoza onto a plate, crispy side up. Serve immediately with the sauce — best eaten straight from pan to mouth.",
+            "sv": "Vispa ihop dippsåsingredienserna i en liten skål. Låt gyozan glida upp på en tallrik, krispiga sidan upp. Servera genast med såsen — bäst att äta direkt från pannan.",
+            "no": "Visp sammen dippsausingrediensene i en liten bolle. La gyozaene gli opp på en tallerken, sprø side opp. Server straks med sausen — best å spise rett fra pannen.",
+            "da": "Pisk dippsovs-ingredienserne sammen i en lille skål. Lad gyozaerne glide op på en tallerken, sprøde side op. Servér straks med sovsen — bedst spist direkte fra panden."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
+    },
+    {
+      "id": "naan_classic",
+      "locale_of_authorship": "en",
+      "category": "bread_bakery",
+      "added_at": "2026-04-24",
+      "title": {
+        "en": "Naan (Indian flatbread)",
+        "sv": "Naanbröd (indiskt)",
+        "no": "Naanbrød (indisk)",
+        "da": "Naanbrød (indisk)"
+      },
+      "description": {
+        "en": "Naan is the perfect vehicle for curry: pillowy, chewy, with dark blistered spots from the extreme heat of a tandoor. A home skillet gets close if you crank it hot enough and let the dough rest long enough that the yeast builds proper strength. Yogurt in the dough keeps the crumb tender; a brush of garlic butter after cooking seals the deal.",
+        "sv": "Naan är det perfekta redskapet för curry: luftigt, segt, med mörka blåsiga fläckar från tandoorens extrema värme. En hemmapanna kommer nära om du vrider upp värmen ordentligt och låter degen jäsa tillräckligt länge för att jästen ska bygga styrka. Yoghurt i degen håller inkråmet mjukt; en pensling vitlökssmör efter gräddning förseglar affären.",
+        "no": "Naan er det perfekte verktøyet for karri: luftig, seig, med mørke blemmete flekker fra tandoorens ekstreme varme. En hjemmepanne kommer nære om du skrur opp varmen skikkelig og lar deigen heve lenge nok til at gjæren bygger styrke. Yoghurt i deigen holder innmaten myk; en pensling hvitløkssmør etter steking forsegler avtalen.",
+        "da": "Naan er det perfekte redskab til karry: luftigt, sejt, med mørke blæstede pletter fra tandoorens ekstreme varme. En hjemmepande kommer tæt på hvis du skruer varmen ordentligt op og lader dejen hæve længe nok til at gæren bygger styrke. Yoghurt i dejen holder krummen blød; en pensling hvidløgssmør efter stegning forsegler aftalen."
+      },
+      "servings": 6,
+      "servings_unit": "pieces",
+      "time_prep_minutes": 15,
+      "time_rest_minutes": 90,
+      "time_cook_minutes": 20,
+      "oven": null,
+      "yeast_type": "fresh",
+      "tags": [
+        "bread_bakery",
+        "indian",
+        "flatbread"
+      ],
+      "ingredients": [
+        {
+          "ingredient_id": "wheat_flour_allpurpose",
+          "amount": 5,
+          "unit": "dl",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "yeast_fresh",
+          "amount": 15,
+          "unit": "g",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "yogurt_greek",
+          "amount": 1.5,
+          "unit": "dl",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "water",
+          "amount": 1,
+          "unit": "dl",
+          "group": "dough",
+          "note_locale": {
+            "en": "lukewarm",
+            "sv": "ljummet",
+            "no": "lunkent",
+            "da": "lunt"
+          }
+        },
+        {
+          "ingredient_id": "sugar_granulated",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "salt_fine",
+          "amount": 1,
+          "unit": "tsk",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "oil_neutral",
+          "amount": 2,
+          "unit": "msk",
+          "group": "dough"
+        },
+        {
+          "ingredient_id": "butter",
+          "amount": 50,
+          "unit": "g",
+          "group": "finish"
+        },
+        {
+          "ingredient_id": "garlic_clove",
+          "amount": 2,
+          "unit": "st",
+          "group": "finish"
+        },
+        {
+          "ingredient_id": "cilantro_fresh",
+          "amount": 0.5,
+          "unit": "dl",
+          "group": "finish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "title": {
+            "en": "Mix the dough",
+            "sv": "Blanda degen",
+            "no": "Bland deigen",
+            "da": "Bland dejen"
+          },
+          "text": {
+            "en": "Dissolve the yeast in lukewarm water with the sugar. In a large bowl, combine flour, salt, yogurt, yeast water, and oil. Mix to a shaggy dough, then knead 8 minutes by hand until smooth and elastic.",
+            "sv": "Lös upp jästen i ljummet vatten med sockret. I en stor skål, blanda mjöl, salt, yoghurt, jästvatten och olja. Blanda till en sladdrig deg, knåda sedan 8 minuter för hand tills slät och elastisk.",
+            "no": "Løs gjæren i lunkent vann med sukkeret. I en stor bolle, bland mel, salt, yoghurt, gjærvann og olje. Bland til en ruglete deig, kna deretter 8 minutter for hånd til glatt og elastisk.",
+            "da": "Opløs gæren i lunt vand med sukkeret. I en stor skål, bland mel, salt, yoghurt, gærvand og olie. Bland til en ujævn dej, ælt derefter 8 minutter i hånden til glat og elastisk."
+          },
+          "timer_seconds": 480
+        },
+        {
+          "order": 2,
+          "title": {
+            "en": "Rise",
+            "sv": "Jäs",
+            "no": "Hev",
+            "da": "Hæv"
+          },
+          "text": {
+            "en": "Cover the bowl with a damp towel. Let rise in a warm spot 90 minutes until doubled in size.",
+            "sv": "Täck skålen med en fuktig duk. Låt jäsa på varm plats 90 minuter tills dubblad i storlek.",
+            "no": "Dekk bollen med et fuktig håndkle. La heve på et varmt sted 90 minutter til doblet i størrelse.",
+            "da": "Dæk skålen med et fugtigt viskestykke. Lad hæve på et lunt sted 90 minutter til dobbelt størrelse."
+          },
+          "timer_seconds": 5400
+        },
+        {
+          "order": 3,
+          "title": {
+            "en": "Shape",
+            "sv": "Forma",
+            "no": "Form",
+            "da": "Form"
+          },
+          "text": {
+            "en": "Divide the dough into 6 equal balls. Roll each out on a floured surface to a teardrop 20 cm long and 3 mm thick. Let rest 10 minutes while the pan heats.",
+            "sv": "Dela degen i 6 lika bollar. Kavla ut varje på mjölad yta till en droppe 20 cm lång och 3 mm tjock. Vila 10 minuter medan pannan värms.",
+            "no": "Del deigen i 6 like kuler. Kjevle ut hver på melet overflate til en dråpe 20 cm lang og 3 mm tykk. La hvile 10 minutter mens pannen varmes.",
+            "da": "Del dejen i 6 lige kugler. Rul hver ud på melet overflade til en dråbe 20 cm lang og 3 mm tyk. Lad hvile 10 minutter mens panden varmes."
+          },
+          "timer_seconds": 600
+        },
+        {
+          "order": 4,
+          "title": {
+            "en": "Cook on hot pan",
+            "sv": "Stek på het panna",
+            "no": "Stek på varm panne",
+            "da": "Steg på varm pande"
+          },
+          "text": {
+            "en": "Heat a heavy skillet (ideally cast iron) over the highest heat until smoking. Place a naan in the dry pan, cook 60 seconds until large bubbles form and the underside is blistered black in spots. Flip, cook 45 seconds more.",
+            "sv": "Värm en tjockbottnad stekpanna (helst gjutjärn) på högsta värme tills den ryker. Lägg en naan i den torra pannan, stek 60 sekunder tills stora bubblor bildas och undersidan är svartfläckig. Vänd, stek 45 sekunder till.",
+            "no": "Varm en tykkbunnet stekepanne (helst støpejern) på høyeste varme til den ryker. Legg en naan i den tørre pannen, stek 60 sekunder til store bobler dannes og undersiden er svart-flekket. Vend, stek 45 sekunder til.",
+            "da": "Varm en tykbundet pande (ideelt støbejern) ved højeste varme til den ryger. Læg en naan i den tørre pande, steg 60 sekunder til store bobler dannes og undersiden er sortplettet. Vend, steg 45 sekunder mere."
+          },
+          "timer_seconds": 105
+        },
+        {
+          "order": 5,
+          "title": {
+            "en": "Butter and serve",
+            "sv": "Smör och servera",
+            "no": "Smør og server",
+            "da": "Smør og servér"
+          },
+          "text": {
+            "en": "Melt the butter with crushed garlic. Brush each naan with garlic butter as it comes off the pan, scatter with cilantro. Stack under a cloth to keep warm. Serve with curry.",
+            "sv": "Smält smöret med krossad vitlök. Pensla varje naan med vitlökssmör när det kommer ur pannan, strö koriander. Stapla under en duk för att hålla varma. Servera med curry.",
+            "no": "Smelt smøret med knust hvitløk. Pensle hver naan med hvitløkssmør når den kommer av pannen, dryss koriander. Stable under et kjøkkenhåndkle for å holde varme. Server med karri.",
+            "da": "Smelt smørret med knust hvidløg. Pensl hver naan med hvidløgssmør når den kommer af panden, drys koriander. Stabl under et viskestykke for at holde varme. Servér med karry."
+          },
+          "timer_seconds": null
+        }
+      ],
+      "verified_by": "author",
+      "verified_at": "2026-04-24"
     }
   ]
 }
