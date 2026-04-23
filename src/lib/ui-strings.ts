@@ -35,6 +35,16 @@ type UIStrings = {
   nutritionIncomplete: string;
   photoBy: string;
   onUnsplash: string;
+  shoppingList: string;
+  addToShoppingList: string;
+  removeFromShoppingList: string;
+  inShoppingList: string;
+  selectedRecipes: string;
+  clearList: string;
+  emptyShoppingList: string;
+  emptyShoppingListHint: string;
+  removeRecipe: string;
+  categoryName: (category: string) => string;
   servingsUnit: (unit: string, count: number) => string;
   groupName: (group: string) => string;
 };
@@ -75,6 +85,16 @@ export const UI: Record<AppLocale, UIStrings> = {
     nutritionIncomplete: "Ungefärliga värden — vissa ingredienser saknar näringsdata.",
     photoBy: "Foto av",
     onUnsplash: "på Unsplash",
+    shoppingList: "Inköpslista",
+    addToShoppingList: "Lägg till i inköpslistan",
+    removeFromShoppingList: "Ta bort från inköpslistan",
+    inShoppingList: "I inköpslistan",
+    selectedRecipes: "Valda recept",
+    clearList: "Rensa listan",
+    emptyShoppingList: "Inköpslistan är tom",
+    emptyShoppingListHint: "Öppna ett recept och lägg till det i listan.",
+    removeRecipe: "Ta bort",
+    categoryName: (c) => ({ vegetable: "Grönsaker", meat: "Kött", dairy: "Mejeri", flour: "Mjöl", sugar: "Socker", spice: "Kryddor", seasoning: "Krydda", leavening: "Jäst & bakpulver", pantry: "Skafferi", fat: "Fett & olja" }[c] ?? c),
     servingsUnit: (unit) => ({ buns: "bullar", portions: "portioner", pieces: "st" }[unit] ?? unit),
     groupName: (g) => ({ dough: "Deg", filling: "Fyllning", topping: "Topping", patties: "Köttkakor", frying: "Stekning", gravy: "Sås", meat: "Färs", porridge: "Gröt", balls: "Bollar", coating: "Garnering" }[g] ?? g),
   },
@@ -113,6 +133,16 @@ export const UI: Record<AppLocale, UIStrings> = {
     nutritionIncomplete: "Omtrentlige verdier — noen ingredienser mangler næringsdata.",
     photoBy: "Foto av",
     onUnsplash: "på Unsplash",
+    shoppingList: "Handleliste",
+    addToShoppingList: "Legg til i handlelisten",
+    removeFromShoppingList: "Fjern fra handlelisten",
+    inShoppingList: "I handlelisten",
+    selectedRecipes: "Valgte oppskrifter",
+    clearList: "Tøm listen",
+    emptyShoppingList: "Handlelisten er tom",
+    emptyShoppingListHint: "Åpne en oppskrift og legg den til i listen.",
+    removeRecipe: "Fjern",
+    categoryName: (c) => ({ vegetable: "Grønnsaker", meat: "Kjøtt", dairy: "Meieri", flour: "Mel", sugar: "Sukker", spice: "Krydder", seasoning: "Salt & pepper", leavening: "Gjær & bakepulver", pantry: "Tørrvarer", fat: "Fett & olje" }[c] ?? c),
     servingsUnit: (unit) => ({ buns: "boller", portions: "porsjoner", pieces: "stk" }[unit] ?? unit),
     groupName: (g) => ({ dough: "Deig", filling: "Fyll", topping: "Pynt", patties: "Kjøttkaker", frying: "Steking", gravy: "Saus", meat: "Kjøttdeig", porridge: "Grøt", balls: "Kuler", coating: "Pynt" }[g] ?? g),
   },
@@ -151,6 +181,16 @@ export const UI: Record<AppLocale, UIStrings> = {
     nutritionIncomplete: "Omtrentlige værdier — nogle ingredienser mangler næringsdata.",
     photoBy: "Foto af",
     onUnsplash: "på Unsplash",
+    shoppingList: "Indkøbsliste",
+    addToShoppingList: "Føj til indkøbsliste",
+    removeFromShoppingList: "Fjern fra indkøbsliste",
+    inShoppingList: "På indkøbslisten",
+    selectedRecipes: "Valgte opskrifter",
+    clearList: "Ryd listen",
+    emptyShoppingList: "Indkøbslisten er tom",
+    emptyShoppingListHint: "Åbn en opskrift og føj den til listen.",
+    removeRecipe: "Fjern",
+    categoryName: (c) => ({ vegetable: "Grøntsager", meat: "Kød", dairy: "Mejeri", flour: "Mel", sugar: "Sukker", spice: "Krydderier", seasoning: "Salt & peber", leavening: "Gær & bagepulver", pantry: "Kolonial", fat: "Fedt & olie" }[c] ?? c),
     servingsUnit: (unit) => ({ buns: "snegle", portions: "personer", pieces: "stk" }[unit] ?? unit),
     groupName: (g) => ({ dough: "Dej", filling: "Fyld", topping: "Pynt", patties: "Kødboller", frying: "Stegning", gravy: "Sovs", meat: "Fars", porridge: "Grød", balls: "Kugler", coating: "Pynt" }[g] ?? g),
   },
@@ -189,6 +229,16 @@ export const UI: Record<AppLocale, UIStrings> = {
     nutritionIncomplete: "Approximate values — some ingredients lack nutrition data.",
     photoBy: "Photo by",
     onUnsplash: "on Unsplash",
+    shoppingList: "Shopping list",
+    addToShoppingList: "Add to shopping list",
+    removeFromShoppingList: "Remove from shopping list",
+    inShoppingList: "In shopping list",
+    selectedRecipes: "Selected recipes",
+    clearList: "Clear list",
+    emptyShoppingList: "Your shopping list is empty",
+    emptyShoppingListHint: "Open a recipe and add it to your list.",
+    removeRecipe: "Remove",
+    categoryName: (c) => ({ vegetable: "Vegetables", meat: "Meat", dairy: "Dairy", flour: "Flour", sugar: "Sugar", spice: "Spices", seasoning: "Seasoning", leavening: "Yeast & leaveners", pantry: "Pantry", fat: "Fats & oils" }[c] ?? c),
     servingsUnit: (unit, count) => {
       if (unit === "buns") return count === 1 ? "bun" : "buns";
       if (unit === "portions") return count === 1 ? "serving" : "servings";
