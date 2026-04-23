@@ -10,14 +10,14 @@ import {
   recipeDescription,
   stepTitle,
   stepText,
+  totalMinutes,
   LOCALE_DISPLAY_NAME,
 } from "@/lib/types";
-import { UI } from "@/lib/ui-strings";
+import { UI, formatTime } from "@/lib/ui-strings";
 import { formatIngredient } from "@/lib/format";
 import { unsplashImageUrl, unsplashUserPageUrl } from "@/lib/unsplash";
 import { NutritionPanel } from "@/components/NutritionPanel";
 
-// Deterministic pastel color per recipe ID, used when there is no hero image.
 function tileColor(id: string): string {
   const palette = ["#FAC775", "#C0DD97", "#F5C4B3", "#B5D4F4"];
   let hash = 0;
@@ -42,9 +42,11 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
 
   const showAuthorshipLabel = recipe.locale_of_authorship !== locale;
   const hero = recipe.hero_image;
+  const totalMin = totalMinutes(recipe);
+  const activeMin = recipe.time_prep_minutes + recipe.time_cook_minutes;
 
   return (
-    <main className="min-h-screen bg-white pb-12">
+    <main className="min-h-screen bg-stone-50 pb-12">
       <header className="sticky top-0 z-10 flex items-center gap-3 border-b border-stone-200 bg-white/90 px-5 py-4 backdrop-blur">
         <Link href="/" className="text-stone-600 active:text-stone-900" aria-label="Back">
           ←
@@ -52,12 +54,11 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
         <h1 className="truncate text-base font-medium">{recipeTitle(recipe, locale)}</h1>
       </header>
 
-      {/* Hero image or colored fallback */}
       {hero ? (
-        <div className="relative h-56 w-full overflow-hidden bg-stone-100">
+        <div className="relative h-56 w-full overflow-hidden bg-stone-100 sm:h-80">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={unsplashImageUrl(hero.unsplash_id, { width: 1200, height: 600 })}
+            src={unsplashImageUrl(hero.unsplash_id, { width: 1600, height: 800 })}
             alt={hero.alt}
             className="h-full w-full object-cover"
             loading="eager"
@@ -79,87 +80,100 @@ export default function RecipeDetailPage({ params }: { params: Promise<{ id: str
         <div className="h-40 w-full" style={{ backgroundColor: tileColor(recipe.id) }} />
       )}
 
-      <div className="px-5 pt-4">
+      <article className="mx-auto -mt-6 max-w-4xl rounded-t-3xl bg-[#fbeae5] px-5 pb-10 pt-8 shadow-sm sm:px-10 sm:pt-10">
         {showAuthorshipLabel && (
-          <p className="mb-1 text-[11px] font-medium uppercase tracking-wider text-stone-500">
+          <p className="mb-2 text-center text-[11px] font-medium uppercase tracking-wider text-stone-500">
             {ui.writtenIn} {LOCALE_DISPLAY_NAME[recipe.locale_of_authorship].toLowerCase()}
           </p>
         )}
-        <h2 className="text-xl font-medium">{recipeTitle(recipe, locale)}</h2>
-        <p className="mt-2 text-sm text-stone-600">{recipeDescription(recipe, locale)}</p>
 
-        {/* Timings */}
-        <div className="mt-4 flex gap-2">
-          <TimingPill label={ui.prep} value={`${recipe.time_prep_minutes} min`} />
-          {recipe.time_rest_minutes > 0 && (
-            <TimingPill label={ui.rest} value={`${recipe.time_rest_minutes} min`} />
-          )}
-          <TimingPill label={ui.cook} value={`${recipe.time_cook_minutes} min`} />
+        <h2 className="text-center text-2xl font-semibold text-stone-800 sm:text-3xl">
+          {recipeTitle(recipe, locale)}
+        </h2>
+
+        <p className="mx-auto mt-4 max-w-2xl text-center text-[15px] leading-relaxed text-stone-700">
+          {recipeDescription(recipe, locale)}
+        </p>
+
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-1 text-sm text-stone-700">
+          <MetaItem label={ui.totalTime} value={formatTime(totalMin, locale)} />
+          <MetaItem label={ui.activeTime} value={formatTime(activeMin, locale)} />
+          <MetaItem
+            label={ui.serves}
+            value={`${recipe.servings} ${ui.servingsUnit(recipe.servings_unit, recipe.servings)}`}
+          />
         </div>
 
-        {/* Ingredients */}
-        <section className="mt-6">
-          <h3 className="mb-3 text-base font-medium">{ui.ingredients}</h3>
-          {groups.map(({ group, usages }, idx) => (
-            <div key={group ?? `g-${idx}`} className={idx === 0 ? "" : "mt-4"}>
-              {group && (
-                <p className="mb-1 text-sm font-medium text-stone-600">
-                  {ui.groupName(group)}
-                </p>
-              )}
-              <ul>
-                {usages.map((usage) => {
-                  const ing = getIngredient(usage.ingredient_id);
-                  return (
-                    <li
-                      key={`${group}-${usage.ingredient_id}-${usage.amount}`}
-                      className="flex justify-between border-b border-stone-100 py-1.5 text-sm"
-                    >
-                      {ing ? (
-                        <span>{formatIngredient(usage, ing, locale)}</span>
-                      ) : (
-                        <span className="text-red-600">
-                          ⚠ missing: {usage.ingredient_id}
-                        </span>
-                      )}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          ))}
-        </section>
-
-        {/* Steps */}
-        <section className="mt-8">
-          <h3 className="mb-3 text-base font-medium">{ui.instructions}</h3>
-          <ol className="flex flex-col gap-5">
-            {recipe.steps.map((step) => (
-              <li key={step.order}>
-                <div className="flex gap-2">
-                  <span className="text-sm font-medium text-stone-500">{step.order}.</span>
-                  <span className="text-sm font-medium">{stepTitle(step, locale)}</span>
-                </div>
-                <p className="ml-5 mt-1 text-sm leading-relaxed text-stone-700">
-                  {stepText(step, locale)}
-                </p>
-              </li>
+        <div className="mt-10 grid gap-10 md:grid-cols-[2fr_3fr]">
+          <section>
+            <h3 className="mb-4 border-b border-stone-300/70 pb-2 text-lg font-semibold text-stone-800">
+              {ui.ingredients}
+            </h3>
+            {groups.map(({ group, usages }, idx) => (
+              <div key={group ?? `g-${idx}`} className={idx === 0 ? "" : "mt-5"}>
+                {group && (
+                  <p className="mb-2 text-[15px] font-semibold text-stone-800">
+                    {ui.groupName(group)}
+                  </p>
+                )}
+                <ul className="flex flex-col gap-1.5">
+                  {usages.map((usage) => {
+                    const ing = getIngredient(usage.ingredient_id);
+                    return (
+                      <li
+                        key={`${group}-${usage.ingredient_id}-${usage.amount}`}
+                        className="text-[15px] leading-relaxed text-stone-700"
+                      >
+                        {ing ? (
+                          formatIngredient(usage, ing, locale)
+                        ) : (
+                          <span className="text-red-600">
+                            ⚠ missing: {usage.ingredient_id}
+                          </span>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
             ))}
-          </ol>
-        </section>
+          </section>
 
-        {/* Nutrition */}
+          <section>
+            <h3 className="mb-4 border-b border-stone-300/70 pb-2 text-lg font-semibold text-stone-800">
+              {ui.instructions}
+            </h3>
+            <div className="flex flex-col gap-4">
+              {recipe.steps.map((step) => {
+                const title = stepTitle(step, locale);
+                const text = stepText(step, locale);
+                return (
+                  <p
+                    key={step.order}
+                    className="text-[15px] leading-relaxed text-stone-700"
+                  >
+                    {title && (
+                      <span className="font-semibold text-stone-800">{title}. </span>
+                    )}
+                    {text}
+                  </p>
+                );
+              })}
+            </div>
+          </section>
+        </div>
+
         <NutritionPanel recipe={recipe} />
-      </div>
+      </article>
     </main>
   );
 }
 
-function TimingPill({ label, value }: { label: string; value: string }) {
+function MetaItem({ label, value }: { label: string; value: string }) {
   return (
-    <div className="flex flex-1 flex-col items-center rounded-md bg-stone-100 py-2">
-      <span className="text-[11px] text-stone-500">{label}</span>
-      <span className="text-sm font-medium">{value}</span>
-    </div>
+    <span className="whitespace-nowrap">
+      <span className="text-stone-500">{label} </span>
+      <span className="font-semibold text-stone-800">{value}</span>
+    </span>
   );
 }

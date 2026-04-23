@@ -12,6 +12,9 @@ type UIStrings = {
   prep: string;
   rest: string;
   cook: string;
+  totalTime: string;
+  activeTime: string;
+  serves: string;
   writtenIn: string;
   language: string;
   volumeUnits: string;
@@ -49,6 +52,9 @@ export const UI: Record<AppLocale, UIStrings> = {
     prep: "Förberedelse",
     rest: "Jäsning / vila",
     cook: "Tillagning",
+    totalTime: "Tid totalt",
+    activeTime: "Aktiv tid",
+    serves: "Antal",
     writtenIn: "Skrivet på",
     language: "Språk",
     volumeUnits: "Volymmått",
@@ -84,6 +90,9 @@ export const UI: Record<AppLocale, UIStrings> = {
     prep: "Forberedelse",
     rest: "Heving / hvile",
     cook: "Tilberedning",
+    totalTime: "Tid totalt",
+    activeTime: "Aktiv tid",
+    serves: "Antall",
     writtenIn: "Skrevet på",
     language: "Språk",
     volumeUnits: "Volummål",
@@ -119,6 +128,9 @@ export const UI: Record<AppLocale, UIStrings> = {
     prep: "Forberedelse",
     rest: "Hævning / hvile",
     cook: "Tilberedning",
+    totalTime: "Tid i alt",
+    activeTime: "Arbejdstid",
+    serves: "Antal",
     writtenIn: "Skrevet på",
     language: "Sprog",
     volumeUnits: "Volumenmål",
@@ -154,6 +166,9 @@ export const UI: Record<AppLocale, UIStrings> = {
     prep: "Prep",
     rest: "Rest",
     cook: "Cook",
+    totalTime: "Total time",
+    activeTime: "Active time",
+    serves: "Serves",
     writtenIn: "Originally written in",
     language: "Language",
     volumeUnits: "Volume units",
